@@ -1,0 +1,54 @@
+# Runs the 4 agents on a schedule and publishes the site to GitHub Pages.
+name: Update StockPulse
+
+on:
+  schedule:
+    # every 30 min, Mon-Fri, 13:00-21:30 UTC (covers US market hours). GitHub may delay runs a few minutes.
+    - cron: "*/30 13-21 * * 1-5"
+  workflow_dispatch: {}   # "Run workflow" button for manual updates
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: stockpulse
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run agents (collect -> analyse -> score -> publish)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python run.py
+
+      - name: Save the database so the next run remembers what it already scored
+        run: |
+          git config user.name "stockpulse-bot"
+          git config user.email "stockpulse-bot@users.noreply.github.com"
+          git add data/stockpulse.db site/data.json
+          git commit -m "Update scores $(date -u +'%Y-%m-%d %H:%M UTC')" || echo "nothing to commit"
+          git push
+
+      - name: Prepare site folder
+        run: mkdir -p public && cp site/index.html public/index.html
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
