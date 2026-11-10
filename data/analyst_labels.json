@@ -1,0 +1,3114 @@
+{
+"e807231488bc4fb7": {
+"relevant": true,
+"sentiment": 0.6,
+"materiality": 3,
+"event_type": "other",
+"reason": "Market cap passes $5T on record close above $350",
+"model": "claude-seed"
+},
+"65ef23eb23feceb6": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"2bc24adbfa276db0": {
+"relevant": true,
+"sentiment": -0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "ETF flow: IXN sold $26.8M of Apple",
+"model": "claude-seed"
+},
+"910bd5cb8b6e633a": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"1d3a993de9d15a02": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"10b2f6dd94e42096": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"e0eb3486720bed59": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"9988f13c30748799": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"afbd02919355d32b": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "ETF flow: Apple led TECL buys",
+"model": "claude-seed"
+},
+"20e6e2451bf68842": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"7d31a3bf15a731bd": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"cee4f875ecafc5e8": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"be5144bfbeda0eaf": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "ETF flow: Apple led QQQ buys",
+"model": "claude-seed"
+},
+"e7ba78bb21640a10": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"c4c67e4c084cda33": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"9a802633d8eddc68": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"eca034159a69d33c": {
+"relevant": true,
+"sentiment": -0.3,
+"materiality": 3,
+"event_type": "management",
+"reason": "AI/Siri timelines slip; possible engineering leadership change",
+"model": "claude-seed"
+},
+"82945c7129d73cde": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"952db49917be9190": {
+"relevant": true,
+"sentiment": 0.4,
+"materiality": 2,
+"event_type": "macro_sector",
+"reason": "TSMC sales jump on Apple and Nvidia orders",
+"model": "claude-seed"
+},
+"f84ee6367d6e5792": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"30e70b96529fe727": {
+"relevant": true,
+"sentiment": 0,
+"materiality": 2,
+"event_type": "filing_routine",
+"reason": "8-K other material event filed",
+"model": "claude-seed"
+},
+"992632cad0085757": {
+"relevant": true,
+"sentiment": 0.2,
+"materiality": 3,
+"event_type": "earnings",
+"reason": "Quarterly earnings 8-K filed",
+"model": "claude-seed"
+},
+"99e2a2319eaf0d65": {
+"relevant": true,
+"sentiment": 0.4,
+"materiality": 2,
+"event_type": "product",
+"reason": "New AI agent platform with IBM",
+"model": "claude-seed"
+},
+"55d49c05600ca364": {
+"relevant": true,
+"sentiment": 0.4,
+"materiality": 2,
+"event_type": "product",
+"reason": "IBM partnership on AI agents",
+"model": "claude-seed"
+},
+"7fb4c9a0e329f678": {
+"relevant": true,
+"sentiment": -0.3,
+"materiality": 3,
+"event_type": "legal_regulatory",
+"reason": "Chinese optics ban could slow data center rollout",
+"model": "claude-seed"
+},
+"ad3cfbe8e8ddb33d": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 1,
+"event_type": "legal_regulatory",
+"reason": "Opinion: winning regulatory shift",
+"model": "claude-seed"
+},
+"3c0ecfa5ec486aab": {
+"relevant": true,
+"sentiment": -0.3,
+"materiality": 3,
+"event_type": "legal_regulatory",
+"reason": "Lobbying against Chinese component ban (supply risk)",
+"model": "claude-seed"
+},
+"d7bc4df5a5cf7a58": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"c815ccee7956a946": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"49358b4bac1aaebb": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"183791f62888e139": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"76c12eaf018c498f": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"4c0d9c2d4b5f7358": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"457577ea9b53ee6a": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"59a55fa48b19d4cf": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"ca4e697c8d8093d3": {
+"relevant": true,
+"sentiment": 0.2,
+"materiality": 2,
+"event_type": "deal_mna",
+"reason": "Big-tech investment in Anthropic IPO",
+"model": "claude-seed"
+},
+"a80f82adc8cff4a8": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"c7af1578e9bd0735": {
+"relevant": true,
+"sentiment": -0.1,
+"materiality": 1,
+"event_type": "deal_mna",
+"reason": "Anthropic IPO cut after pricing mix-up",
+"model": "claude-seed"
+},
+"f238b50cd227c321": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"c0a2e6ec34c96610": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"da9196009aae883e": {
+"relevant": true,
+"sentiment": 0,
+"materiality": 2,
+"event_type": "management",
+"reason": "8-K executive / board change",
+"model": "claude-seed"
+},
+"92424e2601d1876d": {
+"relevant": true,
+"sentiment": 0,
+"materiality": 2,
+"event_type": "filing_routine",
+"reason": "8-K other material event filed",
+"model": "claude-seed"
+},
+"99f50c2401279491": {
+"relevant": true,
+"sentiment": 0,
+"materiality": 2,
+"event_type": "filing_routine",
+"reason": "8-K other material event filed",
+"model": "claude-seed"
+},
+"b4cb097a645799c6": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 3,
+"event_type": "earnings",
+"reason": "Quarterly earnings 8-K filed",
+"model": "claude-seed"
+},
+"3a70d24047c06b7e": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"ddf86c3a2ea3cdf2": {
+"relevant": true,
+"sentiment": -0.6,
+"materiality": 4,
+"event_type": "governance_scandal",
+"reason": "Short seller flagged CEO ties before scandal",
+"model": "claude-seed"
+},
+"e6113464b823973a": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"2c0eaef508bb59bb": {
+"relevant": true,
+"sentiment": -0.6,
+"materiality": 4,
+"event_type": "governance_scandal",
+"reason": "CEO personal scandal may prove costly",
+"model": "claude-seed"
+},
+"8fb875bd613cab90": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"720c7a21c941f1e9": {
+"relevant": true,
+"sentiment": -0.6,
+"materiality": 4,
+"event_type": "analyst_rating",
+"reason": "BofA drops Nvidia from top-picks list",
+"model": "claude-seed"
+},
+"bdb52cbd9f97420c": {
+"relevant": true,
+"sentiment": -0.4,
+"materiality": 3,
+"event_type": "governance_scandal",
+"reason": "New risks for Nvidia and chip ecosystem",
+"model": "claude-seed"
+},
+"f96709499ef54062": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"e13a028d38991e8b": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"5c5f19a305cabd21": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"17ea034636edcab5": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"391e421bca60a196": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"c73a34535ec737fc": {
+"relevant": true,
+"sentiment": -0.4,
+"materiality": 3,
+"event_type": "governance_scandal",
+"reason": "Scandal collides with Anthropic IPO",
+"model": "claude-seed"
+},
+"b30954672fa1e859": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"c89ff242a03b2cbb": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"0f3b5d8593982dfc": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"c853ef25760fa6fc": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"1f7bb86151a27576": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"83231e714be5ba1f": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"6a461937dad12463": {
+"relevant": true,
+"sentiment": 0.6,
+"materiality": 3,
+"event_type": "guidance",
+"reason": "Revenue guidance now exceeds Intel's",
+"model": "claude-seed"
+},
+"12a56321f7afe9b5": {
+"relevant": true,
+"sentiment": -0.2,
+"materiality": 1,
+"event_type": "other",
+"reason": "Seen opening lower pre-market after rally",
+"model": "claude-seed"
+},
+"66c377d4409f14c9": {
+"relevant": true,
+"sentiment": -0.1,
+"materiality": 2,
+"event_type": "other",
+"reason": "Burry declines to chase 13% surge",
+"model": "claude-seed"
+},
+"0d0034f719819e53": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"ada6ec925baecbaf": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"da5cc80863d6b310": {
+"relevant": true,
+"sentiment": -0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "ETF flow: SOXX net seller of AMD",
+"model": "claude-seed"
+},
+"3859abc24d478523": {
+"relevant": true,
+"sentiment": -0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "ETF flow: net selling of AMD",
+"model": "claude-seed"
+},
+"71a6d1354ee138c2": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"cc9169125553544b": {
+"relevant": true,
+"sentiment": 0.5,
+"materiality": 2,
+"event_type": "product",
+"reason": "Seen closing competitive gap with Nvidia",
+"model": "claude-seed"
+},
+"f64964b9ba2856c4": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"cd80aecc3f15eeee": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"ebf4f34e40c4f0a1": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 3,
+"event_type": "deal_mna",
+"reason": "Part of $26B big-tech investment in Anthropic IPO",
+"model": "claude-seed"
+},
+"ea542d19c4eadacb": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"091e31b470ccb66f": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"16802cf1874ec41f": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"23707d8387e67a2e": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"254ff8754270f81a": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"7bc19c9eb1fcf32c": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"d49ca4e8b32c4eae": {
+"relevant": true,
+"sentiment": 0.4,
+"materiality": 4,
+"event_type": "earnings",
+"reason": "Q3 earnings 8-K and Reg FD disclosure",
+"model": "claude-seed"
+},
+"555d4ea0e18d2a22": {
+"relevant": true,
+"sentiment": -0.4,
+"materiality": 2,
+"event_type": "other",
+"reason": "Gave back dot-com-peak recovery within 6 months",
+"model": "claude-seed"
+},
+"34491bfcb5f87c65": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 2,
+"event_type": "other",
+"reason": "Explainer on Intel's share price rise",
+"model": "claude-seed"
+},
+"fbf3cc5113524f5c": {
+"relevant": true,
+"sentiment": -0.4,
+"materiality": 2,
+"event_type": "other",
+"reason": "AMD now guides more revenue than Intel",
+"model": "claude-seed"
+},
+"a9fda8c10ffad99b": {
+"relevant": true,
+"sentiment": -0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "ETF flow: net selling of Intel",
+"model": "claude-seed"
+},
+"1b0128628ae52c65": {
+"relevant": true,
+"sentiment": 0.4,
+"materiality": 2,
+"event_type": "macro_sector",
+"reason": "Chip shares including Intel soaring",
+"model": "claude-seed"
+},
+"434f0bcf19edfa4e": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"e9ddac2e1c54dce2": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"3f139f9f51ab8ebe": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"e78685a482930e7f": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"40122d23711c7f41": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"a6899bb09250caf2": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"d0f1124868b8c76d": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"0c974446ca4b05f9": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"930a6ad263e0126d": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"cc6e44f457dfcb6e": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"b514eb9b9bad8a19": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"16875d8b2e13f279": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"258b8f0d68f866aa": {
+"relevant": true,
+"sentiment": 0,
+"materiality": 3,
+"event_type": "earnings",
+"reason": "Quarterly earnings 8-K filed",
+"model": "claude-seed"
+},
+"52e5debb8e427aae": {
+"relevant": true,
+"sentiment": 0.2,
+"materiality": 1,
+"event_type": "product",
+"reason": "Custom silicon strategy analysis",
+"model": "claude-seed"
+},
+"b7316f5b385a07ed": {
+"relevant": true,
+"sentiment": -0.4,
+"materiality": 2,
+"event_type": "legal_regulatory",
+"reason": "Potential trial in Italy over Chinese imports",
+"model": "claude-seed"
+},
+"aa20d2c5c6c19686": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"107269bc03fbe061": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "ETF flow: $159M bought",
+"model": "claude-seed"
+},
+"21ae7efc5a442c21": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"e7ee68beb8bd676b": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"9622796540043ae9": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"3a699313a8e6435f": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"5174f15ba40e7e9b": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"a963760b59925829": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"b16f2fa07d37f602": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"d6631554f1a00b4a": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"801eab6a73d98a12": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"07988b3ad527a833": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"c75be6b9e45ca0b8": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"31fa251968bba863": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"154b2d6ebeb63510": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"6d945ec4c52b79db": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"c00552797357d2e4": {
+"relevant": true,
+"sentiment": 0.2,
+"materiality": 3,
+"event_type": "earnings",
+"reason": "Quarterly earnings 8-K filed",
+"model": "claude-seed"
+},
+"2a77a6a128bc279f": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"f9fa999fc316d975": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"19ea5d20bf94b717": {
+"relevant": true,
+"sentiment": -0.1,
+"materiality": 2,
+"event_type": "deal_mna",
+"reason": "Anthropic (Google-backed) retracts leaked IPO range",
+"model": "claude-seed"
+},
+"e516f10cb1532b65": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"46a754cc1d3c3ffe": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"d88ac797ca9f2b5c": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 1,
+"event_type": "other",
+"reason": "Opinion: 30% upside case",
+"model": "claude-seed"
+},
+"1aa09d7011e7a856": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 1,
+"event_type": "other",
+"reason": "Valuation below Berkshire's entry price",
+"model": "claude-seed"
+},
+"0bf381d5aed7e176": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "product",
+"reason": "Google Cloud partnership with FlowX.AI",
+"model": "claude-seed"
+},
+"c6141ef81a41b5c4": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"1877b1518b675eb5": {
+"relevant": true,
+"sentiment": 0.6,
+"materiality": 3,
+"event_type": "product",
+"reason": "Strong Google Cloud update from Pichai",
+"model": "claude-seed"
+},
+"fc8a518a1f01e199": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"1bfcb98d6647aa62": {
+"relevant": true,
+"sentiment": 0.2,
+"materiality": 1,
+"event_type": "product",
+"reason": "Custom silicon strategy analysis",
+"model": "claude-seed"
+},
+"a1186a949101bef6": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 3,
+"event_type": "deal_mna",
+"reason": "Investing in Anthropic alongside IPO",
+"model": "claude-seed"
+},
+"35616103177a85c5": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"414a216accae873d": {
+"relevant": true,
+"sentiment": 0.2,
+"materiality": 2,
+"event_type": "deal_mna",
+"reason": "Anthropic $90B raise includes big tech placement",
+"model": "claude-seed"
+},
+"e31319176167c5ab": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"d283cee2bcb6bb00": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"10ccdc95343d7370": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"5ba8665a55465b70": {
+"relevant": true,
+"sentiment": 0,
+"materiality": 2,
+"event_type": "filing_routine",
+"reason": "8-K other material event filed",
+"model": "claude-seed"
+},
+"729a2343498ece14": {
+"relevant": true,
+"sentiment": 0.2,
+"materiality": 3,
+"event_type": "earnings",
+"reason": "Quarterly earnings 8-K filed",
+"model": "claude-seed"
+},
+"4e3e908539dd82b2": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "product",
+"reason": "Pixelworks partnership for VR glasses",
+"model": "claude-seed"
+},
+"edfb0617b4dbace3": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"5d26ca89ed1d4911": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"c8e706621061d0ee": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "ETF flow: $212M bought",
+"model": "claude-seed"
+},
+"98cb915a4977766d": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 2,
+"event_type": "product",
+"reason": "Teaming with Alphabet/Oracle vs Nvidia moat",
+"model": "claude-seed"
+},
+"644c4c2fb1e62784": {
+"relevant": true,
+"sentiment": -0.4,
+"materiality": 2,
+"event_type": "product",
+"reason": "Chase blocks Meta Muse, called malware-like",
+"model": "claude-seed"
+},
+"63064b152e109396": {
+"relevant": true,
+"sentiment": -0.3,
+"materiality": 2,
+"event_type": "capital_return",
+"reason": "No buybacks in 2026",
+"model": "claude-seed"
+},
+"f2f4d4376045bb53": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 1,
+"event_type": "other",
+"reason": "Opinion: cheap at $650",
+"model": "claude-seed"
+},
+"28e397921afd2795": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 2,
+"event_type": "product",
+"reason": "VR glasses first IMAX-certified VR device",
+"model": "claude-seed"
+},
+"abd5f32ae829d90e": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"c46b68e35cd6faa4": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"8af503bb8e2b3d70": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"1f56664e18a7ee4a": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"b4c82ee49bbf6952": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"cbda2e0179d24e97": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "Opinion: Mag 7 cash-flow ranking",
+"model": "claude-seed"
+},
+"c1cd7002fb63b9aa": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"9ab090ac044d5b4d": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"526d637adbd1315c": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"40c5317fad17504d": {
+"relevant": true,
+"sentiment": 0,
+"materiality": 2,
+"event_type": "filing_routine",
+"reason": "8-K other material event filed",
+"model": "claude-seed"
+},
+"c78ae57b37f77eb8": {
+"relevant": true,
+"sentiment": 0,
+"materiality": 3,
+"event_type": "governance_scandal",
+"reason": "8-K: material agreement and charter amendment",
+"model": "claude-seed"
+},
+"41f1c67aff3ea632": {
+"relevant": true,
+"sentiment": 0.2,
+"materiality": 1,
+"event_type": "deal_mna",
+"reason": "AMC Networks content deal with Netflix",
+"model": "claude-seed"
+},
+"54318f4e852ab0bc": {
+"relevant": true,
+"sentiment": -0.5,
+"materiality": 3,
+"event_type": "other",
+"reason": "Stock plunged 11% in October",
+"model": "claude-seed"
+},
+"bfde9525c0e61a15": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"37ba2608655e44d9": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"a88d4ae02ac3526e": {
+"relevant": true,
+"sentiment": -0.2,
+"materiality": 2,
+"event_type": "legal_regulatory",
+"reason": "CEO warns on European regulation",
+"model": "claude-seed"
+},
+"1266cfd5492584f6": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "product",
+"reason": "IMAX premium screens for Netflix release",
+"model": "claude-seed"
+},
+"c7fea57774c85be9": {
+"relevant": true,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Search-trend explainer",
+"model": "claude-seed"
+},
+"335ac75f6f3b8ac2": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 2,
+"event_type": "other",
+"reason": "Valuation: 23% upside to fair value",
+"model": "claude-seed"
+},
+"536ba91977e668b8": {
+"relevant": true,
+"sentiment": 0.4,
+"materiality": 2,
+"event_type": "other",
+"reason": "Pulling away from Disney",
+"model": "claude-seed"
+},
+"cc5190c082d87a48": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"0a79453c933b63c8": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"bb25cf5333d31efd": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"f06ab8bd6dcf5d1c": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"65c5433e21cc301b": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"84e37011d662a349": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"21281e4ee98d5d38": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"776ae73c941fcab6": {
+"relevant": true,
+"sentiment": 0.2,
+"materiality": 1,
+"event_type": "other",
+"reason": "Opinion: 10-year hold",
+"model": "claude-seed"
+},
+"9c891faf6a76a929": {
+"relevant": true,
+"sentiment": 0.4,
+"materiality": 3,
+"event_type": "earnings",
+"reason": "Next earnings get one-off $600M boost",
+"model": "claude-seed"
+},
+"542f1b7c3ea5aaeb": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "product",
+"reason": "AI push analysis",
+"model": "claude-seed"
+},
+"ae9456ce5944f4d4": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "Gained but lagged market",
+"model": "claude-seed"
+},
+"148aaa3632ce6bdf": {
+"relevant": true,
+"sentiment": 0.2,
+"materiality": 2,
+"event_type": "product",
+"reason": "Weighs free tier to lift Disney+ engagement",
+"model": "claude-seed"
+},
+"b98a010cfbd8cece": {
+"relevant": true,
+"sentiment": 0,
+"materiality": 2,
+"event_type": "product",
+"reason": "Adobe AI deal amid reported job cuts",
+"model": "claude-seed"
+},
+"9c33d55f909468bc": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 2,
+"event_type": "deal_mna",
+"reason": "Multi-year Adobe AI alliance",
+"model": "claude-seed"
+},
+"fc36991f3e9fd6d8": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"e4acda336d9d39dd": {
+"relevant": true,
+"sentiment": -0.3,
+"materiality": 2,
+"event_type": "other",
+"reason": "Losing ground to Netflix",
+"model": "claude-seed"
+},
+"5c5eb0189820b883": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"c5636cefcab43305": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 3,
+"event_type": "management",
+"reason": "Eyes 20% cost cuts, thousands of layoffs",
+"model": "claude-seed"
+},
+"56cc666079b956b8": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "Valuation: fairly valued, cash flow holds",
+"model": "claude-seed"
+},
+"db6afddd8e255ad4": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 1,
+"event_type": "other",
+"reason": "Opinion: long-term bull case",
+"model": "claude-seed"
+},
+"a455e4a6792985e8": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"1cf72031a3f49fd3": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"68377446747a4a20": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"f3ecec5b8f77b68a": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"bcb6614d10bc2461": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"a079ba935aacbc53": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "ETF flow: ETFs buying Tesla",
+"model": "claude-seed"
+},
+"2378887799bee23d": {
+"relevant": true,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Opinion: Mag 7 ranking",
+"model": "claude-seed"
+},
+"41124e717f9cdad0": {
+"relevant": true,
+"sentiment": -0.3,
+"materiality": 2,
+"event_type": "product",
+"reason": "Uber/Waymo seen threatening robotaxi lead",
+"model": "claude-seed"
+},
+"ea7647a1dd630ddc": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"8495c828e89f6118": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"147e78a8bc1f8876": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 2,
+"event_type": "management",
+"reason": "Musk sends bullish signal",
+"model": "claude-seed"
+},
+"33a9d51115868f8c": {
+"relevant": true,
+"sentiment": 0.4,
+"materiality": 2,
+"event_type": "other",
+"reason": "Tesla rallies as Dow jumps 1,132 points",
+"model": "claude-seed"
+},
+"8c43cddf864f210c": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"5dbcbeda8000b31f": {
+"relevant": true,
+"sentiment": -0.4,
+"materiality": 3,
+"event_type": "product",
+"reason": "Must refund many Cybertruck deposits",
+"model": "claude-seed"
+},
+"c963e03b5ac3f728": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"3f6af1326314df71": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 2,
+"event_type": "other",
+"reason": "Musk seen gaining as Nvidia stumbles",
+"model": "claude-seed"
+},
+"ded1e8f31b6dd053": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"4e404124cf9bb6df": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"2a983014a35c5fc3": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"8c54d369717085da": {
+"relevant": true,
+"sentiment": -0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "ETF flow: XLP sells Walmart",
+"model": "claude-seed"
+},
+"2476b4630817bf99": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "ETF flow: 51 ETFs add WMT",
+"model": "claude-seed"
+},
+"c5789fb5aaf62537": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "Premium valuation vs Target",
+"model": "claude-seed"
+},
+"4f973201f5bab198": {
+"relevant": true,
+"sentiment": -0.3,
+"materiality": 2,
+"event_type": "other",
+"reason": "Unusual put volume before earnings",
+"model": "claude-seed"
+},
+"a968f56a30fccaf4": {
+"relevant": true,
+"sentiment": 0.5,
+"materiality": 2,
+"event_type": "analyst_rating",
+"reason": "UBS sees earnings upside beyond sales",
+"model": "claude-seed"
+},
+"741e03b7ed55d6fb": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"0423baa29b9e1287": {
+"relevant": true,
+"sentiment": -0.1,
+"materiality": 1,
+"event_type": "macro_sector",
+"reason": "Instacart cites Walmart as competition",
+"model": "claude-seed"
+},
+"e9a311d7541eb5a0": {
+"relevant": true,
+"sentiment": -0.1,
+"materiality": 1,
+"event_type": "legal_regulatory",
+"reason": "Settlement refund checks going out",
+"model": "claude-seed"
+},
+"7b4b0d9faa8b0b76": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 2,
+"event_type": "product",
+"reason": "Expands into home energy and healthcare",
+"model": "claude-seed"
+},
+"9f431b260ebe0d80": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"e1eb7018a705f059": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"544fe4b198278558": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"4d302dfe084ef0f0": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"ecbc9d17b21bc854": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"c3d8131bc271e49a": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"d0f9adbb5fe9d726": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"cc9135a30d2dfa73": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"d7a070427a29bf8b": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"d2e6d855bd05c4f2": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 1,
+"event_type": "capital_return",
+"reason": "Opinion: 64 years of dividend growth",
+"model": "claude-seed"
+},
+"b1330cca8939ccd3": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "product",
+"reason": "Bottler system tech rollout",
+"model": "claude-seed"
+},
+"196f8a4687d37aa8": {
+"relevant": true,
+"sentiment": 0.4,
+"materiality": 3,
+"event_type": "deal_mna",
+"reason": "Coca-Cola India IPO draft papers filed",
+"model": "claude-seed"
+},
+"935f02949aa062cc": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"d56ca653a30f964e": {
+"relevant": true,
+"sentiment": -0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "Opinion: record highs, author not buying",
+"model": "claude-seed"
+},
+"3e1410541afa64b6": {
+"relevant": true,
+"sentiment": 0.2,
+"materiality": 1,
+"event_type": "capital_return",
+"reason": "Dividend yield on Buffett's cost",
+"model": "claude-seed"
+},
+"72996f59f873fdb9": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 2,
+"event_type": "other",
+"reason": "Volume growth, but on low-upside list",
+"model": "claude-seed"
+},
+"74f917876a29ec5f": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"2c533954edd6f388": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"35f714dff5ffb10c": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"3ccb844b42cb5d94": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"2c10bf7c38eeb997": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"991fa5f59fea10b8": {
+"relevant": true,
+"sentiment": -0.2,
+"materiality": 1,
+"event_type": "product",
+"reason": "Cybertruck production shortfall",
+"model": "claude-seed"
+},
+"047e9d924d93562e": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"73e2b8027c36516b": {
+"relevant": true,
+"sentiment": -0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "ETF flow: XLP sold $44M",
+"model": "claude-seed"
+},
+"e46499bfbdad76ec": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"6a28bbdb2cae1b56": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"fa497cfa9b17afef": {
+"relevant": true,
+"sentiment": 0.2,
+"materiality": 3,
+"event_type": "earnings",
+"reason": "Quarterly earnings 8-K filed",
+"model": "claude-seed"
+},
+"7fa237d70848bdb1": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"fe13cc6e38b1899d": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"0635a0d3785c8cfb": {
+"relevant": true,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "capital_return",
+"reason": "Routine ETF distributions",
+"model": "claude-seed"
+},
+"bfd013e5c47ce26d": {
+"relevant": true,
+"sentiment": 0.2,
+"materiality": 2,
+"event_type": "deal_mna",
+"reason": "Dimon on Anthropic IPO live stream (likely deal role)",
+"model": "claude-seed"
+},
+"76e842caf551be70": {
+"relevant": true,
+"sentiment": -0.2,
+"materiality": 3,
+"event_type": "legal_regulatory",
+"reason": "Senate probe news; valuation called 31% undervalued",
+"model": "claude-seed"
+},
+"5f78f2b5e120ec48": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"990b87972fee3275": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"8cbf54e2c695d122": {
+"relevant": true,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Hall of Innovation award",
+"model": "claude-seed"
+},
+"65ac97ddc769c4e7": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"a59afd69af4fc170": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"71dcad9759a74a8f": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"f670a7ce61691a71": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"9ae0b0534df84e0c": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"8fe6be73ec460e3e": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"c23631cbb23b8a2f": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"902f55eeb2f03933": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"85a15f5bfd5aedbf": {
+"relevant": true,
+"sentiment": 0.4,
+"materiality": 2,
+"event_type": "macro_sector",
+"reason": "Bank stocks rally, JPM +2%",
+"model": "claude-seed"
+},
+"465aa4aedd27f8ba": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"9c3448150781d83c": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"0723a400892804d3": {
+"relevant": true,
+"sentiment": 0.5,
+"materiality": 3,
+"event_type": "earnings",
+"reason": "20%+ services growth; US volume momentum",
+"model": "claude-seed"
+},
+"f2c5e96fcd782b17": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"b30e323e2957f0a8": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"2a615131be3f3465": {
+"relevant": true,
+"sentiment": -0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "ETF flow: net selling",
+"model": "claude-seed"
+},
+"ef13c1f017be5eaa": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "analyst_rating",
+"reason": "Analyst outlook roundup",
+"model": "claude-seed"
+},
+"064e92c2f34ba35c": {
+"relevant": true,
+"sentiment": 0.4,
+"materiality": 2,
+"event_type": "earnings",
+"reason": "15% revenue growth, 7% analyst upside",
+"model": "claude-seed"
+},
+"c944a72438160485": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 2,
+"event_type": "earnings",
+"reason": "Strong Q4 but valuation questions",
+"model": "claude-seed"
+},
+"d32b43b34326938c": {
+"relevant": true,
+"sentiment": 0.4,
+"materiality": 2,
+"event_type": "capital_return",
+"reason": "16% dividend hike; buyback capacity",
+"model": "claude-seed"
+},
+"dd3f4121fc8c66dd": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"94913e6ce319171c": {
+"relevant": true,
+"sentiment": 0.5,
+"materiality": 3,
+"event_type": "capital_return",
+"reason": "Dividend raised 16%",
+"model": "claude-seed"
+},
+"70ea76c07352ef1d": {
+"relevant": true,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Key dates explainer",
+"model": "claude-seed"
+},
+"bf0759eaf36c93bc": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"6d95aecba09f3db4": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"a49c69f3c61eb239": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"8d8c87a53130ca1f": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"66858f5c2a78a0bb": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"53f89b3937bb6017": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"5773da1378be7e6a": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"e379a0ff49c2ddfc": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"9bb15e106b937243": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 3,
+"event_type": "earnings",
+"reason": "Quarterly earnings 8-K filed",
+"model": "claude-seed"
+},
+"5beaae1f9f34f562": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "management",
+"reason": "New board director Madeline Bell",
+"model": "claude-seed"
+},
+"2c50bb081ba5cf61": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 1,
+"event_type": "other",
+"reason": "Profit margins improving",
+"model": "claude-seed"
+},
+"300cec8b225bb347": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "Broken stock with turnaround catalysts",
+"model": "claude-seed"
+},
+"5e8c62253a438191": {
+"relevant": true,
+"sentiment": 0.4,
+"materiality": 2,
+"event_type": "other",
+"reason": "Margin repair starting to show",
+"model": "claude-seed"
+},
+"fbf8c0e5300aa0c5": {
+"relevant": true,
+"sentiment": 0.2,
+"materiality": 1,
+"event_type": "other",
+"reason": "Institutional buying",
+"model": "claude-seed"
+},
+"7393e8bb5f74dadb": {
+"relevant": true,
+"sentiment": -0.6,
+"materiality": 4,
+"event_type": "legal_regulatory",
+"reason": "Warren targets UNH breakup after Democrats win Congress",
+"model": "claude-seed"
+},
+"2a9ac362659f2ea3": {
+"relevant": true,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Peer comparison with Humana",
+"model": "claude-seed"
+},
+"e99b724390d8ea6b": {
+"relevant": true,
+"sentiment": -0.5,
+"materiality": 3,
+"event_type": "legal_regulatory",
+"reason": "Lost ground on Medicare star ratings",
+"model": "claude-seed"
+},
+"0dee446267052ef1": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 1,
+"event_type": "analyst_rating",
+"reason": "Analysts rate Buy",
+"model": "claude-seed"
+},
+"57cc7a1f7fe74f04": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"dc9d80e061b89e84": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "ETF flow: ETFs buying",
+"model": "claude-seed"
+},
+"cf84de17c8f01986": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"062bb0694f6c208c": {
+"relevant": true,
+"sentiment": 0.4,
+"materiality": 3,
+"event_type": "guidance",
+"reason": "Among Q3 companies raising guidance",
+"model": "claude-seed"
+},
+"89bfd43a7f1bd5d5": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"24be989ff167ac73": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"82a58922c8fc8ff0": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "Listicle post-midterms",
+"model": "claude-seed"
+},
+"af8c43f71664a485": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"ea5173291596e2fa": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"e1397c72a4b06ab5": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"59785e58850b4cbe": {
+"relevant": true,
+"sentiment": 0.0,
+"materiality": 2,
+"event_type": "management",
+"reason": "8-K board change",
+"model": "claude-seed"
+},
+"524c11b88a6ff902": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "product",
+"reason": "Foundayo patient marketing story",
+"model": "claude-seed"
+},
+"41761410ddd4360b": {
+"relevant": true,
+"sentiment": -0.1,
+"materiality": 2,
+"event_type": "legal_regulatory",
+"reason": "FDA vision-loss warning; shares unfazed",
+"model": "claude-seed"
+},
+"c2885472c1e0de70": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"ebbf50e7f535042c": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"ab6f04b3bf0a3ab3": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "Zacks industry highlight",
+"model": "claude-seed"
+},
+"bf42f7ce56d603a2": {
+"relevant": true,
+"sentiment": 0.4,
+"materiality": 1,
+"event_type": "other",
+"reason": "Cramer: a $2 trillion stock",
+"model": "claude-seed"
+},
+"53ef042410294e7c": {
+"relevant": true,
+"sentiment": 0.5,
+"materiality": 3,
+"event_type": "product",
+"reason": "Weight-loss pill shows sleep apnea benefit",
+"model": "claude-seed"
+},
+"79261581ee8f4626": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"4121b19f919bf858": {
+"relevant": true,
+"sentiment": 0.7,
+"materiality": 3,
+"event_type": "analyst_rating",
+"reason": "Jefferies street-high $1,700 target, stock +3.4%",
+"model": "claude-seed"
+},
+"4914e2584c4fdca5": {
+"relevant": true,
+"sentiment": -0.3,
+"materiality": 3,
+"event_type": "legal_regulatory",
+"reason": "FDA requires vision-loss warning on GLP-1 drugs",
+"model": "claude-seed"
+},
+"70e4403009fa1c56": {
+"relevant": true,
+"sentiment": 0.6,
+"materiality": 4,
+"event_type": "product",
+"reason": "Phase III sleep apnoea trial win for Foundayo",
+"model": "claude-seed"
+},
+"99b1ccfb24e39847": {
+"relevant": true,
+"sentiment": 0.5,
+"materiality": 2,
+"event_type": "product",
+"reason": "New $23B market for GLP-1 pill",
+"model": "claude-seed"
+},
+"1ff369727479432e": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"d950bb3c94b087bb": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"bf6de7d364443873": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"18f2f1bfb79aa588": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"480002d13adaaaff": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"23573f33d7885c40": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"4aed41464e7aed18": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 3,
+"event_type": "earnings",
+"reason": "Quarterly earnings 8-K filed",
+"model": "claude-seed"
+},
+"3a7108209f94ae96": {
+"relevant": true,
+"sentiment": 0.6,
+"materiality": 2,
+"event_type": "other",
+"reason": "Hits new 52-week high",
+"model": "claude-seed"
+},
+"40c29a8576eae147": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"2390a2f04dcaf133": {
+"relevant": true,
+"sentiment": 0.2,
+"materiality": 1,
+"event_type": "deal_mna",
+"reason": "Out-licensed ADC to Medicus",
+"model": "claude-seed"
+},
+"6d2cd0e11e2ccf8f": {
+"relevant": true,
+"sentiment": 0.4,
+"materiality": 2,
+"event_type": "guidance",
+"reason": "Higher 2026 outlook looks achievable",
+"model": "claude-seed"
+},
+"2e03eae38d0cff74": {
+"relevant": true,
+"sentiment": -0.2,
+"materiality": 1,
+"event_type": "other",
+"reason": "Valuation: overvalued after 29% gain",
+"model": "claude-seed"
+},
+"b2bdd642c1d04225": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 2,
+"event_type": "product",
+"reason": "GLP-1 leadership plan, launch not before 2028",
+"model": "claude-seed"
+},
+"afa70797e32bc914": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"1b86a3ae4550250d": {
+"relevant": true,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Attention explainer",
+"model": "claude-seed"
+},
+"6b029e8c1690690f": {
+"relevant": true,
+"sentiment": -0.3,
+"materiality": 2,
+"event_type": "other",
+"reason": "Patent-cliff risk analysis",
+"model": "claude-seed"
+},
+"1c7c519993421de9": {
+"relevant": true,
+"sentiment": 0.4,
+"materiality": 2,
+"event_type": "product",
+"reason": "Planning wave of Phase 3 obesity trials",
+"model": "claude-seed"
+},
+"9b50ee2028cd5e3d": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"fecc276dd470ef78": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"56dae5bddbb370ef": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"adef2e355923b307": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"26596ccd1e793311": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"5eb592ca0dec2820": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"74e1ebe7fd362cb7": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"5303655900a607bd": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"f2a96028a8b79f5e": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"ede29ab4d3a29bbb": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "Listed among AI healthcare stocks",
+"model": "claude-seed"
+},
+"6d8cad658f1c582c": {
+"relevant": true,
+"sentiment": 0,
+"materiality": 2,
+"event_type": "management",
+"reason": "8-K executive / board change",
+"model": "claude-seed"
+},
+"8759557d363470a3": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 3,
+"event_type": "earnings",
+"reason": "Quarterly earnings 8-K filed",
+"model": "claude-seed"
+},
+"2406c88bd2b9ba8d": {
+"relevant": true,
+"sentiment": 0.2,
+"materiality": 1,
+"event_type": "capital_return",
+"reason": "Cash return analysis",
+"model": "claude-seed"
+},
+"df54ff98bd12c85a": {
+"relevant": true,
+"sentiment": 0.2,
+"materiality": 3,
+"event_type": "deal_mna",
+"reason": "MoU with Venezuela on oil investment",
+"model": "claude-seed"
+},
+"4bb78857c7e662e3": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "Near record highs; historical view",
+"model": "claude-seed"
+},
+"c1ee9a3ca1a040b9": {
+"relevant": true,
+"sentiment": -0.2,
+"materiality": 2,
+"event_type": "macro_sector",
+"reason": "Crude slides toward $87",
+"model": "claude-seed"
+},
+"ffb76f520c925857": {
+"relevant": true,
+"sentiment": -0.3,
+"materiality": 2,
+"event_type": "product",
+"reason": "Pauses Texas hydrogen facility",
+"model": "claude-seed"
+},
+"caf45fc0d6842348": {
+"relevant": true,
+"sentiment": 0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "Q3 production comparison",
+"model": "claude-seed"
+},
+"6fdfd450984064af": {
+"relevant": true,
+"sentiment": -0.1,
+"materiality": 1,
+"event_type": "other",
+"reason": "ETF flow: IXC selling",
+"model": "claude-seed"
+},
+"eec2645d18d9a4a3": {
+"relevant": true,
+"sentiment": 0.3,
+"materiality": 1,
+"event_type": "other",
+"reason": "Up 38% in 2026",
+"model": "claude-seed"
+},
+"5df178aa0adedf00": {
+"relevant": true,
+"sentiment": 0.2,
+"materiality": 3,
+"event_type": "earnings",
+"reason": "Q3 earnings key metrics",
+"model": "claude-seed"
+},
+"4ea7bb41233f1999": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"89ece4200da9e8f7": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"c14b6e5c2e975479": {
+"relevant": true,
+"sentiment": -0.1,
+"materiality": 2,
+"event_type": "macro_sector",
+"reason": "OPEC+ holds output; crude lower",
+"model": "claude-seed"
+},
+"dc1fb79977655849": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"0001309dd46c5701": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"6e63d7160a16cd59": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"6841d9c53d0eb50b": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"6c4b3fa499d5b82c": {
+"relevant": true,
+"sentiment": 0.2,
+"materiality": 3,
+"event_type": "earnings",
+"reason": "Quarterly earnings 8-K filed",
+"model": "claude-seed"
+},
+"0a1b4e7ea0788c14": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"f904514146d8b705": {
+"relevant": true,
+"sentiment": -0.2,
+"materiality": 2,
+"event_type": "earnings",
+"reason": "Earnings described as underwhelming",
+"model": "claude-seed"
+},
+"6ef139b9670d0e75": {
+"relevant": true,
+"sentiment": -0.3,
+"materiality": 3,
+"event_type": "management",
+"reason": "Cutting 5% of commercial workforce",
+"model": "claude-seed"
+},
+"c6ce57810fd27697": {
+"relevant": true,
+"sentiment": 0.2,
+"materiality": 2,
+"event_type": "deal_mna",
+"reason": "Archer deal with Boeing close imminent",
+"model": "claude-seed"
+},
+"47877548cf151fc9": {
+"relevant": true,
+"sentiment": 0.5,
+"materiality": 3,
+"event_type": "product",
+"reason": "Record jet order lands",
+"model": "claude-seed"
+},
+"8931dbccbe28157b": {
+"relevant": true,
+"sentiment": -0.4,
+"materiality": 3,
+"event_type": "management",
+"reason": "Layoffs while struggling to raise production",
+"model": "claude-seed"
+},
+"7e8baba33de29d2b": {
+"relevant": true,
+"sentiment": -0.3,
+"materiality": 2,
+"event_type": "management",
+"reason": "Stock lower on 5% workforce cut report",
+"model": "claude-seed"
+},
+"c623659138722f06": {
+"relevant": true,
+"sentiment": -0.3,
+"materiality": 2,
+"event_type": "management",
+"reason": "Workforce decision as production slows",
+"model": "claude-seed"
+},
+"765fe5a571e73d02": {
+"relevant": true,
+"sentiment": -0.2,
+"materiality": 1,
+"event_type": "other",
+"reason": "Retiree health insurance cost hike",
+"model": "claude-seed"
+},
+"2a19c28601be62f2": {
+"relevant": true,
+"sentiment": -0.3,
+"materiality": 3,
+"event_type": "management",
+"reason": "Cutting 5% of commercial airplane workforce",
+"model": "claude-seed"
+},
+"fe2042aa2ef97f1d": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"5de0d0b6c561d5b6": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"f0a603933d8a8b4b": {
+"relevant": false,
+"sentiment": 0,
+"materiality": 1,
+"event_type": "other",
+"reason": "Not mainly about this company",
+"model": "claude-seed"
+},
+"90f87c734f475c86": {
+"relevant": true,
+"sentiment": 0,
+"materiality": 3,
+"event_type": "earnings",
+"reason": "Quarterly earnings 8-K filed",
+"model": "claude-seed"
+},
+"73527b31921faadc": {
+"relevant": true,
+"sentiment": -0.8,
+"materiality": 5,
+"event_type": "governance_scandal",
+"reason": "CEO admits affair; company opens probe into spy claims",
+"model": "claude-seed"
+},
+"1c0d58a1240f57ab": {
+"relevant": true,
+"sentiment": -0.5,
+"materiality": 4,
+"event_type": "governance_scandal",
+"reason": "Debate on ousting CEO after scandal",
+"model": "claude-seed"
+},
+"40be55f0fd2f5ae0": {
+"relevant": true,
+"sentiment": -0.3,
+"materiality": 3,
+"event_type": "governance_scandal",
+"reason": "More bad news for CEO; Cathie Wood still bullish",
+"model": "claude-seed"
+},
+"15d3964922fd825b": {
+"relevant": true,
+"sentiment": -0.5,
+"materiality": 3,
+"event_type": "other",
+"reason": "Nvidia dives while Dow soars 1,132 points",
+"model": "claude-seed"
+},
+"d34e33370503600b": {
+"relevant": true,
+"sentiment": -0.2,
+"materiality": 2,
+"event_type": "macro_sector",
+"reason": "Chip stocks rally while Nvidia lags",
+"model": "claude-seed"
+},
+"6b59cea440b53509": {
+"relevant": true,
+"sentiment": -0.2,
+"materiality": 2,
+"event_type": "other",
+"reason": "Nasdaq-100 best day since March without Nvidia",
+"model": "claude-seed"
+},
+"97a9ba2a97d80fa9": {
+"relevant": true,
+"sentiment": 0.4,
+"materiality": 2,
+"event_type": "macro_sector",
+"reason": "TSMC sales jump on Apple and Nvidia orders",
+"model": "claude-seed"
+},
+"b0e5cddb36e4b293": {
+"relevant": true,
+"sentiment": 0.2,
+"materiality": 3,
+"event_type": "deal_mna",
+"reason": "Investing in Anthropic alongside IPO",
+"model": "claude-seed"
+},
+"aa3d472a65cd91f9": {
+"relevant": true,
+"sentiment": 0.6,
+"materiality": 3,
+"event_type": "analyst_rating",
+"reason": "JPM top internet pick; stock +5%",
+"model": "claude-seed"
+},
+"d32927a48d02b2a2": {
+"relevant": true,
+"sentiment": 0.7,
+"materiality": 3,
+"event_type": "analyst_rating",
+"reason": "JPMorgan bets on AI ad growth; stock +4.8%",
+"model": "claude-seed"
+},
+"a859880519a15e68": {
+"relevant": true,
+"sentiment": 0.6,
+"materiality": 3,
+"event_type": "analyst_rating",
+"reason": "Added to JPMorgan focus list",
+"model": "claude-seed"
+},
+"eb14d8830c0ef949": {
+"relevant": true,
+"sentiment": 0.6,
+"materiality": 3,
+"event_type": "analyst_rating",
+"reason": "JPM top internet pick; stock +5%",
+"model": "claude-seed"
+},
+"44138368d9f2f880": {
+"relevant": true,
+"sentiment": -0.4,
+"materiality": 3,
+"event_type": "analyst_rating",
+"reason": "JPMorgan removes Alphabet from focus list",
+"model": "claude-seed"
+},
+"a462666c4ce7a454": {
+"relevant": true,
+"sentiment": 0.7,
+"materiality": 4,
+"event_type": "analyst_rating",
+"reason": "Oppenheimer upgrade; chosen for Google Cloud chips",
+"model": "claude-seed"
+},
+"0f116cf9958093d8": {
+"relevant": true,
+"sentiment": 0.4,
+"materiality": 3,
+"event_type": "guidance",
+"reason": "Eased Wall Street's AI spending worries",
+"model": "claude-seed"
+}
+}

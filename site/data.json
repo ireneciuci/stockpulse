@@ -1,0 +1,8010 @@
+{
+ "generated_at": "2026-11-10T14:35:09.279375+00:00",
+ "method": "Scorer agent: plain math, no AI. Turns analysed articles into a 0-100 News Score.\n\nFor every relevant article in the lookback window:\n    weight = time_decay(age) * source_weight * materiality\n    signal = sum(weight * sentiment) / (sum(weight) + PRIOR_STRENGTH)\n    score  = 50 + 50 * tanh(2 * signal)\n50 = neutral news flow. PRIOR_STRENGTH pulls stocks with only a few articles toward 50,\nso one stray headline can't send a quiet stock to 95.",
+ "stocks": [
+  {
+   "ticker": "AMD",
+   "name": "AMD",
+   "sector": "Semiconductors",
+   "score": 74.1,
+   "prev_score": 67.5,
+   "n_articles": 10,
+   "n_scanned": 22,
+   "buzz": 16.8,
+   "price": 508.58,
+   "change_5d": 8.94,
+   "prices": [
+    [
+     "2026-08-17",
+     506.0
+    ],
+    [
+     "2026-08-18",
+     484.39
+    ],
+    [
+     "2026-08-19",
+     466.42
+    ],
+    [
+     "2026-08-20",
+     469.46
+    ],
+    [
+     "2026-08-21",
+     473.25
+    ],
+    [
+     "2026-08-24",
+     456.75
+    ],
+    [
+     "2026-08-25",
+     479.18
+    ],
+    [
+     "2026-08-26",
+     480.93
+    ],
+    [
+     "2026-08-27",
+     476.67
+    ],
+    [
+     "2026-08-28",
+     465.58
+    ],
+    [
+     "2026-08-31",
+     470.72
+    ],
+    [
+     "2026-09-01",
+     459.61
+    ],
+    [
+     "2026-09-02",
+     457.06
+    ],
+    [
+     "2026-09-03",
+     456.16
+    ],
+    [
+     "2026-09-04",
+     477.57
+    ],
+    [
+     "2026-09-08",
+     505.74
+    ],
+    [
+     "2026-09-09",
+     521.1
+    ],
+    [
+     "2026-09-10",
+     503.6
+    ],
+    [
+     "2026-09-11",
+     516.13
+    ],
+    [
+     "2026-09-14",
+     493.41
+    ],
+    [
+     "2026-09-15",
+     504.2
+    ],
+    [
+     "2026-09-16",
+     512.5
+    ],
+    [
+     "2026-09-17",
+     545.09
+    ],
+    [
+     "2026-09-18",
+     559.82
+    ],
+    [
+     "2026-09-21",
+     615.52
+    ],
+    [
+     "2026-09-22",
+     623.77
+    ],
+    [
+     "2026-09-23",
+     614.61
+    ],
+    [
+     "2026-09-24",
+     629.26
+    ],
+    [
+     "2026-09-25",
+     630.63
+    ],
+    [
+     "2026-09-28",
+     607.87
+    ],
+    [
+     "2026-09-29",
+     607.57
+    ],
+    [
+     "2026-09-30",
+     611.76
+    ],
+    [
+     "2026-10-01",
+     615.73
+    ],
+    [
+     "2026-10-02",
+     633.91
+    ],
+    [
+     "2026-10-05",
+     631.75
+    ],
+    [
+     "2026-10-06",
+     649.42
+    ],
+    [
+     "2026-10-07",
+     645.86
+    ],
+    [
+     "2026-10-08",
+     620.68
+    ],
+    [
+     "2026-10-09",
+     608.1
+    ],
+    [
+     "2026-10-12",
+     594.24
+    ],
+    [
+     "2026-10-13",
+     605.53
+    ],
+    [
+     "2026-10-14",
+     570.82
+    ],
+    [
+     "2026-10-15",
+     562.23
+    ],
+    [
+     "2026-10-16",
+     528.75
+    ],
+    [
+     "2026-10-19",
+     538.05
+    ],
+    [
+     "2026-10-20",
+     534.74
+    ],
+    [
+     "2026-10-21",
+     552.72
+    ],
+    [
+     "2026-10-22",
+     507.93
+    ],
+    [
+     "2026-10-23",
+     516.79
+    ],
+    [
+     "2026-10-26",
+     531.28
+    ],
+    [
+     "2026-10-27",
+     560.26
+    ],
+    [
+     "2026-10-28",
+     578.44
+    ],
+    [
+     "2026-10-29",
+     566.42
+    ],
+    [
+     "2026-10-30",
+     504.8
+    ],
+    [
+     "2026-11-02",
+     466.84
+    ],
+    [
+     "2026-11-03",
+     483.9
+    ],
+    [
+     "2026-11-04",
+     488.78
+    ],
+    [
+     "2026-11-05",
+     404.4
+    ],
+    [
+     "2026-11-06",
+     449.04
+    ],
+    [
+     "2026-11-09",
+     508.58
+    ]
+   ],
+   "events": {
+    "guidance": {
+     "count": 2,
+     "impact": 2.25
+    },
+    "deal_mna": {
+     "count": 1,
+     "impact": 0.88
+    },
+    "other": {
+     "count": 4,
+     "impact": -0.58
+    },
+    "product": {
+     "count": 1,
+     "impact": 0.96
+    },
+    "analyst_rating": {
+     "count": 1,
+     "impact": 1.2
+    },
+    "earnings": {
+     "count": 1,
+     "impact": 0.51
+    }
+   },
+   "articles": [
+    {
+     "title": "AMD Just Guided to More Revenue Than Intel. A Decade Ago Intel Was 12x Its Size",
+     "url": "https://www.tikr.com/blog/amd-just-guided-to-more-revenue-than-intel-a-decade-ago-intel-was-12x-its-size?ref=yahoofinance&tlnk=yf-261110-xq8qqc84&.tsrc=rss",
+     "source": "tikr.com",
+     "source_type": "news",
+     "date": "2026-11-10T12:28:22+00:00",
+     "sentiment": 0.6,
+     "materiality": 3,
+     "event": "guidance",
+     "reason": "Revenue guidance now exceeds Intel's",
+     "impact": 1.76,
+     "driver": true
+    },
+    {
+     "title": "Google, Nvidia, AMD And Others To Invest $26B In Anthropic Alongside IPO",
+     "url": "https://stocktwits.com/news-articles/markets/equity/google-nvidia-amd-to-invest-26-b-in-anthropic-alongside-ipo/cNGu0BtR97U?.tsrc=rss",
+     "source": "stocktwits.com",
+     "source_type": "news",
+     "date": "2026-11-10T12:05:21+00:00",
+     "sentiment": 0.3,
+     "materiality": 3,
+     "event": "deal_mna",
+     "reason": "Part of $26B big-tech investment in Anthropic IPO",
+     "impact": 0.88,
+     "driver": false
+    },
+    {
+     "title": "Social Buzz: Wallstreetbets Stocks Mixed Pre-Bell Tuesday; Rocket Lab, AMD to Open Lower",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/social-buzz-wallstreetbets-stocks-mixed-113659846.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T11:36:59+00:00",
+     "sentiment": -0.2,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Seen opening lower pre-market after rally",
+     "impact": -0.19,
+     "driver": false
+    },
+    {
+     "title": "Michael Burry refuses to chase AMD's 13% stock surge",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-refuses-chase-amds-112521766.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T11:25:21+00:00",
+     "sentiment": -0.1,
+     "materiality": 2,
+     "event": "other",
+     "reason": "Burry declines to chase 13% surge",
+     "impact": -0.19,
+     "driver": false
+    },
+    {
+     "title": "What iShares PHLX SOX Semiconductor (SOXX) Sold: AMD Leads on Nov. 6",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-phlx-sox-semiconductor-soxx-110416469.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T11:04:16+00:00",
+     "sentiment": -0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "ETF flow: SOXX net seller of AMD",
+     "impact": -0.1,
+     "driver": false
+    },
+    {
+     "title": "ETFs Are Net Sellers of Advanced Micro Devices (AMD) on Nov. 6",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-advanced-micro-110215329.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T11:02:15+00:00",
+     "sentiment": -0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "ETF flow: net selling of AMD",
+     "impact": -0.1,
+     "driver": false
+    },
+    {
+     "title": "Nvidia \u201cHasn\u2019t Really Had to Worry About Competition\u201d for Four Years. AMD Is Closing In",
+     "url": "https://www.tikr.com/blog/nvidia-hasnt-really-had-to-worry-about-competition-for-four-years-amd-is-closing-in?ref=yahoofinance&tlnk=yf-261110-6fff25hv&.tsrc=rss",
+     "source": "tikr.com",
+     "source_type": "news",
+     "date": "2026-11-10T10:20:10+00:00",
+     "sentiment": 0.5,
+     "materiality": 2,
+     "event": "product",
+     "reason": "Seen closing competitive gap with Nvidia",
+     "impact": 0.96,
+     "driver": true
+    },
+    {
+     "title": "Stock Market Today, Nov. 9: AMD Jumps on Oppenheimer Upgrade and Google Cloud Chip Selection",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/09/stock-market-today-nov-9-amd-jumps-on-oppenheimer-upgrade-and-google-cloud-chip-selection/?.tsrc=rss",
+     "source": "fool.com",
+     "source_type": "opinion",
+     "date": "2026-11-09T22:30:02+00:00",
+     "sentiment": 0.7,
+     "materiality": 4,
+     "event": "analyst_rating",
+     "reason": "Oppenheimer upgrade; chosen for Google Cloud chips",
+     "impact": 1.2,
+     "driver": true
+    },
+    {
+     "title": "AMD Just Eased Wall Street\u2019s AI Spending Scare. Here\u2019s What It Means for the Stock",
+     "url": "https://247wallst.com/investing/2026/11/09/amd-just-eased-wall-streets-ai-spending-scare-heres-what-it-means-for-the-stock/?.tsrc=rss",
+     "source": "247wallst.com",
+     "source_type": "opinion",
+     "date": "2026-11-09T16:03:39+00:00",
+     "sentiment": 0.4,
+     "materiality": 3,
+     "event": "guidance",
+     "reason": "Eased Wall Street's AI spending worries",
+     "impact": 0.48,
+     "driver": false
+    },
+    {
+     "title": "8-K: Earnings results; Reg FD disclosure",
+     "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/amd-20261103.htm",
+     "source": "SEC EDGAR",
+     "source_type": "sec_filing",
+     "date": "2026-11-03T21:00:00+00:00",
+     "sentiment": 0.4,
+     "materiality": 4,
+     "event": "earnings",
+     "reason": "Q3 earnings 8-K and Reg FD disclosure",
+     "impact": 0.51,
+     "driver": false
+    }
+   ]
+  },
+  {
+   "ticker": "LLY",
+   "name": "Eli Lilly",
+   "sector": "Healthcare",
+   "score": 74.0,
+   "prev_score": 55.0,
+   "n_articles": 10,
+   "n_scanned": 19,
+   "buzz": 16.0,
+   "price": 1411.95,
+   "change_5d": 0.07,
+   "prices": [
+    [
+     "2026-08-17",
+     1183.16
+    ],
+    [
+     "2026-08-18",
+     1225.73
+    ],
+    [
+     "2026-08-19",
+     1280.34
+    ],
+    [
+     "2026-08-20",
+     1244.4
+    ],
+    [
+     "2026-08-21",
+     1255.4
+    ],
+    [
+     "2026-08-24",
+     1246.93
+    ],
+    [
+     "2026-08-25",
+     1233.66
+    ],
+    [
+     "2026-08-26",
+     1189.41
+    ],
+    [
+     "2026-08-27",
+     1176.1
+    ],
+    [
+     "2026-08-28",
+     1174.61
+    ],
+    [
+     "2026-08-31",
+     1156.73
+    ],
+    [
+     "2026-09-01",
+     1160.0
+    ],
+    [
+     "2026-09-02",
+     1160.08
+    ],
+    [
+     "2026-09-03",
+     1159.6
+    ],
+    [
+     "2026-09-04",
+     1149.36
+    ],
+    [
+     "2026-09-08",
+     1123.91
+    ],
+    [
+     "2026-09-09",
+     1124.21
+    ],
+    [
+     "2026-09-10",
+     1123.0
+    ],
+    [
+     "2026-09-11",
+     1115.7
+    ],
+    [
+     "2026-09-14",
+     1138.28
+    ],
+    [
+     "2026-09-15",
+     1136.11
+    ],
+    [
+     "2026-09-16",
+     1137.82
+    ],
+    [
+     "2026-09-17",
+     1152.44
+    ],
+    [
+     "2026-09-18",
+     1152.93
+    ],
+    [
+     "2026-09-21",
+     1164.89
+    ],
+    [
+     "2026-09-22",
+     1170.14
+    ],
+    [
+     "2026-09-23",
+     1150.99
+    ],
+    [
+     "2026-09-24",
+     1181.89
+    ],
+    [
+     "2026-09-25",
+     1183.46
+    ],
+    [
+     "2026-09-28",
+     1184.78
+    ],
+    [
+     "2026-09-29",
+     1184.63
+    ],
+    [
+     "2026-09-30",
+     1157.08
+    ],
+    [
+     "2026-10-01",
+     1149.85
+    ],
+    [
+     "2026-10-02",
+     1142.85
+    ],
+    [
+     "2026-10-05",
+     1143.12
+    ],
+    [
+     "2026-10-06",
+     1157.49
+    ],
+    [
+     "2026-10-07",
+     1188.72
+    ],
+    [
+     "2026-10-08",
+     1169.6
+    ],
+    [
+     "2026-10-09",
+     1179.27
+    ],
+    [
+     "2026-10-12",
+     1182.62
+    ],
+    [
+     "2026-10-13",
+     1166.51
+    ],
+    [
+     "2026-10-14",
+     1208.74
+    ],
+    [
+     "2026-10-15",
+     1251.61
+    ],
+    [
+     "2026-10-16",
+     1257.03
+    ],
+    [
+     "2026-10-19",
+     1240.34
+    ],
+    [
+     "2026-10-20",
+     1283.66
+    ],
+    [
+     "2026-10-21",
+     1270.75
+    ],
+    [
+     "2026-10-22",
+     1306.69
+    ],
+    [
+     "2026-10-23",
+     1273.46
+    ],
+    [
+     "2026-10-26",
+     1279.14
+    ],
+    [
+     "2026-10-27",
+     1281.91
+    ],
+    [
+     "2026-10-28",
+     1288.3
+    ],
+    [
+     "2026-10-29",
+     1373.7
+    ],
+    [
+     "2026-10-30",
+     1417.54
+    ],
+    [
+     "2026-11-02",
+     1410.99
+    ],
+    [
+     "2026-11-03",
+     1409.38
+    ],
+    [
+     "2026-11-04",
+     1417.99
+    ],
+    [
+     "2026-11-05",
+     1364.73
+    ],
+    [
+     "2026-11-06",
+     1354.0
+    ],
+    [
+     "2026-11-09",
+     1411.95
+    ]
+   ],
+   "events": {
+    "product": {
+     "count": 4,
+     "impact": 3.7
+    },
+    "legal_regulatory": {
+     "count": 2,
+     "impact": -0.93
+    },
+    "other": {
+     "count": 2,
+     "impact": 0.38
+    },
+    "analyst_rating": {
+     "count": 1,
+     "impact": 1.73
+    },
+    "earnings": {
+     "count": 1,
+     "impact": 0.09
+    }
+   },
+   "articles": [
+    {
+     "title": "Life doesn't slow down, and Foundayo\u2122 (orforglipron) patient Leanne Morgan is done waiting",
+     "url": "https://finance.yahoo.com/healthcare/articles/life-doesnt-slow-down-foundayo-130000001.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T13:00:00+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "product",
+     "reason": "Foundayo patient marketing story",
+     "impact": 0.1,
+     "driver": false
+    },
+    {
+     "title": "The FDA Ordered GLP-1 Vision-Loss Warnings For Some Products. Shares of Eli Lilly and Novo Nordisk Were Unfazed.",
+     "url": "https://www.ibtimes.com/fda-eye-risk-warnings-glp-1-drug-shares-rebound-3809592?.tsrc=rss",
+     "source": "ibtimes.com",
+     "source_type": "news",
+     "date": "2026-11-10T12:41:02+00:00",
+     "sentiment": -0.1,
+     "materiality": 2,
+     "event": "legal_regulatory",
+     "reason": "FDA vision-loss warning; shares unfazed",
+     "impact": -0.2,
+     "driver": false
+    },
+    {
+     "title": "Zacks Industry Outlook Highlights Eli Lilly, Novartis and Bayer",
+     "url": "https://finance.yahoo.com/healthcare/articles/zacks-industry-outlook-highlights-eli-055000179.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "opinion",
+     "date": "2026-11-10T05:50:00+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Zacks industry highlight",
+     "impact": 0.05,
+     "driver": false
+    },
+    {
+     "title": "Jim Cramer Says Eli Lilly \u201cIs a $2 Trillion Stock\u201d as It Nears Tesla\u2019s Market Cap",
+     "url": "https://www.tikr.com/blog/jim-cramer-says-eli-lilly-is-a-2-trillion-stock-as-it-nears-teslas-market-cap?ref=yahoofinance&tlnk=yf-261109-77wcx8vx&.tsrc=rss",
+     "source": "tikr.com",
+     "source_type": "news",
+     "date": "2026-11-09T19:51:09+00:00",
+     "sentiment": 0.4,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Cramer: a $2 trillion stock",
+     "impact": 0.33,
+     "driver": false
+    },
+    {
+     "title": "Eli Lilly\u2019s Weight-Loss Pill Shows Sleep Apnea Benefits. Can It Gain on Novo?",
+     "url": "https://finance.yahoo.com/m/363c8fec-d17a-3593-8227-dab89791fbc9/eli-lilly%E2%80%99s-weight-loss-pill.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T19:27:00+00:00",
+     "sentiment": 0.5,
+     "materiality": 3,
+     "event": "product",
+     "reason": "Weight-loss pill shows sleep apnea benefit",
+     "impact": 1.25,
+     "driver": true
+    },
+    {
+     "title": "Eli Lilly Stocks Rise 3.40% as Jefferies Sets Street-High $1,700 Target",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/eli-lilly-stocks-rise-3-181701651.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T18:17:01+00:00",
+     "sentiment": 0.7,
+     "materiality": 3,
+     "event": "analyst_rating",
+     "reason": "Jefferies street-high $1,700 target, stock +3.4%",
+     "impact": 1.73,
+     "driver": true
+    },
+    {
+     "title": "FDA requires vision-loss warning on Novo Nordisk and Eli Lilly GLP-1 drugs",
+     "url": "https://finance.yahoo.com/healthcare/articles/fda-requires-vision-loss-warning-170646867.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T17:06:46+00:00",
+     "sentiment": -0.3,
+     "materiality": 3,
+     "event": "legal_regulatory",
+     "reason": "FDA requires vision-loss warning on GLP-1 drugs",
+     "impact": -0.73,
+     "driver": false
+    },
+    {
+     "title": "AHA26: Lilly\u2019s Foundayo benefits beyond weight loss in Phase III sleep apnoea win",
+     "url": "https://www.clinicaltrialsarena.com/news/aha26-lillys-foundayo-benefits-beyond-weight-loss-in-phase-iii-sleep-apnoea-win/?.tsrc=rss",
+     "source": "clinicaltrialsarena.com",
+     "source_type": "news",
+     "date": "2026-11-09T16:49:40+00:00",
+     "sentiment": 0.6,
+     "materiality": 4,
+     "event": "product",
+     "reason": "Phase III sleep apnoea trial win for Foundayo",
+     "impact": 1.95,
+     "driver": true
+    },
+    {
+     "title": "Eli Lilly May Have Just Found a New $23 Billion Market for Its GLP-1 Pill",
+     "url": "https://247wallst.com/investing/2026/11/09/eli-lilly-may-have-just-found-a-new-23-billion-market-for-its-glp-1-pill/?.tsrc=rss",
+     "source": "247wallst.com",
+     "source_type": "opinion",
+     "date": "2026-11-09T16:32:54+00:00",
+     "sentiment": 0.5,
+     "materiality": 2,
+     "event": "product",
+     "reason": "New $23B market for GLP-1 pill",
+     "impact": 0.4,
+     "driver": false
+    },
+    {
+     "title": "8-K: Earnings results",
+     "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000104/lly-20261029.htm",
+     "source": "SEC EDGAR",
+     "source_type": "sec_filing",
+     "date": "2026-10-29T21:00:00+00:00",
+     "sentiment": 0.3,
+     "materiality": 3,
+     "event": "earnings",
+     "reason": "Quarterly earnings 8-K filed",
+     "impact": 0.09,
+     "driver": false
+    }
+   ]
+  },
+  {
+   "ticker": "V",
+   "name": "Visa",
+   "sector": "Financials",
+   "score": 72.1,
+   "prev_score": 72.0,
+   "n_articles": 9,
+   "n_scanned": 20,
+   "buzz": 8.9,
+   "price": 422.16,
+   "change_5d": -0.79,
+   "prices": [
+    [
+     "2026-08-17",
+     358.84
+    ],
+    [
+     "2026-08-18",
+     364.25
+    ],
+    [
+     "2026-08-19",
+     365.54
+    ],
+    [
+     "2026-08-20",
+     365.73
+    ],
+    [
+     "2026-08-21",
+     371.04
+    ],
+    [
+     "2026-08-24",
+     382.41
+    ],
+    [
+     "2026-08-25",
+     384.14
+    ],
+    [
+     "2026-08-26",
+     383.9
+    ],
+    [
+     "2026-08-27",
+     379.66
+    ],
+    [
+     "2026-08-28",
+     381.6
+    ],
+    [
+     "2026-08-31",
+     379.37
+    ],
+    [
+     "2026-09-01",
+     372.67
+    ],
+    [
+     "2026-09-02",
+     378.4
+    ],
+    [
+     "2026-09-03",
+     378.75
+    ],
+    [
+     "2026-09-04",
+     375.07
+    ],
+    [
+     "2026-09-08",
+     368.64
+    ],
+    [
+     "2026-09-09",
+     367.39
+    ],
+    [
+     "2026-09-10",
+     367.21
+    ],
+    [
+     "2026-09-11",
+     370.45
+    ],
+    [
+     "2026-09-14",
+     375.28
+    ],
+    [
+     "2026-09-15",
+     375.62
+    ],
+    [
+     "2026-09-16",
+     370.93
+    ],
+    [
+     "2026-09-17",
+     369.93
+    ],
+    [
+     "2026-09-18",
+     368.29
+    ],
+    [
+     "2026-09-21",
+     369.95
+    ],
+    [
+     "2026-09-22",
+     362.04
+    ],
+    [
+     "2026-09-23",
+     361.52
+    ],
+    [
+     "2026-09-24",
+     367.98
+    ],
+    [
+     "2026-09-25",
+     367.38
+    ],
+    [
+     "2026-09-28",
+     367.74
+    ],
+    [
+     "2026-09-29",
+     365.88
+    ],
+    [
+     "2026-09-30",
+     359.33
+    ],
+    [
+     "2026-10-01",
+     359.85
+    ],
+    [
+     "2026-10-02",
+     360.66
+    ],
+    [
+     "2026-10-05",
+     369.71
+    ],
+    [
+     "2026-10-06",
+     370.64
+    ],
+    [
+     "2026-10-07",
+     372.1
+    ],
+    [
+     "2026-10-08",
+     375.1
+    ],
+    [
+     "2026-10-09",
+     385.45
+    ],
+    [
+     "2026-10-12",
+     389.27
+    ],
+    [
+     "2026-10-13",
+     396.06
+    ],
+    [
+     "2026-10-14",
+     391.43
+    ],
+    [
+     "2026-10-15",
+     399.75
+    ],
+    [
+     "2026-10-16",
+     402.61
+    ],
+    [
+     "2026-10-19",
+     402.92
+    ],
+    [
+     "2026-10-20",
+     406.57
+    ],
+    [
+     "2026-10-21",
+     407.85
+    ],
+    [
+     "2026-10-22",
+     414.34
+    ],
+    [
+     "2026-10-23",
+     407.92
+    ],
+    [
+     "2026-10-26",
+     404.16
+    ],
+    [
+     "2026-10-27",
+     401.86
+    ],
+    [
+     "2026-10-28",
+     400.6
+    ],
+    [
+     "2026-10-29",
+     410.54
+    ],
+    [
+     "2026-10-30",
+     413.59
+    ],
+    [
+     "2026-11-02",
+     425.51
+    ],
+    [
+     "2026-11-03",
+     420.42
+    ],
+    [
+     "2026-11-04",
+     436.57
+    ],
+    [
+     "2026-11-05",
+     422.59
+    ],
+    [
+     "2026-11-06",
+     422.65
+    ],
+    [
+     "2026-11-09",
+     422.16
+    ]
+   ],
+   "events": {
+    "other": {
+     "count": 2,
+     "impact": -0.08
+    },
+    "earnings": {
+     "count": 4,
+     "impact": 1.87
+    },
+    "analyst_rating": {
+     "count": 1,
+     "impact": 0.08
+    },
+    "capital_return": {
+     "count": 2,
+     "impact": 0.95
+    }
+   },
+   "articles": [
+    {
+     "title": "The Dates That Matter Most For Visa Stock",
+     "url": "https://www.trefis.com/stock/v/articles/624113/the-dates-that-matter-most-for-visa-stock/2026-11-10?.tsrc=rss",
+     "source": "trefis.com",
+     "source_type": "opinion",
+     "date": "2026-11-10T13:11:30+00:00",
+     "sentiment": 0.0,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Key dates explainer",
+     "impact": 0.0,
+     "driver": false
+    },
+    {
+     "title": "Visa Sees 20%\u2011Plus Services Growth as U.S. Payment Volumes Gain Momentum",
+     "url": "https://www.marketbeat.com/instant-alerts/event-visa-sees-20plus-services-growth-as-us-payment-volumes-gain-momentum-2026-11-09/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+     "source": "marketbeat.com",
+     "source_type": "news",
+     "date": "2026-11-09T16:15:14+00:00",
+     "sentiment": 0.5,
+     "materiality": 3,
+     "event": "earnings",
+     "reason": "20%+ services growth; US volume momentum",
+     "impact": 1.21,
+     "driver": true
+    },
+    {
+     "title": "ETFs Are Net Sellers of Visa (V) on Nov. 5",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-visa-v-110239420.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T11:02:39+00:00",
+     "sentiment": -0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "ETF flow: net selling",
+     "impact": -0.08,
+     "driver": false
+    },
+    {
+     "title": "Are Wall Street Analysts Predicting Visa Stock Will Climb or Sink?",
+     "url": "https://www.barchart.com/story/news/8730740/are-wall-street-analysts-predicting-visa-stock-will-climb-or-sink?.tsrc=rss",
+     "source": "barchart.com",
+     "source_type": "news",
+     "date": "2026-11-09T10:42:36+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "analyst_rating",
+     "reason": "Analyst outlook roundup",
+     "impact": 0.08,
+     "driver": false
+    },
+    {
+     "title": "Visa (V): A 15% Revenue Gain at Scale, With 7% Average Analyst Upside",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/visa-v-15-revenue-gain-173201141.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-08T17:32:01+00:00",
+     "sentiment": 0.4,
+     "materiality": 2,
+     "event": "earnings",
+     "reason": "15% revenue growth, 7% analyst upside",
+     "impact": 0.52,
+     "driver": true
+    },
+    {
+     "title": "Visa (V) Q4 Earnings Justified Strong Growth But Left Valuation Questions",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/visa-v-q4-earnings-justified-011321208.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-07T01:13:21+00:00",
+     "sentiment": 0.1,
+     "materiality": 2,
+     "event": "earnings",
+     "reason": "Strong Q4 but valuation questions",
+     "impact": 0.09,
+     "driver": false
+    },
+    {
+     "title": "Mastercard Hit a Record as Visa Raised Its Dividend 16%. Here\u2019s Where Mastercard\u2019s Cash Goes",
+     "url": "https://www.tikr.com/blog/mastercard-hit-a-record-as-visa-raised-its-dividend-16-heres-where-mastercards-cash-goes?ref=yahoofinance&tlnk=yf-261106-5r2fpvj2&.tsrc=rss",
+     "source": "tikr.com",
+     "source_type": "news",
+     "date": "2026-11-06T19:16:30+00:00",
+     "sentiment": 0.5,
+     "materiality": 3,
+     "event": "capital_return",
+     "reason": "Dividend raised 16%",
+     "impact": 0.62,
+     "driver": true
+    },
+    {
+     "title": "Visa Just Raised Its Dividend 16%. Free Cash Flow Shows Whether the Buybacks Can Keep Pace",
+     "url": "https://www.tikr.com/blog/visa-just-raised-its-dividend-16-free-cash-flow-shows-whether-the-buybacks-can-keep-pace?ref=yahoofinance&tlnk=yf-261106-j7xqw334&.tsrc=rss",
+     "source": "tikr.com",
+     "source_type": "news",
+     "date": "2026-11-06T19:13:24+00:00",
+     "sentiment": 0.4,
+     "materiality": 2,
+     "event": "capital_return",
+     "reason": "16% dividend hike; buyback capacity",
+     "impact": 0.33,
+     "driver": false
+    },
+    {
+     "title": "8-K: Earnings results; Other material event",
+     "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/v-20261027.htm",
+     "source": "SEC EDGAR",
+     "source_type": "sec_filing",
+     "date": "2026-10-27T21:00:00+00:00",
+     "sentiment": 0.3,
+     "materiality": 3,
+     "event": "earnings",
+     "reason": "Quarterly earnings 8-K filed",
+     "impact": 0.06,
+     "driver": false
+    }
+   ]
+  },
+  {
+   "ticker": "META",
+   "name": "Meta Platforms",
+   "sector": "Communication",
+   "score": 66.1,
+   "prev_score": 50.0,
+   "n_articles": 13,
+   "n_scanned": 23,
+   "buzz": 15.7,
+   "price": 641.37,
+   "change_5d": 5.71,
+   "prices": [
+    [
+     "2026-08-17",
+     568.97
+    ],
+    [
+     "2026-08-18",
+     543.67
+    ],
+    [
+     "2026-08-19",
+     546.03
+    ],
+    [
+     "2026-08-20",
+     545.83
+    ],
+    [
+     "2026-08-21",
+     549.9
+    ],
+    [
+     "2026-08-24",
+     559.02
+    ],
+    [
+     "2026-08-25",
+     570.05
+    ],
+    [
+     "2026-08-26",
+     576.14
+    ],
+    [
+     "2026-08-27",
+     571.1
+    ],
+    [
+     "2026-08-28",
+     578.02
+    ],
+    [
+     "2026-08-31",
+     572.34
+    ],
+    [
+     "2026-09-01",
+     578.54
+    ],
+    [
+     "2026-09-02",
+     592.85
+    ],
+    [
+     "2026-09-03",
+     610.68
+    ],
+    [
+     "2026-09-04",
+     616.77
+    ],
+    [
+     "2026-09-08",
+     613.48
+    ],
+    [
+     "2026-09-09",
+     653.69
+    ],
+    [
+     "2026-09-10",
+     644.38
+    ],
+    [
+     "2026-09-11",
+     648.03
+    ],
+    [
+     "2026-09-14",
+     665.6
+    ],
+    [
+     "2026-09-15",
+     670.24
+    ],
+    [
+     "2026-09-16",
+     673.31
+    ],
+    [
+     "2026-09-17",
+     682.31
+    ],
+    [
+     "2026-09-18",
+     665.75
+    ],
+    [
+     "2026-09-21",
+     741.25
+    ],
+    [
+     "2026-09-22",
+     736.6
+    ],
+    [
+     "2026-09-23",
+     744.1
+    ],
+    [
+     "2026-09-24",
+     777.59
+    ],
+    [
+     "2026-09-25",
+     751.66
+    ],
+    [
+     "2026-09-28",
+     715.62
+    ],
+    [
+     "2026-09-29",
+     738.79
+    ],
+    [
+     "2026-09-30",
+     725.18
+    ],
+    [
+     "2026-10-01",
+     725.93
+    ],
+    [
+     "2026-10-02",
+     728.08
+    ],
+    [
+     "2026-10-05",
+     741.9
+    ],
+    [
+     "2026-10-06",
+     738.88
+    ],
+    [
+     "2026-10-07",
+     721.31
+    ],
+    [
+     "2026-10-08",
+     720.89
+    ],
+    [
+     "2026-10-09",
+     718.67
+    ],
+    [
+     "2026-10-12",
+     742.96
+    ],
+    [
+     "2026-10-13",
+     762.5
+    ],
+    [
+     "2026-10-14",
+     737.54
+    ],
+    [
+     "2026-10-15",
+     736.72
+    ],
+    [
+     "2026-10-16",
+     709.33
+    ],
+    [
+     "2026-10-19",
+     705.44
+    ],
+    [
+     "2026-10-20",
+     694.25
+    ],
+    [
+     "2026-10-21",
+     697.52
+    ],
+    [
+     "2026-10-22",
+     648.85
+    ],
+    [
+     "2026-10-23",
+     642.62
+    ],
+    [
+     "2026-10-26",
+     630.56
+    ],
+    [
+     "2026-10-27",
+     620.19
+    ],
+    [
+     "2026-10-28",
+     612.49
+    ],
+    [
+     "2026-10-29",
+     624.52
+    ],
+    [
+     "2026-10-30",
+     614.99
+    ],
+    [
+     "2026-11-02",
+     606.73
+    ],
+    [
+     "2026-11-03",
+     621.03
+    ],
+    [
+     "2026-11-04",
+     630.0
+    ],
+    [
+     "2026-11-05",
+     605.08
+    ],
+    [
+     "2026-11-06",
+     610.15
+    ],
+    [
+     "2026-11-09",
+     641.37
+    ]
+   ],
+   "events": {
+    "product": {
+     "count": 4,
+     "impact": 0.23
+    },
+    "other": {
+     "count": 3,
+     "impact": 0.27
+    },
+    "capital_return": {
+     "count": 1,
+     "impact": -0.55
+    },
+    "analyst_rating": {
+     "count": 3,
+     "impact": 3.17
+    },
+    "filing_routine": {
+     "count": 1,
+     "impact": 0.0
+    },
+    "governance_scandal": {
+     "count": 1,
+     "impact": 0.0
+    }
+   },
+   "articles": [
+    {
+     "title": "Meta VR Glasses to Be First-Ever IMAX Certified VR Device",
+     "url": "https://finance.yahoo.com/media-advertising/articles/meta-vr-glasses-first-ever-133000177.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T13:30:00+00:00",
+     "sentiment": 0.3,
+     "materiality": 2,
+     "event": "product",
+     "reason": "VR glasses first IMAX-certified VR device",
+     "impact": 0.59,
+     "driver": false
+    },
+    {
+     "title": "Pixelworks Partners with Meta to Bring TrueCut Motion Cinematic Content to Newly Launched Meta VR Glasses",
+     "url": "https://finance.yahoo.com/technology/articles/pixelworks-partners-meta-bring-truecut-130000711.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T13:00:00+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "product",
+     "reason": "Pixelworks partnership for VR glasses",
+     "impact": 0.1,
+     "driver": false
+    },
+    {
+     "title": "ETFs Bought $211.9 Million of Meta Platforms (META) on Friday",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-211-9-million-110054792.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T11:00:54+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "ETF flow: $212M bought",
+     "impact": 0.1,
+     "driver": false
+    },
+    {
+     "title": "Ranking the \"Magnificent Seven\" From Most to Least Attractive, Based on Future Cash Flow",
+     "url": "https://www.fool.com/investing/2026/11/10/ranking-the-magnificent-seven-from-most-to-least-attractive-based-on-future-cash-flow/?.tsrc=rss",
+     "source": "fool.com",
+     "source_type": "opinion",
+     "date": "2026-11-10T10:26:01+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Opinion: Mag 7 cash-flow ranking",
+     "impact": 0.05,
+     "driver": false
+    },
+    {
+     "title": "Alphabet, Meta, and Oracle Are All Teaming Up to Disrupt Nvidia's Biggest Competitive Advantage",
+     "url": "https://www.fool.com/investing/2026/11/10/alphabet-meta-and-oracle-are-all-teaming-up-to-dis/?.tsrc=rss",
+     "source": "fool.com",
+     "source_type": "opinion",
+     "date": "2026-11-10T10:15:00+00:00",
+     "sentiment": 0.3,
+     "materiality": 2,
+     "event": "product",
+     "reason": "Teaming with Alphabet/Oracle vs Nvidia moat",
+     "impact": 0.29,
+     "driver": false
+    },
+    {
+     "title": "Meta\u2019s Muse \u201cLooks a Lot More Like Malware,\u201d and Chase Just Blocked It",
+     "url": "https://www.tikr.com/blog/metas-muse-looks-a-lot-more-like-malware-and-chase-just-blocked-it?ref=yahoofinance&tlnk=yf-261110-hh43m27r&.tsrc=rss",
+     "source": "tikr.com",
+     "source_type": "news",
+     "date": "2026-11-10T07:44:13+00:00",
+     "sentiment": -0.4,
+     "materiality": 2,
+     "event": "product",
+     "reason": "Chase blocks Meta Muse, called malware-like",
+     "impact": -0.75,
+     "driver": true
+    },
+    {
+     "title": "Alphabet, Amazon and Meta Haven\u2019t Bought Back a Share in 2026. Big Tech Buybacks Fell 90%",
+     "url": "https://www.tikr.com/blog/alphabet-amazon-and-meta-havent-bought-back-a-share-in-2026-big-tech-buybacks-fell-90?ref=yahoofinance&tlnk=yf-261110-mv2r372c&.tsrc=rss",
+     "source": "tikr.com",
+     "source_type": "news",
+     "date": "2026-11-10T06:12:48+00:00",
+     "sentiment": -0.3,
+     "materiality": 2,
+     "event": "capital_return",
+     "reason": "No buybacks in 2026",
+     "impact": -0.55,
+     "driver": false
+    },
+    {
+     "title": "Meta Platforms Stock: Is it a Steal of a Deal at $650?",
+     "url": "https://www.fool.com/investing/2026/11/09/meta-platforms-stock-is-it-a-steal-of-a-deal-at-650/?.tsrc=rss",
+     "source": "fool.com",
+     "source_type": "opinion",
+     "date": "2026-11-09T20:58:01+00:00",
+     "sentiment": 0.3,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Opinion: cheap at $650",
+     "impact": 0.13,
+     "driver": false
+    },
+    {
+     "title": "Meta Stocks Climb 4.82% as JPMorgan Bets on AI-Driven Ad Growth",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/meta-stocks-climb-4-82-180359679.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T18:03:59+00:00",
+     "sentiment": 0.7,
+     "materiality": 3,
+     "event": "analyst_rating",
+     "reason": "JPMorgan bets on AI ad growth; stock +4.8%",
+     "impact": 1.72,
+     "driver": true
+    },
+    {
+     "title": "JPMorgan Just Added Meta Platforms to Its Analyst Focus List",
+     "url": "https://247wallst.com/investing/2026/11/09/jpmorgan-just-added-meta-platforms-to-its-analyst-focus-list/?.tsrc=rss",
+     "source": "247wallst.com",
+     "source_type": "opinion",
+     "date": "2026-11-09T16:38:41+00:00",
+     "sentiment": 0.6,
+     "materiality": 3,
+     "event": "analyst_rating",
+     "reason": "Added to JPMorgan focus list",
+     "impact": 0.73,
+     "driver": true
+    },
+    {
+     "title": "Meta and Amazon Rise 5% as JPMorgan Names Them Top Internet Picks; Alphabet Gains 3% Despite Losing Its Spot",
+     "url": "https://247wallst.com/investing/2026/11/09/meta-and-amazon-rise-5-as-jpmorgan-names-them-top-internet-picks-alphabet-gains-3-despite-losing-its-spot/?.tsrc=rss",
+     "source": "247wallst.com",
+     "source_type": "opinion",
+     "date": "2026-11-09T14:48:19+00:00",
+     "sentiment": 0.6,
+     "materiality": 3,
+     "event": "analyst_rating",
+     "reason": "JPM top internet pick; stock +5%",
+     "impact": 0.72,
+     "driver": false
+    },
+    {
+     "title": "8-K: Other material event",
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450074/d166273d8k.htm",
+     "source": "SEC EDGAR",
+     "source_type": "sec_filing",
+     "date": "2026-11-05T21:00:00+00:00",
+     "sentiment": 0.0,
+     "materiality": 2,
+     "event": "filing_routine",
+     "reason": "8-K other material event filed",
+     "impact": 0.0,
+     "driver": false
+    },
+    {
+     "title": "8-K: Material agreement; Item 3.03; Item 5.03",
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526438017/d183592d8k.htm",
+     "source": "SEC EDGAR",
+     "source_type": "sec_filing",
+     "date": "2026-10-29T21:00:00+00:00",
+     "sentiment": 0.0,
+     "materiality": 3,
+     "event": "governance_scandal",
+     "reason": "8-K: material agreement and charter amendment",
+     "impact": 0.0,
+     "driver": false
+    }
+   ]
+  },
+  {
+   "ticker": "PFE",
+   "name": "Pfizer",
+   "sector": "Healthcare",
+   "score": 64.3,
+   "prev_score": 59.1,
+   "n_articles": 11,
+   "n_scanned": 22,
+   "buzz": 9.5,
+   "price": 29.23,
+   "change_5d": -4.7,
+   "prices": [
+    [
+     "2026-08-17",
+     26.87
+    ],
+    [
+     "2026-08-18",
+     27.25
+    ],
+    [
+     "2026-08-19",
+     28.24
+    ],
+    [
+     "2026-08-20",
+     27.79
+    ],
+    [
+     "2026-08-21",
+     28.07
+    ],
+    [
+     "2026-08-24",
+     27.97
+    ],
+    [
+     "2026-08-25",
+     28.57
+    ],
+    [
+     "2026-08-26",
+     28.3
+    ],
+    [
+     "2026-08-27",
+     28.02
+    ],
+    [
+     "2026-08-28",
+     27.96
+    ],
+    [
+     "2026-08-31",
+     28.46
+    ],
+    [
+     "2026-09-01",
+     28.55
+    ],
+    [
+     "2026-09-02",
+     29.02
+    ],
+    [
+     "2026-09-03",
+     28.81
+    ],
+    [
+     "2026-09-04",
+     28.45
+    ],
+    [
+     "2026-09-08",
+     27.79
+    ],
+    [
+     "2026-09-09",
+     27.78
+    ],
+    [
+     "2026-09-10",
+     27.65
+    ],
+    [
+     "2026-09-11",
+     27.72
+    ],
+    [
+     "2026-09-14",
+     27.72
+    ],
+    [
+     "2026-09-15",
+     27.55
+    ],
+    [
+     "2026-09-16",
+     27.46
+    ],
+    [
+     "2026-09-17",
+     27.64
+    ],
+    [
+     "2026-09-18",
+     27.66
+    ],
+    [
+     "2026-09-21",
+     27.74
+    ],
+    [
+     "2026-09-22",
+     27.93
+    ],
+    [
+     "2026-09-23",
+     28.18
+    ],
+    [
+     "2026-09-24",
+     28.41
+    ],
+    [
+     "2026-09-25",
+     28.67
+    ],
+    [
+     "2026-09-28",
+     28.72
+    ],
+    [
+     "2026-09-29",
+     28.72
+    ],
+    [
+     "2026-09-30",
+     28.52
+    ],
+    [
+     "2026-10-01",
+     28.12
+    ],
+    [
+     "2026-10-02",
+     27.8
+    ],
+    [
+     "2026-10-05",
+     27.41
+    ],
+    [
+     "2026-10-06",
+     27.5
+    ],
+    [
+     "2026-10-07",
+     28.0
+    ],
+    [
+     "2026-10-08",
+     27.82
+    ],
+    [
+     "2026-10-09",
+     28.28
+    ],
+    [
+     "2026-10-12",
+     28.4
+    ],
+    [
+     "2026-10-13",
+     28.37
+    ],
+    [
+     "2026-10-14",
+     29.21
+    ],
+    [
+     "2026-10-15",
+     29.44
+    ],
+    [
+     "2026-10-16",
+     29.58
+    ],
+    [
+     "2026-10-19",
+     29.44
+    ],
+    [
+     "2026-10-20",
+     30.11
+    ],
+    [
+     "2026-10-21",
+     29.85
+    ],
+    [
+     "2026-10-22",
+     30.42
+    ],
+    [
+     "2026-10-23",
+     30.03
+    ],
+    [
+     "2026-10-26",
+     29.79
+    ],
+    [
+     "2026-10-27",
+     29.8
+    ],
+    [
+     "2026-10-28",
+     29.45
+    ],
+    [
+     "2026-10-29",
+     29.95
+    ],
+    [
+     "2026-10-30",
+     30.52
+    ],
+    [
+     "2026-11-02",
+     30.67
+    ],
+    [
+     "2026-11-03",
+     30.0
+    ],
+    [
+     "2026-11-04",
+     30.79
+    ],
+    [
+     "2026-11-05",
+     29.88
+    ],
+    [
+     "2026-11-06",
+     29.39
+    ],
+    [
+     "2026-11-09",
+     29.23
+    ]
+   ],
+   "events": {
+    "other": {
+     "count": 5,
+     "impact": 0.23
+    },
+    "deal_mna": {
+     "count": 1,
+     "impact": 0.18
+    },
+    "guidance": {
+     "count": 1,
+     "impact": 0.68
+    },
+    "product": {
+     "count": 2,
+     "impact": 0.45
+    },
+    "management": {
+     "count": 1,
+     "impact": 0.0
+    },
+    "earnings": {
+     "count": 1,
+     "impact": 0.28
+    }
+   },
+   "articles": [
+    {
+     "title": "Pfizer Hits a New 52-Week High. Here's Why It's Not Too Late to Buy the Stock",
+     "url": "https://www.fool.com/investing/2026/11/10/pfizer-hits-a-new-52-week-high-here-s-why-it-s-not-too-late-to-buy-the-stock/?.tsrc=rss",
+     "source": "fool.com",
+     "source_type": "opinion",
+     "date": "2026-11-10T11:20:02+00:00",
+     "sentiment": 0.6,
+     "materiality": 2,
+     "event": "other",
+     "reason": "Hits new 52-week high",
+     "impact": 0.58,
+     "driver": true
+    },
+    {
+     "title": "Medicus Pharma Ltd (MDCX) Q3 2026 Earnings Call Highlights: Pfizer ADC License, SkinJet SPAC ...",
+     "url": "https://finance.yahoo.com/healthcare/articles/medicus-pharma-ltd-mdcx-q3-050329465.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T05:03:29+00:00",
+     "sentiment": 0.2,
+     "materiality": 1,
+     "event": "deal_mna",
+     "reason": "Out-licensed ADC to Medicus",
+     "impact": 0.18,
+     "driver": false
+    },
+    {
+     "title": "Pfizer (PFE) On A Higher 2026 Outlook Still Looks About Right",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/pfizer-pfe-higher-2026-outlook-221042702.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T22:10:42+00:00",
+     "sentiment": 0.4,
+     "materiality": 2,
+     "event": "guidance",
+     "reason": "Higher 2026 outlook looks achievable",
+     "impact": 0.68,
+     "driver": true
+    },
+    {
+     "title": "Pfizer (PFE) Stock Looks Overvalued On Its 29% One Year Gain",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/pfizer-pfe-stock-looks-overvalued-210922425.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T21:09:22+00:00",
+     "sentiment": -0.2,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Valuation: overvalued after 29% gain",
+     "impact": -0.17,
+     "driver": false
+    },
+    {
+     "title": "Why Pfizer Believes It Can Be a Leader in the GLP-1 Market, Even Though Its Drug May Not Debut Until 2028",
+     "url": "https://www.fool.com/investing/2026/11/09/why-pfizer-believes-it-can-be-a-leader-in-the-glp-1-market-even-though-its-drug-may-not-debut-until-2028/?.tsrc=rss",
+     "source": "fool.com",
+     "source_type": "opinion",
+     "date": "2026-11-09T15:05:02+00:00",
+     "sentiment": 0.3,
+     "materiality": 2,
+     "event": "product",
+     "reason": "GLP-1 leadership plan, launch not before 2028",
+     "impact": 0.24,
+     "driver": false
+    },
+    {
+     "title": "Pfizer Inc. (PFE) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/pfizer-inc-pfe-attracting-investor-130004196.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T13:00:04+00:00",
+     "sentiment": 0.0,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Attention explainer",
+     "impact": 0.0,
+     "driver": false
+    },
+    {
+     "title": "What Happens To Pfizer Stock If Patent Losses Outpace New Drugs?",
+     "url": "https://www.trefis.com/stock/pfe/articles/623688/what-happens-to-pfizer-stock-if-patent-losses-outpace-new-drugs/2026-11-09?.tsrc=rss",
+     "source": "trefis.com",
+     "source_type": "opinion",
+     "date": "2026-11-09T12:45:56+00:00",
+     "sentiment": -0.3,
+     "materiality": 2,
+     "event": "other",
+     "reason": "Patent-cliff risk analysis",
+     "impact": -0.23,
+     "driver": false
+    },
+    {
+     "title": "Pfizer And 2 More AI Healthcare Stocks To Watch",
+     "url": "https://finance.yahoo.com/healthcare/articles/pfizer-2-more-ai-healthcare-011339324.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-08T01:13:39+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Listed among AI healthcare stocks",
+     "impact": 0.06,
+     "driver": false
+    },
+    {
+     "title": "Forget Lilly and Novo: Pfizer Is Planning a Wave of Phase 3 Obesity Trials",
+     "url": "https://www.fool.com/investing/2026/11/07/forget-lilly-and-novo-pfizer-is-planning-a-wave-of/?.tsrc=rss",
+     "source": "fool.com",
+     "source_type": "opinion",
+     "date": "2026-11-07T21:35:00+00:00",
+     "sentiment": 0.4,
+     "materiality": 2,
+     "event": "product",
+     "reason": "Planning wave of Phase 3 obesity trials",
+     "impact": 0.21,
+     "driver": false
+    },
+    {
+     "title": "8-K: Executive / board change",
+     "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000132/pfe-20261030.htm",
+     "source": "SEC EDGAR",
+     "source_type": "sec_filing",
+     "date": "2026-11-03T21:00:00+00:00",
+     "sentiment": 0.0,
+     "materiality": 2,
+     "event": "management",
+     "reason": "8-K executive / board change",
+     "impact": 0.0,
+     "driver": false
+    },
+    {
+     "title": "8-K: Earnings results",
+     "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000125/pfe-20261103.htm",
+     "source": "SEC EDGAR",
+     "source_type": "sec_filing",
+     "date": "2026-11-03T21:00:00+00:00",
+     "sentiment": 0.3,
+     "materiality": 3,
+     "event": "earnings",
+     "reason": "Quarterly earnings 8-K filed",
+     "impact": 0.28,
+     "driver": true
+    }
+   ]
+  },
+  {
+   "ticker": "GOOGL",
+   "name": "Alphabet",
+   "sector": "Communication",
+   "score": 63.9,
+   "prev_score": 51.7,
+   "n_articles": 11,
+   "n_scanned": 21,
+   "buzz": 12.7,
+   "price": 288.15,
+   "change_5d": 3.28,
+   "prices": [
+    [
+     "2026-08-17",
+     344.0
+    ],
+    [
+     "2026-08-18",
+     344.2
+    ],
+    [
+     "2026-08-19",
+     344.72
+    ],
+    [
+     "2026-08-20",
+     340.67
+    ],
+    [
+     "2026-08-21",
+     344.82
+    ],
+    [
+     "2026-08-24",
+     348.06
+    ],
+    [
+     "2026-08-25",
+     346.96
+    ],
+    [
+     "2026-08-26",
+     342.0
+    ],
+    [
+     "2026-08-27",
+     340.65
+    ],
+    [
+     "2026-08-28",
+     346.59
+    ],
+    [
+     "2026-08-31",
+     339.35
+    ],
+    [
+     "2026-09-01",
+     335.02
+    ],
+    [
+     "2026-09-02",
+     337.12
+    ],
+    [
+     "2026-09-03",
+     342.48
+    ],
+    [
+     "2026-09-04",
+     338.46
+    ],
+    [
+     "2026-09-08",
+     338.36
+    ],
+    [
+     "2026-09-09",
+     330.65
+    ],
+    [
+     "2026-09-10",
+     332.6
+    ],
+    [
+     "2026-09-11",
+     338.5
+    ],
+    [
+     "2026-09-14",
+     349.39
+    ],
+    [
+     "2026-09-15",
+     344.98
+    ],
+    [
+     "2026-09-16",
+     342.87
+    ],
+    [
+     "2026-09-17",
+     347.33
+    ],
+    [
+     "2026-09-18",
+     349.54
+    ],
+    [
+     "2026-09-21",
+     354.97
+    ],
+    [
+     "2026-09-22",
+     351.16
+    ],
+    [
+     "2026-09-23",
+     337.83
+    ],
+    [
+     "2026-09-24",
+     342.36
+    ],
+    [
+     "2026-09-25",
+     343.92
+    ],
+    [
+     "2026-09-28",
+     342.75
+    ],
+    [
+     "2026-09-29",
+     340.92
+    ],
+    [
+     "2026-09-30",
+     344.08
+    ],
+    [
+     "2026-10-01",
+     338.24
+    ],
+    [
+     "2026-10-02",
+     343.5
+    ],
+    [
+     "2026-10-05",
+     346.47
+    ],
+    [
+     "2026-10-06",
+     347.68
+    ],
+    [
+     "2026-10-07",
+     350.5
+    ],
+    [
+     "2026-10-08",
+     348.29
+    ],
+    [
+     "2026-10-09",
+     351.66
+    ],
+    [
+     "2026-10-12",
+     352.72
+    ],
+    [
+     "2026-10-13",
+     353.78
+    ],
+    [
+     "2026-10-14",
+     347.64
+    ],
+    [
+     "2026-10-15",
+     349.22
+    ],
+    [
+     "2026-10-16",
+     340.59
+    ],
+    [
+     "2026-10-19",
+     344.18
+    ],
+    [
+     "2026-10-20",
+     340.28
+    ],
+    [
+     "2026-10-21",
+     334.76
+    ],
+    [
+     "2026-10-22",
+     324.22
+    ],
+    [
+     "2026-10-23",
+     320.21
+    ],
+    [
+     "2026-10-26",
+     316.8
+    ],
+    [
+     "2026-10-27",
+     320.58
+    ],
+    [
+     "2026-10-28",
+     324.89
+    ],
+    [
+     "2026-10-29",
+     283.82
+    ],
+    [
+     "2026-10-30",
+     279.84
+    ],
+    [
+     "2026-11-02",
+     278.99
+    ],
+    [
+     "2026-11-03",
+     280.03
+    ],
+    [
+     "2026-11-04",
+     288.93
+    ],
+    [
+     "2026-11-05",
+     282.57
+    ],
+    [
+     "2026-11-06",
+     284.78
+    ],
+    [
+     "2026-11-09",
+     288.15
+    ]
+   ],
+   "events": {
+    "deal_mna": {
+     "count": 3,
+     "impact": 1.17
+    },
+    "other": {
+     "count": 2,
+     "impact": 0.44
+    },
+    "product": {
+     "count": 3,
+     "impact": 1.08
+    },
+    "analyst_rating": {
+     "count": 1,
+     "impact": -0.49
+    },
+    "filing_routine": {
+     "count": 1,
+     "impact": 0.0
+    },
+    "earnings": {
+     "count": 1,
+     "impact": 0.05
+    }
+   },
+   "articles": [
+    {
+     "title": "Anthropic Retracts Its $70-to-$80 IPO Price Range Hours After It Leaked",
+     "url": "https://247wallst.com/investing/2026/11/10/anthropic-retracts-its-70-to-80-ipo-price-range-hours-after-it-leaked/?.tsrc=rss",
+     "source": "247wallst.com",
+     "source_type": "opinion",
+     "date": "2026-11-10T13:12:21+00:00",
+     "sentiment": -0.1,
+     "materiality": 2,
+     "event": "deal_mna",
+     "reason": "Anthropic (Google-backed) retracts leaked IPO range",
+     "impact": -0.1,
+     "driver": false
+    },
+    {
+     "title": "Can Alphabet Stock Rise 30% From Here?",
+     "url": "https://www.trefis.com/stock/googl/articles/623929/can-alphabet-stock-rise-30-from-here/2026-11-10?.tsrc=rss",
+     "source": "trefis.com",
+     "source_type": "opinion",
+     "date": "2026-11-10T13:05:31+00:00",
+     "sentiment": 0.3,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Opinion: 30% upside case",
+     "impact": 0.15,
+     "driver": false
+    },
+    {
+     "title": "Google Stock Is Now Cheaper Than What Berkshire Hathaway Paid. Is It Time to Buy?",
+     "url": "https://www.tikr.com/blog/google-stock-is-now-cheaper-than-what-berkshire-hathaway-paid-is-it-time-to-buy?ref=yahoofinance&tlnk=yf-261110-hp3c6mq6&.tsrc=rss",
+     "source": "tikr.com",
+     "source_type": "news",
+     "date": "2026-11-10T12:49:51+00:00",
+     "sentiment": 0.3,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Valuation below Berkshire's entry price",
+     "impact": 0.29,
+     "driver": false
+    },
+    {
+     "title": "Cloud AI Today - FlowX.AI and Google Cloud Partner to Boost AI Deployments",
+     "url": "https://finance.yahoo.com/technology/ai/articles/cloud-ai-today-flowx-ai-124043727.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T12:40:43+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "product",
+     "reason": "Google Cloud partnership with FlowX.AI",
+     "impact": 0.1,
+     "driver": false
+    },
+    {
+     "title": "Sundar Pichai Just Delivered Stunning News About Google Cloud",
+     "url": "https://www.fool.com/investing/2026/11/10/sundar-pichai-just-delivered-stunning-news-about-g/?.tsrc=rss",
+     "source": "fool.com",
+     "source_type": "opinion",
+     "date": "2026-11-10T12:22:00+00:00",
+     "sentiment": 0.6,
+     "materiality": 3,
+     "event": "product",
+     "reason": "Strong Google Cloud update from Pichai",
+     "impact": 0.88,
+     "driver": true
+    },
+    {
+     "title": "Alphabet and Amazon Custom Silicon: Full-Stack Vertical Integration Vs. Compute Cost-Arbitrage",
+     "url": "https://247wallst.com/investing/2026/11/10/alphabet-and-amazon-custom-silicon-full-stack-vertical-integration-vs-compute-cost-arbitrage/?.tsrc=rss",
+     "source": "247wallst.com",
+     "source_type": "opinion",
+     "date": "2026-11-10T12:15:43+00:00",
+     "sentiment": 0.2,
+     "materiality": 1,
+     "event": "product",
+     "reason": "Custom silicon strategy analysis",
+     "impact": 0.1,
+     "driver": false
+    },
+    {
+     "title": "Google, Nvidia, AMD And Others To Invest $26B In Anthropic Alongside IPO",
+     "url": "https://stocktwits.com/news-articles/markets/equity/google-nvidia-amd-to-invest-26-b-in-anthropic-alongside-ipo/cNGu0BtR97U?.tsrc=rss",
+     "source": "stocktwits.com",
+     "source_type": "news",
+     "date": "2026-11-10T12:05:21+00:00",
+     "sentiment": 0.3,
+     "materiality": 3,
+     "event": "deal_mna",
+     "reason": "Investing in Anthropic alongside IPO",
+     "impact": 0.88,
+     "driver": true
+    },
+    {
+     "title": "Anthropic Targets $90 Billion in IPO and Placement With Big Tech",
+     "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-targets-90-billion-ipo-115423416.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T11:54:23+00:00",
+     "sentiment": 0.2,
+     "materiality": 2,
+     "event": "deal_mna",
+     "reason": "Anthropic $90B raise includes big tech placement",
+     "impact": 0.39,
+     "driver": false
+    },
+    {
+     "title": "JPMorgan Just Removed Alphabet From Its Analyst Focus List",
+     "url": "https://247wallst.com/investing/2026/11/09/jpmorgan-just-removed-alphabet-from-its-analyst-focus-list/?.tsrc=rss",
+     "source": "247wallst.com",
+     "source_type": "opinion",
+     "date": "2026-11-09T16:40:32+00:00",
+     "sentiment": -0.4,
+     "materiality": 3,
+     "event": "analyst_rating",
+     "reason": "JPMorgan removes Alphabet from focus list",
+     "impact": -0.49,
+     "driver": true
+    },
+    {
+     "title": "8-K: Other material event",
+     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/d174184d8k.htm",
+     "source": "SEC EDGAR",
+     "source_type": "sec_filing",
+     "date": "2026-11-05T21:00:00+00:00",
+     "sentiment": 0.0,
+     "materiality": 2,
+     "event": "filing_routine",
+     "reason": "8-K other material event filed",
+     "impact": 0.0,
+     "driver": false
+    },
+    {
+     "title": "8-K: Earnings results",
+     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/goog-20261028.htm",
+     "source": "SEC EDGAR",
+     "source_type": "sec_filing",
+     "date": "2026-10-28T21:00:00+00:00",
+     "sentiment": 0.2,
+     "materiality": 3,
+     "event": "earnings",
+     "reason": "Quarterly earnings 8-K filed",
+     "impact": 0.05,
+     "driver": false
+    }
+   ]
+  },
+  {
+   "ticker": "DIS",
+   "name": "Disney",
+   "sector": "Communication",
+   "score": 63.6,
+   "prev_score": 48.5,
+   "n_articles": 10,
+   "n_scanned": 17,
+   "buzz": 11.6,
+   "price": 119.12,
+   "change_5d": 5.31,
+   "prices": [
+    [
+     "2026-08-17",
+     103.5
+    ],
+    [
+     "2026-08-18",
+     103.95
+    ],
+    [
+     "2026-08-19",
+     106.93
+    ],
+    [
+     "2026-08-20",
+     107.32
+    ],
+    [
+     "2026-08-21",
+     107.78
+    ],
+    [
+     "2026-08-24",
+     110.61
+    ],
+    [
+     "2026-08-25",
+     111.25
+    ],
+    [
+     "2026-08-26",
+     109.63
+    ],
+    [
+     "2026-08-27",
+     106.82
+    ],
+    [
+     "2026-08-28",
+     108.1
+    ],
+    [
+     "2026-08-31",
+     107.55
+    ],
+    [
+     "2026-09-01",
+     106.22
+    ],
+    [
+     "2026-09-02",
+     107.98
+    ],
+    [
+     "2026-09-03",
+     107.16
+    ],
+    [
+     "2026-09-04",
+     105.31
+    ],
+    [
+     "2026-09-08",
+     105.06
+    ],
+    [
+     "2026-09-09",
+     104.18
+    ],
+    [
+     "2026-09-10",
+     105.82
+    ],
+    [
+     "2026-09-11",
+     106.55
+    ],
+    [
+     "2026-09-14",
+     108.59
+    ],
+    [
+     "2026-09-15",
+     106.42
+    ],
+    [
+     "2026-09-16",
+     106.99
+    ],
+    [
+     "2026-09-17",
+     105.35
+    ],
+    [
+     "2026-09-18",
+     102.67
+    ],
+    [
+     "2026-09-21",
+     104.23
+    ],
+    [
+     "2026-09-22",
+     103.82
+    ],
+    [
+     "2026-09-23",
+     103.46
+    ],
+    [
+     "2026-09-24",
+     105.56
+    ],
+    [
+     "2026-09-25",
+     106.15
+    ],
+    [
+     "2026-09-28",
+     105.59
+    ],
+    [
+     "2026-09-29",
+     105.41
+    ],
+    [
+     "2026-09-30",
+     104.9
+    ],
+    [
+     "2026-10-01",
+     101.33
+    ],
+    [
+     "2026-10-02",
+     102.19
+    ],
+    [
+     "2026-10-05",
+     103.61
+    ],
+    [
+     "2026-10-06",
+     104.03
+    ],
+    [
+     "2026-10-07",
+     104.75
+    ],
+    [
+     "2026-10-08",
+     107.02
+    ],
+    [
+     "2026-10-09",
+     108.05
+    ],
+    [
+     "2026-10-12",
+     108.49
+    ],
+    [
+     "2026-10-13",
+     108.58
+    ],
+    [
+     "2026-10-14",
+     108.99
+    ],
+    [
+     "2026-10-15",
+     110.68
+    ],
+    [
+     "2026-10-16",
+     110.59
+    ],
+    [
+     "2026-10-19",
+     109.59
+    ],
+    [
+     "2026-10-20",
+     111.67
+    ],
+    [
+     "2026-10-21",
+     111.83
+    ],
+    [
+     "2026-10-22",
+     113.13
+    ],
+    [
+     "2026-10-23",
+     112.52
+    ],
+    [
+     "2026-10-26",
+     110.4
+    ],
+    [
+     "2026-10-27",
+     110.23
+    ],
+    [
+     "2026-10-28",
+     109.04
+    ],
+    [
+     "2026-10-29",
+     110.91
+    ],
+    [
+     "2026-10-30",
+     110.94
+    ],
+    [
+     "2026-11-02",
+     113.11
+    ],
+    [
+     "2026-11-03",
+     114.18
+    ],
+    [
+     "2026-11-04",
+     118.95
+    ],
+    [
+     "2026-11-05",
+     117.22
+    ],
+    [
+     "2026-11-06",
+     116.75
+    ],
+    [
+     "2026-11-09",
+     119.12
+    ]
+   ],
+   "events": {
+    "earnings": {
+     "count": 1,
+     "impact": 1.1
+    },
+    "product": {
+     "count": 3,
+     "impact": 0.43
+    },
+    "other": {
+     "count": 4,
+     "impact": -0.07
+    },
+    "deal_mna": {
+     "count": 1,
+     "impact": 0.47
+    },
+    "management": {
+     "count": 1,
+     "impact": 0.1
+    }
+   },
+   "articles": [
+    {
+     "title": "Disney's next earnings come with an unusual $600 million boost",
+     "url": "https://www.thestreet.com/investing/disney-earnings-come-with-an-unusual-600-million-boost-streaming-cuts?.tsrc=rss",
+     "source": "thestreet.com",
+     "source_type": "news",
+     "date": "2026-11-10T05:37:00+00:00",
+     "sentiment": 0.4,
+     "materiality": 3,
+     "event": "earnings",
+     "reason": "Next earnings get one-off $600M boost",
+     "impact": 1.1,
+     "driver": true
+    },
+    {
+     "title": "What Could Walt Disney (DIS) AI Push Mean For Its Creative Future?",
+     "url": "https://finance.yahoo.com/technology/ai/articles/could-walt-disney-dis-ai-021255201.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T02:12:55+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "product",
+     "reason": "AI push analysis",
+     "impact": 0.09,
+     "driver": false
+    },
+    {
+     "title": "Here's Why Walt Disney (DIS) Gained But Lagged the Market Today",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-walt-disney-dis-214502444.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T21:45:02+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Gained but lagged market",
+     "impact": 0.09,
+     "driver": false
+    },
+    {
+     "title": "Disney weighs free tier and creator clips to lift Disney+ engagement, report says",
+     "url": "https://finance.yahoo.com/media-advertising/articles/disney-weighs-free-tier-creator-211709777.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T21:17:09+00:00",
+     "sentiment": 0.2,
+     "materiality": 2,
+     "event": "product",
+     "reason": "Weighs free tier to lift Disney+ engagement",
+     "impact": 0.34,
+     "driver": true
+    },
+    {
+     "title": "Disney Signs Adobe AI Deal Amid Reported Job Cut Plans",
+     "url": "https://finance.yahoo.com/technology/ai/articles/disney-signs-adobe-ai-deal-184604112.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T18:46:04+00:00",
+     "sentiment": 0.0,
+     "materiality": 2,
+     "event": "product",
+     "reason": "Adobe AI deal amid reported job cuts",
+     "impact": 0.0,
+     "driver": false
+    },
+    {
+     "title": "Adobe and The Walt Disney Company Announce Multi-Year Strategic Alliance to Support Disney Innovation with New AI-Powered Tools",
+     "url": "https://finance.yahoo.com/technology/ai/articles/adobe-walt-disney-company-announce-140000285.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T14:00:00+00:00",
+     "sentiment": 0.3,
+     "materiality": 2,
+     "event": "deal_mna",
+     "reason": "Multi-year Adobe AI alliance",
+     "impact": 0.47,
+     "driver": true
+    },
+    {
+     "title": "Disney struggles as Netflix pulls away: Time to buy the dip?",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/disney-struggles-netflix-pulls-away-103406881.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-06T10:34:06+00:00",
+     "sentiment": -0.3,
+     "materiality": 2,
+     "event": "other",
+     "reason": "Losing ground to Netflix",
+     "impact": -0.23,
+     "driver": false
+    },
+    {
+     "title": "How to Play DIS Stock as Disney Eyes 20% Cost Cuts and Thousands of Layoffs",
+     "url": "https://www.barchart.com/story/news/8676893/how-to-play-dis-stock-as-disney-eyes-20-cost-cuts-and-thousands-of-layoffs?.tsrc=rss",
+     "source": "barchart.com",
+     "source_type": "news",
+     "date": "2026-11-05T16:11:42+00:00",
+     "sentiment": 0.1,
+     "materiality": 3,
+     "event": "management",
+     "reason": "Eyes 20% cost cuts, thousands of layoffs",
+     "impact": 0.1,
+     "driver": false
+    },
+    {
+     "title": "Disney (DIS) Stock Looks Fairly Valued As Cash Flow Holds Up",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/disney-dis-stock-looks-fairly-151806694.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-05T15:18:06+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Valuation: fairly valued, cash flow holds",
+     "impact": 0.03,
+     "driver": false
+    },
+    {
+     "title": "I've Been Writing About Disney Stock for 30 Years. Here's Why My Conviction Has Never Been Higher.",
+     "url": "https://www.fool.com/investing/2026/11/05/ive-been-writing-about-disney-stock-for-30-years-h/?.tsrc=rss",
+     "source": "fool.com",
+     "source_type": "opinion",
+     "date": "2026-11-05T14:27:00+00:00",
+     "sentiment": 0.3,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Opinion: long-term bull case",
+     "impact": 0.05,
+     "driver": false
+    }
+   ]
+  },
+  {
+   "ticker": "KO",
+   "name": "Coca-Cola",
+   "sector": "Consumer",
+   "score": 61.7,
+   "prev_score": 52.2,
+   "n_articles": 9,
+   "n_scanned": 18,
+   "buzz": 7.2,
+   "price": 96.03,
+   "change_5d": 0.21,
+   "prices": [
+    [
+     "2026-08-17",
+     86.98
+    ],
+    [
+     "2026-08-18",
+     88.82
+    ],
+    [
+     "2026-08-19",
+     90.35
+    ],
+    [
+     "2026-08-20",
+     90.5
+    ],
+    [
+     "2026-08-21",
+     91.1
+    ],
+    [
+     "2026-08-24",
+     91.99
+    ],
+    [
+     "2026-08-25",
+     91.64
+    ],
+    [
+     "2026-08-26",
+     90.08
+    ],
+    [
+     "2026-08-27",
+     89.06
+    ],
+    [
+     "2026-08-28",
+     89.66
+    ],
+    [
+     "2026-08-31",
+     88.67
+    ],
+    [
+     "2026-09-01",
+     88.0
+    ],
+    [
+     "2026-09-02",
+     88.24
+    ],
+    [
+     "2026-09-03",
+     88.81
+    ],
+    [
+     "2026-09-04",
+     88.07
+    ],
+    [
+     "2026-09-08",
+     88.36
+    ],
+    [
+     "2026-09-09",
+     87.55
+    ],
+    [
+     "2026-09-10",
+     87.83
+    ],
+    [
+     "2026-09-11",
+     88.29
+    ],
+    [
+     "2026-09-14",
+     89.35
+    ],
+    [
+     "2026-09-15",
+     88.71
+    ],
+    [
+     "2026-09-16",
+     87.87
+    ],
+    [
+     "2026-09-17",
+     88.06
+    ],
+    [
+     "2026-09-18",
+     88.25
+    ],
+    [
+     "2026-09-21",
+     87.12
+    ],
+    [
+     "2026-09-22",
+     88.61
+    ],
+    [
+     "2026-09-23",
+     88.09
+    ],
+    [
+     "2026-09-24",
+     88.1
+    ],
+    [
+     "2026-09-25",
+     87.81
+    ],
+    [
+     "2026-09-28",
+     87.18
+    ],
+    [
+     "2026-09-29",
+     86.84
+    ],
+    [
+     "2026-09-30",
+     86.08
+    ],
+    [
+     "2026-10-01",
+     86.1
+    ],
+    [
+     "2026-10-02",
+     85.65
+    ],
+    [
+     "2026-10-05",
+     86.51
+    ],
+    [
+     "2026-10-06",
+     86.17
+    ],
+    [
+     "2026-10-07",
+     85.82
+    ],
+    [
+     "2026-10-08",
+     87.77
+    ],
+    [
+     "2026-10-09",
+     88.05
+    ],
+    [
+     "2026-10-12",
+     89.79
+    ],
+    [
+     "2026-10-13",
+     90.11
+    ],
+    [
+     "2026-10-14",
+     91.78
+    ],
+    [
+     "2026-10-15",
+     92.0
+    ],
+    [
+     "2026-10-16",
+     93.9
+    ],
+    [
+     "2026-10-19",
+     93.42
+    ],
+    [
+     "2026-10-20",
+     93.49
+    ],
+    [
+     "2026-10-21",
+     92.68
+    ],
+    [
+     "2026-10-22",
+     95.34
+    ],
+    [
+     "2026-10-23",
+     92.71
+    ],
+    [
+     "2026-10-26",
+     92.7
+    ],
+    [
+     "2026-10-27",
+     91.18
+    ],
+    [
+     "2026-10-28",
+     91.73
+    ],
+    [
+     "2026-10-29",
+     92.82
+    ],
+    [
+     "2026-10-30",
+     94.08
+    ],
+    [
+     "2026-11-02",
+     95.83
+    ],
+    [
+     "2026-11-03",
+     94.8
+    ],
+    [
+     "2026-11-04",
+     95.8
+    ],
+    [
+     "2026-11-05",
+     95.73
+    ],
+    [
+     "2026-11-06",
+     95.67
+    ],
+    [
+     "2026-11-09",
+     96.03
+    ]
+   ],
+   "events": {
+    "capital_return": {
+     "count": 2,
+     "impact": 0.22
+    },
+    "product": {
+     "count": 2,
+     "impact": 0.02
+    },
+    "deal_mna": {
+     "count": 1,
+     "impact": 0.93
+    },
+    "other": {
+     "count": 3,
+     "impact": 0.02
+    },
+    "earnings": {
+     "count": 1,
+     "impact": 0.04
+    }
+   },
+   "articles": [
+    {
+     "title": "Coca-Cola's Dividend Has Grown 64 Years in a Row. I'd Buy It in November and Never Sell.",
+     "url": "https://www.fool.com/investing/2026/11/10/coca-colas-dividend-has-grown-64-years-in-a-row-id/?.tsrc=rss",
+     "source": "fool.com",
+     "source_type": "opinion",
+     "date": "2026-11-10T13:15:00+00:00",
+     "sentiment": 0.3,
+     "materiality": 1,
+     "event": "capital_return",
+     "reason": "Opinion: 64 years of dividend growth",
+     "impact": 0.15,
+     "driver": true
+    },
+    {
+     "title": "Telynet's ReDI Connects Field Sales and Digital Ordering in New York's Coca-Cola System",
+     "url": "https://finance.yahoo.com/small-business/articles/telynets-redi-connects-field-sales-130000068.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T13:00:00+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "product",
+     "reason": "Bottler system tech rollout",
+     "impact": 0.1,
+     "driver": false
+    },
+    {
+     "title": "Tesla Didn\u2019t Make Enough Cybertrucks",
+     "url": "https://247wallst.com/investing/2026/11/09/tesla-didnt-make-enough-cybertrucks/?.tsrc=rss",
+     "source": "247wallst.com",
+     "source_type": "opinion",
+     "date": "2026-11-09T15:45:44+00:00",
+     "sentiment": -0.2,
+     "materiality": 1,
+     "event": "product",
+     "reason": "Cybertruck production shortfall",
+     "impact": -0.08,
+     "driver": false
+    },
+    {
+     "title": "Coca-Cola India IPO moves forward with draft papers",
+     "url": "https://www.just-drinks.com/news/coca-cola-india-ipo-draft-papers/?.tsrc=rss",
+     "source": "just-drinks.com",
+     "source_type": "news",
+     "date": "2026-11-09T12:07:24+00:00",
+     "sentiment": 0.4,
+     "materiality": 3,
+     "event": "deal_mna",
+     "reason": "Coca-Cola India IPO draft papers filed",
+     "impact": 0.93,
+     "driver": true
+    },
+    {
+     "title": "State Street Consumer Staples SPDR (XLP) Sells $44.1 Million of Walmart on Nov. 5",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-consumer-staples-spdr-110530593.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T11:05:30+00:00",
+     "sentiment": -0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "ETF flow: XLP sold $44M",
+     "impact": -0.08,
+     "driver": false
+    },
+    {
+     "title": "Coca-Cola Stock Keeps Setting Records. I'm Still Not Buying It.",
+     "url": "https://www.fool.com/investing/2026/11/09/coca-cola-stock-keeps-setting-records-i-m-still-not-buying-it/?.tsrc=rss",
+     "source": "fool.com",
+     "source_type": "opinion",
+     "date": "2026-11-09T09:43:02+00:00",
+     "sentiment": -0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Opinion: record highs, author not buying",
+     "impact": -0.04,
+     "driver": false
+    },
+    {
+     "title": "Warren Buffett\u2019s Coca-Cola Shares Now Pay Back Two-Thirds of What He Paid, Every Single Year",
+     "url": "https://247wallst.com/investing/2026/11/08/warren-buffett-96-credits-coke-for-his-long-life-his-848-million-coke-check-carries-a-warning-for-a-72-year-old-widow-holding-4000-shares-heres-what-the-numbers-say/?.tsrc=rss",
+     "source": "247wallst.com",
+     "source_type": "opinion",
+     "date": "2026-11-08T23:13:00+00:00",
+     "sentiment": 0.2,
+     "materiality": 1,
+     "event": "capital_return",
+     "reason": "Dividend yield on Buffett's cost",
+     "impact": 0.07,
+     "driver": false
+    },
+    {
+     "title": "Coca-Cola (KO) Makes the Dow\u2019s Low-Upside List While Selling More Drinks, Not Just Charging More",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-makes-dow-173403975.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-08T17:34:03+00:00",
+     "sentiment": 0.1,
+     "materiality": 2,
+     "event": "other",
+     "reason": "Volume growth, but on low-upside list",
+     "impact": 0.13,
+     "driver": true
+    },
+    {
+     "title": "8-K: Earnings results",
+     "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026067403/ko-20261027.htm",
+     "source": "SEC EDGAR",
+     "source_type": "sec_filing",
+     "date": "2026-10-27T21:00:00+00:00",
+     "sentiment": 0.2,
+     "materiality": 3,
+     "event": "earnings",
+     "reason": "Quarterly earnings 8-K filed",
+     "impact": 0.04,
+     "driver": false
+    }
+   ]
+  },
+  {
+   "ticker": "AAPL",
+   "name": "Apple",
+   "sector": "Technology",
+   "score": 56.6,
+   "prev_score": 56.6,
+   "n_articles": 8,
+   "n_scanned": 22,
+   "buzz": 12.5,
+   "price": 350.69,
+   "change_5d": 3.66,
+   "prices": [
+    [
+     "2026-08-17",
+     305.59
+    ],
+    [
+     "2026-08-18",
+     310.03
+    ],
+    [
+     "2026-08-19",
+     316.83
+    ],
+    [
+     "2026-08-20",
+     311.3
+    ],
+    [
+     "2026-08-21",
+     309.35
+    ],
+    [
+     "2026-08-24",
+     310.34
+    ],
+    [
+     "2026-08-25",
+     309.9
+    ],
+    [
+     "2026-08-26",
+     313.45
+    ],
+    [
+     "2026-08-27",
+     314.58
+    ],
+    [
+     "2026-08-28",
+     319.7
+    ],
+    [
+     "2026-08-31",
+     316.85
+    ],
+    [
+     "2026-09-01",
+     325.13
+    ],
+    [
+     "2026-09-02",
+     324.96
+    ],
+    [
+     "2026-09-03",
+     328.21
+    ],
+    [
+     "2026-09-04",
+     319.97
+    ],
+    [
+     "2026-09-08",
+     316.22
+    ],
+    [
+     "2026-09-09",
+     315.34
+    ],
+    [
+     "2026-09-10",
+     326.57
+    ],
+    [
+     "2026-09-11",
+     332.27
+    ],
+    [
+     "2026-09-14",
+     333.08
+    ],
+    [
+     "2026-09-15",
+     331.34
+    ],
+    [
+     "2026-09-16",
+     332.41
+    ],
+    [
+     "2026-09-17",
+     337.0
+    ],
+    [
+     "2026-09-18",
+     336.13
+    ],
+    [
+     "2026-09-21",
+     338.98
+    ],
+    [
+     "2026-09-22",
+     339.75
+    ],
+    [
+     "2026-09-23",
+     337.02
+    ],
+    [
+     "2026-09-24",
+     335.92
+    ],
+    [
+     "2026-09-25",
+     341.07
+    ],
+    [
+     "2026-09-28",
+     338.4
+    ],
+    [
+     "2026-09-29",
+     329.4
+    ],
+    [
+     "2026-09-30",
+     333.02
+    ],
+    [
+     "2026-10-01",
+     330.32
+    ],
+    [
+     "2026-10-02",
+     333.69
+    ],
+    [
+     "2026-10-05",
+     332.89
+    ],
+    [
+     "2026-10-06",
+     333.63
+    ],
+    [
+     "2026-10-07",
+     336.67
+    ],
+    [
+     "2026-10-08",
+     340.42
+    ],
+    [
+     "2026-10-09",
+     336.64
+    ],
+    [
+     "2026-10-12",
+     340.97
+    ],
+    [
+     "2026-10-13",
+     341.27
+    ],
+    [
+     "2026-10-14",
+     342.96
+    ],
+    [
+     "2026-10-15",
+     342.0
+    ],
+    [
+     "2026-10-16",
+     343.46
+    ],
+    [
+     "2026-10-19",
+     342.94
+    ],
+    [
+     "2026-10-20",
+     339.5
+    ],
+    [
+     "2026-10-21",
+     343.99
+    ],
+    [
+     "2026-10-22",
+     348.22
+    ],
+    [
+     "2026-10-23",
+     347.73
+    ],
+    [
+     "2026-10-26",
+     343.91
+    ],
+    [
+     "2026-10-27",
+     347.1
+    ],
+    [
+     "2026-10-28",
+     343.83
+    ],
+    [
+     "2026-10-29",
+     348.91
+    ],
+    [
+     "2026-10-30",
+     344.63
+    ],
+    [
+     "2026-11-02",
+     338.32
+    ],
+    [
+     "2026-11-03",
+     331.9
+    ],
+    [
+     "2026-11-04",
+     349.51
+    ],
+    [
+     "2026-11-05",
+     344.17
+    ],
+    [
+     "2026-11-06",
+     342.37
+    ],
+    [
+     "2026-11-09",
+     350.69
+    ]
+   ],
+   "events": {
+    "other": {
+     "count": 4,
+     "impact": 0.98
+    },
+    "management": {
+     "count": 1,
+     "impact": -0.88
+    },
+    "macro_sector": {
+     "count": 1,
+     "impact": 0.77
+    },
+    "filing_routine": {
+     "count": 1,
+     "impact": 0.0
+    },
+    "earnings": {
+     "count": 1,
+     "impact": 0.15
+    }
+   },
+   "articles": [
+    {
+     "title": "Apple Is Above $5 Trillion After Its First-Ever Close Above $350",
+     "url": "https://247wallst.com/investing/2026/11/10/apple-is-above-5-trillion-after-its-first-ever-close-above-350/?.tsrc=rss",
+     "source": "247wallst.com",
+     "source_type": "opinion",
+     "date": "2026-11-10T13:13:36+00:00",
+     "sentiment": 0.6,
+     "materiality": 3,
+     "event": "other",
+     "reason": "Market cap passes $5T on record close above $350",
+     "impact": 0.89,
+     "driver": true
+    },
+    {
+     "title": "Apple (AAPL) Pushes AI Timelines Higher As Siri Engineering Leadership May Change",
+     "url": "https://finance.yahoo.com/technology/ai/articles/apple-aapl-pushes-ai-timelines-120944045.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T12:09:44+00:00",
+     "sentiment": -0.3,
+     "materiality": 3,
+     "event": "management",
+     "reason": "AI/Siri timelines slip; possible engineering leadership change",
+     "impact": -0.88,
+     "driver": true
+    },
+    {
+     "title": "TSMC Sales Jump Again -- Nvidia and Apple Orders Keep the AI Chip Boom Going",
+     "url": "https://finance.yahoo.com/technology/ai/articles/tsmc-sales-jump-again-nvidia-111006983.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T11:10:06+00:00",
+     "sentiment": 0.4,
+     "materiality": 2,
+     "event": "macro_sector",
+     "reason": "TSMC sales jump on Apple and Nvidia orders",
+     "impact": 0.77,
+     "driver": true
+    },
+    {
+     "title": "iShares Global Tech ETF (IXN) Sells $26.8 Million of Apple on Nov. 6",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-global-tech-etf-ixn-110623167.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T11:06:23+00:00",
+     "sentiment": -0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "ETF flow: IXN sold $26.8M of Apple",
+     "impact": -0.1,
+     "driver": false
+    },
+    {
+     "title": "What Direxion Daily Technology Bull 3X ETF (TECL) Bought: AAPL Leads on Nov. 6",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/direxion-daily-technology-bull-3x-110515219.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T11:05:15+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "ETF flow: Apple led TECL buys",
+     "impact": 0.1,
+     "driver": false
+    },
+    {
+     "title": "What INVESCO QQQ Trust (QQQ) Bought: Apple Leads on Nov. 6",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-qqq-trust-qqq-bought-110424504.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T11:04:24+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "ETF flow: Apple led QQQ buys",
+     "impact": 0.1,
+     "driver": false
+    },
+    {
+     "title": "8-K: Other material event",
+     "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126042798/ef20085077_8k.htm",
+     "source": "SEC EDGAR",
+     "source_type": "sec_filing",
+     "date": "2026-11-09T21:00:00+00:00",
+     "sentiment": 0.0,
+     "materiality": 2,
+     "event": "filing_routine",
+     "reason": "8-K other material event filed",
+     "impact": 0.0,
+     "driver": false
+    },
+    {
+     "title": "8-K: Earnings results",
+     "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/aapl-20261102.htm",
+     "source": "SEC EDGAR",
+     "source_type": "sec_filing",
+     "date": "2026-11-02T21:00:00+00:00",
+     "sentiment": 0.2,
+     "materiality": 3,
+     "event": "earnings",
+     "reason": "Quarterly earnings 8-K filed",
+     "impact": 0.15,
+     "driver": false
+    }
+   ]
+  },
+  {
+   "ticker": "WMT",
+   "name": "Walmart",
+   "sector": "Consumer",
+   "score": 55.7,
+   "prev_score": 50.0,
+   "n_articles": 8,
+   "n_scanned": 18,
+   "buzz": 8.8,
+   "price": 125.66,
+   "change_5d": -1.59,
+   "prices": [
+    [
+     "2026-08-17",
+     114.33
+    ],
+    [
+     "2026-08-18",
+     115.2
+    ],
+    [
+     "2026-08-19",
+     114.3
+    ],
+    [
+     "2026-08-20",
+     103.84
+    ],
+    [
+     "2026-08-21",
+     103.7
+    ],
+    [
+     "2026-08-24",
+     106.49
+    ],
+    [
+     "2026-08-25",
+     105.38
+    ],
+    [
+     "2026-08-26",
+     104.34
+    ],
+    [
+     "2026-08-27",
+     102.63
+    ],
+    [
+     "2026-08-28",
+     103.09
+    ],
+    [
+     "2026-08-31",
+     104.87
+    ],
+    [
+     "2026-09-01",
+     105.92
+    ],
+    [
+     "2026-09-02",
+     106.09
+    ],
+    [
+     "2026-09-03",
+     108.42
+    ],
+    [
+     "2026-09-04",
+     107.14
+    ],
+    [
+     "2026-09-08",
+     106.05
+    ],
+    [
+     "2026-09-09",
+     105.83
+    ],
+    [
+     "2026-09-10",
+     105.73
+    ],
+    [
+     "2026-09-11",
+     107.15
+    ],
+    [
+     "2026-09-14",
+     109.08
+    ],
+    [
+     "2026-09-15",
+     108.09
+    ],
+    [
+     "2026-09-16",
+     107.5
+    ],
+    [
+     "2026-09-17",
+     106.79
+    ],
+    [
+     "2026-09-18",
+     106.73
+    ],
+    [
+     "2026-09-21",
+     107.44
+    ],
+    [
+     "2026-09-22",
+     110.12
+    ],
+    [
+     "2026-09-23",
+     110.53
+    ],
+    [
+     "2026-09-24",
+     107.59
+    ],
+    [
+     "2026-09-25",
+     107.98
+    ],
+    [
+     "2026-09-28",
+     108.73
+    ],
+    [
+     "2026-09-29",
+     106.8
+    ],
+    [
+     "2026-09-30",
+     103.92
+    ],
+    [
+     "2026-10-01",
+     104.26
+    ],
+    [
+     "2026-10-02",
+     104.26
+    ],
+    [
+     "2026-10-05",
+     105.07
+    ],
+    [
+     "2026-10-06",
+     107.2
+    ],
+    [
+     "2026-10-07",
+     108.16
+    ],
+    [
+     "2026-10-08",
+     110.56
+    ],
+    [
+     "2026-10-09",
+     111.35
+    ],
+    [
+     "2026-10-12",
+     113.08
+    ],
+    [
+     "2026-10-13",
+     112.28
+    ],
+    [
+     "2026-10-14",
+     116.16
+    ],
+    [
+     "2026-10-15",
+     117.87
+    ],
+    [
+     "2026-10-16",
+     118.81
+    ],
+    [
+     "2026-10-19",
+     118.7
+    ],
+    [
+     "2026-10-20",
+     117.85
+    ],
+    [
+     "2026-10-21",
+     117.8
+    ],
+    [
+     "2026-10-22",
+     121.12
+    ],
+    [
+     "2026-10-23",
+     119.89
+    ],
+    [
+     "2026-10-26",
+     120.29
+    ],
+    [
+     "2026-10-27",
+     119.32
+    ],
+    [
+     "2026-10-28",
+     118.77
+    ],
+    [
+     "2026-10-29",
+     121.25
+    ],
+    [
+     "2026-10-30",
+     123.51
+    ],
+    [
+     "2026-11-02",
+     127.69
+    ],
+    [
+     "2026-11-03",
+     124.86
+    ],
+    [
+     "2026-11-04",
+     129.17
+    ],
+    [
+     "2026-11-05",
+     127.72
+    ],
+    [
+     "2026-11-06",
+     125.52
+    ],
+    [
+     "2026-11-09",
+     125.66
+    ]
+   ],
+   "events": {
+    "other": {
+     "count": 4,
+     "impact": -0.45
+    },
+    "analyst_rating": {
+     "count": 1,
+     "impact": 0.82
+    },
+    "macro_sector": {
+     "count": 1,
+     "impact": -0.08
+    },
+    "legal_regulatory": {
+     "count": 1,
+     "impact": -0.08
+    },
+    "product": {
+     "count": 1,
+     "impact": 0.47
+    }
+   },
+   "articles": [
+    {
+     "title": "State Street Consumer Staples SPDR (XLP) Sells Walmart and Costco on Nov. 6",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-consumer-staples-spdr-110619139.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T11:06:19+00:00",
+     "sentiment": -0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "ETF flow: XLP sells Walmart",
+     "impact": -0.1,
+     "driver": false
+    },
+    {
+     "title": "51 ETFs Add to Walmart (WMT) Holdings on Friday",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/51-etfs-add-walmart-wmt-110115705.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T11:01:15+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "ETF flow: 51 ETFs add WMT",
+     "impact": 0.1,
+     "driver": false
+    },
+    {
+     "title": "Target Trades at a Fraction of Walmart's Valuation. Is the Discount Deserved?",
+     "url": "https://www.fool.com/investing/2026/11/09/target-trades-at-a-fraction-of-walmarts-valuation/?.tsrc=rss",
+     "source": "fool.com",
+     "source_type": "opinion",
+     "date": "2026-11-09T19:17:00+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Premium valuation vs Target",
+     "impact": 0.04,
+     "driver": false
+    },
+    {
+     "title": "Unusual Put Options Volume in Walmart Ahead of Earnings Next Week - Is WMT Set to Drop?",
+     "url": "https://www.barchart.com/story/news/8740108/unusual-put-options-volume-in-walmart-ahead-of-earnings-next-week-is-wmt-set-to-drop?.tsrc=rss",
+     "source": "barchart.com",
+     "source_type": "news",
+     "date": "2026-11-09T18:30:03+00:00",
+     "sentiment": -0.3,
+     "materiality": 2,
+     "event": "other",
+     "reason": "Unusual put volume before earnings",
+     "impact": -0.49,
+     "driver": true
+    },
+    {
+     "title": "Walmart earnings growth potential extends beyond headline sales, UBS argues",
+     "url": "https://www.proactiveinvestors.com/companies/news/1101448/walmart-earnings-growth-potential-extends-beyond-headline-sales-ubs-argues-1101448.html?.tsrc=rss",
+     "source": "proactiveinvestors.com",
+     "source_type": "news",
+     "date": "2026-11-09T17:40:00+00:00",
+     "sentiment": 0.5,
+     "materiality": 2,
+     "event": "analyst_rating",
+     "reason": "UBS sees earnings upside beyond sales",
+     "impact": 0.82,
+     "driver": true
+    },
+    {
+     "title": "Instacart points to Walmart and Amazon as reasons its merger with DoorDash should be approved",
+     "url": "https://www.grocerydive.com/news/instacart-doordash-merger-walmart-amazon-grocery/874045/?.tsrc=rss",
+     "source": "grocerydive.com",
+     "source_type": "news",
+     "date": "2026-11-09T16:00:00+00:00",
+     "sentiment": -0.1,
+     "materiality": 1,
+     "event": "macro_sector",
+     "reason": "Instacart cites Walmart as competition",
+     "impact": -0.08,
+     "driver": false
+    },
+    {
+     "title": "Walmart refund checks are going out; has yours arrived?",
+     "url": "https://www.usatoday.com/story/money/2026/11/09/walmart-refund-checks-are-going-out-how-to-know-if-you-got-yours/92688134007/?.tsrc=rss",
+     "source": "usatoday.com",
+     "source_type": "news",
+     "date": "2026-11-09T15:59:05+00:00",
+     "sentiment": -0.1,
+     "materiality": 1,
+     "event": "legal_regulatory",
+     "reason": "Settlement refund checks going out",
+     "impact": -0.08,
+     "driver": false
+    },
+    {
+     "title": "Walmart (WMT) Expands Into Home Energy And Healthcare With New Partnerships",
+     "url": "https://finance.yahoo.com/energy/articles/walmart-wmt-expands-home-energy-141020623.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T14:10:20+00:00",
+     "sentiment": 0.3,
+     "materiality": 2,
+     "event": "product",
+     "reason": "Expands into home energy and healthcare",
+     "impact": 0.47,
+     "driver": true
+    }
+   ]
+  },
+  {
+   "ticker": "UNH",
+   "name": "UnitedHealth",
+   "sector": "Healthcare",
+   "score": 54.0,
+   "prev_score": 28.8,
+   "n_articles": 13,
+   "n_scanned": 20,
+   "buzz": 13.9,
+   "price": 397.62,
+   "change_5d": -0.7,
+   "prices": [
+    [
+     "2026-08-17",
+     395.62
+    ],
+    [
+     "2026-08-18",
+     393.93
+    ],
+    [
+     "2026-08-19",
+     388.61
+    ],
+    [
+     "2026-08-20",
+     384.85
+    ],
+    [
+     "2026-08-21",
+     390.11
+    ],
+    [
+     "2026-08-24",
+     398.76
+    ],
+    [
+     "2026-08-25",
+     396.59
+    ],
+    [
+     "2026-08-26",
+     401.01
+    ],
+    [
+     "2026-08-27",
+     395.05
+    ],
+    [
+     "2026-08-28",
+     392.95
+    ],
+    [
+     "2026-08-31",
+     389.41
+    ],
+    [
+     "2026-09-01",
+     396.3
+    ],
+    [
+     "2026-09-02",
+     399.66
+    ],
+    [
+     "2026-09-03",
+     400.94
+    ],
+    [
+     "2026-09-04",
+     397.14
+    ],
+    [
+     "2026-09-08",
+     400.84
+    ],
+    [
+     "2026-09-09",
+     393.06
+    ],
+    [
+     "2026-09-10",
+     388.28
+    ],
+    [
+     "2026-09-11",
+     379.09
+    ],
+    [
+     "2026-09-14",
+     383.55
+    ],
+    [
+     "2026-09-15",
+     375.93
+    ],
+    [
+     "2026-09-16",
+     375.26
+    ],
+    [
+     "2026-09-17",
+     375.21
+    ],
+    [
+     "2026-09-18",
+     376.9
+    ],
+    [
+     "2026-09-21",
+     377.56
+    ],
+    [
+     "2026-09-22",
+     372.95
+    ],
+    [
+     "2026-09-23",
+     371.29
+    ],
+    [
+     "2026-09-24",
+     375.01
+    ],
+    [
+     "2026-09-25",
+     376.59
+    ],
+    [
+     "2026-09-28",
+     377.83
+    ],
+    [
+     "2026-09-29",
+     374.94
+    ],
+    [
+     "2026-09-30",
+     367.08
+    ],
+    [
+     "2026-10-01",
+     365.2
+    ],
+    [
+     "2026-10-02",
+     371.9
+    ],
+    [
+     "2026-10-05",
+     378.58
+    ],
+    [
+     "2026-10-06",
+     376.32
+    ],
+    [
+     "2026-10-07",
+     375.98
+    ],
+    [
+     "2026-10-08",
+     370.95
+    ],
+    [
+     "2026-10-09",
+     379.3
+    ],
+    [
+     "2026-10-12",
+     378.52
+    ],
+    [
+     "2026-10-13",
+     377.76
+    ],
+    [
+     "2026-10-14",
+     395.62
+    ],
+    [
+     "2026-10-15",
+     406.67
+    ],
+    [
+     "2026-10-16",
+     401.43
+    ],
+    [
+     "2026-10-19",
+     406.88
+    ],
+    [
+     "2026-10-20",
+     419.26
+    ],
+    [
+     "2026-10-21",
+     417.0
+    ],
+    [
+     "2026-10-22",
+     424.98
+    ],
+    [
+     "2026-10-23",
+     418.09
+    ],
+    [
+     "2026-10-26",
+     410.7
+    ],
+    [
+     "2026-10-27",
+     410.39
+    ],
+    [
+     "2026-10-28",
+     407.1
+    ],
+    [
+     "2026-10-29",
+     410.91
+    ],
+    [
+     "2026-10-30",
+     406.97
+    ],
+    [
+     "2026-11-02",
+     400.44
+    ],
+    [
+     "2026-11-03",
+     404.44
+    ],
+    [
+     "2026-11-04",
+     409.38
+    ],
+    [
+     "2026-11-05",
+     395.72
+    ],
+    [
+     "2026-11-06",
+     394.15
+    ],
+    [
+     "2026-11-09",
+     397.62
+    ]
+   ],
+   "events": {
+    "guidance": {
+     "count": 1,
+     "impact": 1.04
+    },
+    "management": {
+     "count": 2,
+     "impact": 0.08
+    },
+    "other": {
+     "count": 7,
+     "impact": 1.01
+    },
+    "legal_regulatory": {
+     "count": 2,
+     "impact": -1.58
+    },
+    "analyst_rating": {
+     "count": 1,
+     "impact": 0.12
+    }
+   },
+   "articles": [
+    {
+     "title": "Q3 Earnings Season Winners: 3 Companies Raising Guidance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/q3-earnings-season-winners-3-001200950.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T00:12:00+00:00",
+     "sentiment": 0.4,
+     "materiality": 3,
+     "event": "guidance",
+     "reason": "Among Q3 companies raising guidance",
+     "impact": 1.04,
+     "driver": true
+    },
+    {
+     "title": "Madeline Bell Joins UnitedHealth Group Board of Directors",
+     "url": "https://finance.yahoo.com/healthcare/articles/madeline-bell-joins-unitedhealth-group-212500643.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T21:25:00+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "management",
+     "reason": "New board director Madeline Bell",
+     "impact": 0.08,
+     "driver": false
+    },
+    {
+     "title": "8-K: Executive / board change",
+     "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000274/unh-20261103.htm",
+     "source": "SEC EDGAR",
+     "source_type": "sec_filing",
+     "date": "2026-11-09T21:00:00+00:00",
+     "sentiment": 0.0,
+     "materiality": 2,
+     "event": "management",
+     "reason": "8-K board change",
+     "impact": 0.0,
+     "driver": false
+    },
+    {
+     "title": "Leaner and Meaner: Are UNH's Profits Getting Bigger? Buy Now?",
+     "url": "https://finance.yahoo.com/healthcare/articles/leaner-meaner-unhs-profits-getting-134000688.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T13:40:00+00:00",
+     "sentiment": 0.3,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Profit margins improving",
+     "impact": 0.24,
+     "driver": false
+    },
+    {
+     "title": "UNH- A Broken Healthcare Stock with Turnaround Catalysts",
+     "url": "https://finance.yahoo.com/healthcare/articles/unh-broken-healthcare-stock-turnaround-050100385.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T05:01:00+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Broken stock with turnaround catalysts",
+     "impact": 0.07,
+     "driver": false
+    },
+    {
+     "title": "UnitedHealth (UNH): A Dow Stock for 2027 Where the Margin Repair Is Starting to Show",
+     "url": "https://finance.yahoo.com/healthcare/articles/unitedhealth-unh-dow-stock-2027-173658226.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-08T17:36:58+00:00",
+     "sentiment": 0.4,
+     "materiality": 2,
+     "event": "other",
+     "reason": "Margin repair starting to show",
+     "impact": 0.52,
+     "driver": false
+    },
+    {
+     "title": "Democrats Win Midterms: 5 Best Healthcare and Insurance Stocks To Buy",
+     "url": "https://finance.yahoo.com/healthcare/articles/democrats-win-midterms-5-best-154204119.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-08T15:42:04+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Listicle post-midterms",
+     "impact": 0.06,
+     "driver": false
+    },
+    {
+     "title": "What UnitedHealth Group Stock's Institutional Buying Means For Shareholders",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/unitedhealth-group-stocks-institutional-buying-181629205.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-06T18:16:29+00:00",
+     "sentiment": 0.2,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Institutional buying",
+     "impact": 0.08,
+     "driver": false
+    },
+    {
+     "title": "\u201cWe Need to Break Up Big Medicine\u201d: Warren Targets UnitedHealth as Democrats Win Congress",
+     "url": "https://www.tikr.com/blog/we-need-to-break-up-big-medicine-warren-targets-unitedhealth-as-democrats-win-congress?ref=yahoofinance&tlnk=yf-261106-v57844cp&.tsrc=rss",
+     "source": "tikr.com",
+     "source_type": "news",
+     "date": "2026-11-06T17:37:18+00:00",
+     "sentiment": -0.6,
+     "materiality": 4,
+     "event": "legal_regulatory",
+     "reason": "Warren targets UNH breakup after Democrats win Congress",
+     "impact": -0.98,
+     "driver": true
+    },
+    {
+     "title": "HUM vs UNH: valuation and profitability compared",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/hum-vs-unh-valuation-profitability-155350642.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-06T15:53:50+00:00",
+     "sentiment": 0.0,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Peer comparison with Humana",
+     "impact": 0.0,
+     "driver": false
+    },
+    {
+     "title": "CVS and UnitedHealth lost ground on Medicare ratings. Who gained?",
+     "url": "https://finance.yahoo.com/healthcare/articles/cvs-unitedhealth-lost-ground-medicare-143920562.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-06T14:39:20+00:00",
+     "sentiment": -0.5,
+     "materiality": 3,
+     "event": "legal_regulatory",
+     "reason": "Lost ground on Medicare star ratings",
+     "impact": -0.6,
+     "driver": true
+    },
+    {
+     "title": "Wall Street Analysts See UnitedHealth (UNH) as a Buy: Should You Invest?",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-see-unitedhealth-133001958.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-06T13:30:01+00:00",
+     "sentiment": 0.3,
+     "materiality": 1,
+     "event": "analyst_rating",
+     "reason": "Analysts rate Buy",
+     "impact": 0.12,
+     "driver": false
+    },
+    {
+     "title": "ETFs Are Buying UnitedHealth (UNH) on Nov. 4",
+     "url": "https://finance.yahoo.com/healthcare/articles/etfs-buying-unitedhealth-unh-nov-110132161.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-06T11:01:32+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "ETF flow: ETFs buying",
+     "impact": 0.04,
+     "driver": false
+    }
+   ]
+  },
+  {
+   "ticker": "AMZN",
+   "name": "Amazon",
+   "sector": "Consumer",
+   "score": 52.4,
+   "prev_score": 53.3,
+   "n_articles": 5,
+   "n_scanned": 20,
+   "buzz": 4.9,
+   "price": 266.93,
+   "change_5d": 8.67,
+   "prices": [
+    [
+     "2026-08-17",
+     261.31
+    ],
+    [
+     "2026-08-18",
+     259.45
+    ],
+    [
+     "2026-08-19",
+     265.84
+    ],
+    [
+     "2026-08-20",
+     260.11
+    ],
+    [
+     "2026-08-21",
+     258.63
+    ],
+    [
+     "2026-08-24",
+     262.07
+    ],
+    [
+     "2026-08-25",
+     261.06
+    ],
+    [
+     "2026-08-26",
+     260.28
+    ],
+    [
+     "2026-08-27",
+     256.26
+    ],
+    [
+     "2026-08-28",
+     266.43
+    ],
+    [
+     "2026-08-31",
+     259.77
+    ],
+    [
+     "2026-09-01",
+     254.92
+    ],
+    [
+     "2026-09-02",
+     254.98
+    ],
+    [
+     "2026-09-03",
+     258.9
+    ],
+    [
+     "2026-09-04",
+     258.51
+    ],
+    [
+     "2026-09-08",
+     256.97
+    ],
+    [
+     "2026-09-09",
+     252.4
+    ],
+    [
+     "2026-09-10",
+     251.89
+    ],
+    [
+     "2026-09-11",
+     256.78
+    ],
+    [
+     "2026-09-14",
+     253.54
+    ],
+    [
+     "2026-09-15",
+     248.42
+    ],
+    [
+     "2026-09-16",
+     245.96
+    ],
+    [
+     "2026-09-17",
+     251.19
+    ],
+    [
+     "2026-09-18",
+     253.71
+    ],
+    [
+     "2026-09-21",
+     258.45
+    ],
+    [
+     "2026-09-22",
+     254.98
+    ],
+    [
+     "2026-09-23",
+     249.27
+    ],
+    [
+     "2026-09-24",
+     249.38
+    ],
+    [
+     "2026-09-25",
+     249.67
+    ],
+    [
+     "2026-09-28",
+     246.15
+    ],
+    [
+     "2026-09-29",
+     246.67
+    ],
+    [
+     "2026-09-30",
+     249.15
+    ],
+    [
+     "2026-10-01",
+     248.23
+    ],
+    [
+     "2026-10-02",
+     251.52
+    ],
+    [
+     "2026-10-05",
+     251.4
+    ],
+    [
+     "2026-10-06",
+     256.29
+    ],
+    [
+     "2026-10-07",
+     259.92
+    ],
+    [
+     "2026-10-08",
+     254.06
+    ],
+    [
+     "2026-10-09",
+     262.43
+    ],
+    [
+     "2026-10-12",
+     259.53
+    ],
+    [
+     "2026-10-13",
+     258.58
+    ],
+    [
+     "2026-10-14",
+     254.08
+    ],
+    [
+     "2026-10-15",
+     254.76
+    ],
+    [
+     "2026-10-16",
+     250.0
+    ],
+    [
+     "2026-10-19",
+     262.45
+    ],
+    [
+     "2026-10-20",
+     262.63
+    ],
+    [
+     "2026-10-21",
+     262.37
+    ],
+    [
+     "2026-10-22",
+     250.38
+    ],
+    [
+     "2026-10-23",
+     248.0
+    ],
+    [
+     "2026-10-26",
+     249.09
+    ],
+    [
+     "2026-10-27",
+     253.1
+    ],
+    [
+     "2026-10-28",
+     254.6
+    ],
+    [
+     "2026-10-29",
+     243.79
+    ],
+    [
+     "2026-10-30",
+     240.35
+    ],
+    [
+     "2026-11-02",
+     245.63
+    ],
+    [
+     "2026-11-03",
+     250.69
+    ],
+    [
+     "2026-11-04",
+     266.03
+    ],
+    [
+     "2026-11-05",
+     260.21
+    ],
+    [
+     "2026-11-06",
+     259.3
+    ],
+    [
+     "2026-11-09",
+     266.93
+    ]
+   ],
+   "events": {
+    "product": {
+     "count": 1,
+     "impact": 0.1
+    },
+    "legal_regulatory": {
+     "count": 1,
+     "impact": -0.78
+    },
+    "other": {
+     "count": 1,
+     "impact": 0.1
+    },
+    "analyst_rating": {
+     "count": 1,
+     "impact": 0.72
+    },
+    "earnings": {
+     "count": 1,
+     "impact": 0.06
+    }
+   },
+   "articles": [
+    {
+     "title": "Alphabet and Amazon Custom Silicon: Full-Stack Vertical Integration Vs. Compute Cost-Arbitrage",
+     "url": "https://247wallst.com/investing/2026/11/10/alphabet-and-amazon-custom-silicon-full-stack-vertical-integration-vs-compute-cost-arbitrage/?.tsrc=rss",
+     "source": "247wallst.com",
+     "source_type": "opinion",
+     "date": "2026-11-10T12:15:43+00:00",
+     "sentiment": 0.2,
+     "materiality": 1,
+     "event": "product",
+     "reason": "Custom silicon strategy analysis",
+     "impact": 0.1,
+     "driver": true
+    },
+    {
+     "title": "Market Chatter: Amazon, Two Managers Face Potential Trial Over Chinese Imports in Italy",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-amazon-two-managers-115231212.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T11:52:31+00:00",
+     "sentiment": -0.4,
+     "materiality": 2,
+     "event": "legal_regulatory",
+     "reason": "Potential trial in Italy over Chinese imports",
+     "impact": -0.78,
+     "driver": true
+    },
+    {
+     "title": "ETFs Bought $159.1 Million of Amazon (AMZN) on Nov. 6",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-159-1-million-110058939.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T11:00:58+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "ETF flow: $159M bought",
+     "impact": 0.1,
+     "driver": false
+    },
+    {
+     "title": "Meta and Amazon Rise 5% as JPMorgan Names Them Top Internet Picks; Alphabet Gains 3% Despite Losing Its Spot",
+     "url": "https://247wallst.com/investing/2026/11/09/meta-and-amazon-rise-5-as-jpmorgan-names-them-top-internet-picks-alphabet-gains-3-despite-losing-its-spot/?.tsrc=rss",
+     "source": "247wallst.com",
+     "source_type": "opinion",
+     "date": "2026-11-09T14:48:19+00:00",
+     "sentiment": 0.6,
+     "materiality": 3,
+     "event": "analyst_rating",
+     "reason": "JPM top internet pick; stock +5%",
+     "impact": 0.72,
+     "driver": true
+    },
+    {
+     "title": "8-K: Earnings results",
+     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20261029.htm",
+     "source": "SEC EDGAR",
+     "source_type": "sec_filing",
+     "date": "2026-10-29T21:00:00+00:00",
+     "sentiment": 0.2,
+     "materiality": 3,
+     "event": "earnings",
+     "reason": "Quarterly earnings 8-K filed",
+     "impact": 0.06,
+     "driver": false
+    }
+   ]
+  },
+  {
+   "ticker": "TSLA",
+   "name": "Tesla",
+   "sector": "Consumer",
+   "score": 52.3,
+   "prev_score": 50.0,
+   "n_articles": 7,
+   "n_scanned": 14,
+   "buzz": 11.5,
+   "price": 378.05,
+   "change_5d": -6.38,
+   "prices": [
+    [
+     "2026-08-17",
+     339.3
+    ],
+    [
+     "2026-08-18",
+     336.87
+    ],
+    [
+     "2026-08-19",
+     351.12
+    ],
+    [
+     "2026-08-20",
+     345.13
+    ],
+    [
+     "2026-08-21",
+     362.86
+    ],
+    [
+     "2026-08-24",
+     348.95
+    ],
+    [
+     "2026-08-25",
+     350.25
+    ],
+    [
+     "2026-08-26",
+     345.82
+    ],
+    [
+     "2026-08-27",
+     354.81
+    ],
+    [
+     "2026-08-28",
+     348.75
+    ],
+    [
+     "2026-08-31",
+     367.95
+    ],
+    [
+     "2026-09-01",
+     356.09
+    ],
+    [
+     "2026-09-02",
+     357.01
+    ],
+    [
+     "2026-09-03",
+     376.37
+    ],
+    [
+     "2026-09-04",
+     354.08
+    ],
+    [
+     "2026-09-08",
+     368.16
+    ],
+    [
+     "2026-09-09",
+     367.81
+    ],
+    [
+     "2026-09-10",
+     363.56
+    ],
+    [
+     "2026-09-11",
+     365.44
+    ],
+    [
+     "2026-09-14",
+     358.97
+    ],
+    [
+     "2026-09-15",
+     356.58
+    ],
+    [
+     "2026-09-16",
+     358.08
+    ],
+    [
+     "2026-09-17",
+     366.2
+    ],
+    [
+     "2026-09-18",
+     364.27
+    ],
+    [
+     "2026-09-21",
+     375.3
+    ],
+    [
+     "2026-09-22",
+     378.9
+    ],
+    [
+     "2026-09-23",
+     380.12
+    ],
+    [
+     "2026-09-24",
+     377.94
+    ],
+    [
+     "2026-09-25",
+     372.11
+    ],
+    [
+     "2026-09-28",
+     357.45
+    ],
+    [
+     "2026-09-29",
+     352.84
+    ],
+    [
+     "2026-09-30",
+     354.81
+    ],
+    [
+     "2026-10-01",
+     354.11
+    ],
+    [
+     "2026-10-02",
+     370.59
+    ],
+    [
+     "2026-10-05",
+     378.73
+    ],
+    [
+     "2026-10-06",
+     380.68
+    ],
+    [
+     "2026-10-07",
+     377.81
+    ],
+    [
+     "2026-10-08",
+     375.0
+    ],
+    [
+     "2026-10-09",
+     382.7
+    ],
+    [
+     "2026-10-12",
+     378.03
+    ],
+    [
+     "2026-10-13",
+     375.23
+    ],
+    [
+     "2026-10-14",
+     367.16
+    ],
+    [
+     "2026-10-15",
+     362.44
+    ],
+    [
+     "2026-10-16",
+     354.72
+    ],
+    [
+     "2026-10-19",
+     368.06
+    ],
+    [
+     "2026-10-20",
+     373.71
+    ],
+    [
+     "2026-10-21",
+     386.47
+    ],
+    [
+     "2026-10-22",
+     374.58
+    ],
+    [
+     "2026-10-23",
+     372.22
+    ],
+    [
+     "2026-10-26",
+     391.62
+    ],
+    [
+     "2026-10-27",
+     407.46
+    ],
+    [
+     "2026-10-28",
+     404.22
+    ],
+    [
+     "2026-10-29",
+     403.3
+    ],
+    [
+     "2026-10-30",
+     399.81
+    ],
+    [
+     "2026-11-02",
+     403.82
+    ],
+    [
+     "2026-11-03",
+     398.5
+    ],
+    [
+     "2026-11-04",
+     385.19
+    ],
+    [
+     "2026-11-05",
+     343.69
+    ],
+    [
+     "2026-11-06",
+     358.22
+    ],
+    [
+     "2026-11-09",
+     378.05
+    ]
+   ],
+   "events": {
+    "other": {
+     "count": 4,
+     "impact": 1.39
+    },
+    "product": {
+     "count": 2,
+     "impact": -1.6
+    },
+    "management": {
+     "count": 1,
+     "impact": 0.54
+    }
+   },
+   "articles": [
+    {
+     "title": "Elon Musk gains a major opportunity as Nvidia faces uncertainty",
+     "url": "https://finance.yahoo.com/technology/articles/elon-musk-gains-major-opportunity-120118469.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T12:01:18+00:00",
+     "sentiment": 0.3,
+     "materiality": 2,
+     "event": "other",
+     "reason": "Musk seen gaining as Nvidia stumbles",
+     "impact": 0.59,
+     "driver": true
+    },
+    {
+     "title": "ETFs Are Buying Tesla (TSLA) on Friday",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-tesla-tsla-friday-110119765.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T11:01:19+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "ETF flow: ETFs buying Tesla",
+     "impact": 0.1,
+     "driver": false
+    },
+    {
+     "title": "Ranking the \"Magnificent Seven\" From Most to Least Attractive, Based on Future Cash Flow",
+     "url": "https://www.fool.com/investing/2026/11/10/ranking-the-magnificent-seven-from-most-to-least-attractive-based-on-future-cash-flow/?.tsrc=rss",
+     "source": "fool.com",
+     "source_type": "opinion",
+     "date": "2026-11-10T10:26:01+00:00",
+     "sentiment": 0.0,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Opinion: Mag 7 ranking",
+     "impact": 0.0,
+     "driver": false
+    },
+    {
+     "title": "Elon Musk Ally Jason Calacanis Bets Another $1M On Uber \u2014 Says Waymo Team-Up Could Steal Tesla\u2019s Driverless Crown",
+     "url": "https://stocktwits.com/news-articles/markets/equity/elon-musk-ally-jason-calacanis-1m-uber-waymo-team-up-steal-tesla-driverless-crown/cNGuaWKR97Y?.tsrc=rss",
+     "source": "stocktwits.com",
+     "source_type": "news",
+     "date": "2026-11-10T08:25:57+00:00",
+     "sentiment": -0.3,
+     "materiality": 2,
+     "event": "product",
+     "reason": "Uber/Waymo seen threatening robotaxi lead",
+     "impact": -0.57,
+     "driver": false
+    },
+    {
+     "title": "Elon Musk sends strong signal to Tesla stock investors",
+     "url": "https://www.thestreet.com/investing/stocks/elon-musk-strong-signal-tesla-stock-investors-cybertruck-cybercab?.tsrc=rss",
+     "source": "thestreet.com",
+     "source_type": "news",
+     "date": "2026-11-10T03:33:00+00:00",
+     "sentiment": 0.3,
+     "materiality": 2,
+     "event": "management",
+     "reason": "Musk sends bullish signal",
+     "impact": 0.54,
+     "driver": false
+    },
+    {
+     "title": "Dow Jones Soars 1,132 Points As Amazon, Tesla Rally, But Nvidia Dives; CPI Inflation Report Next",
+     "url": "https://finance.yahoo.com/m/db2f6d95-b7a5-3274-8193-c767d2b681c1/dow-jones-soars-1%2C132-points.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T02:31:48+00:00",
+     "sentiment": 0.4,
+     "materiality": 2,
+     "event": "other",
+     "reason": "Tesla rallies as Dow jumps 1,132 points",
+     "impact": 0.71,
+     "driver": true
+    },
+    {
+     "title": "Elon Musk says Tesla must refund Cybertruck deposits to \u2018a lot of people\u2019; he touted 250K reservations back in 2019",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-says-tesla-must-231500059.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T23:15:00+00:00",
+     "sentiment": -0.4,
+     "materiality": 3,
+     "event": "product",
+     "reason": "Must refund many Cybertruck deposits",
+     "impact": -1.04,
+     "driver": true
+    }
+   ]
+  },
+  {
+   "ticker": "MSFT",
+   "name": "Microsoft",
+   "sector": "Technology",
+   "score": 52.1,
+   "prev_score": 51.9,
+   "n_articles": 11,
+   "n_scanned": 22,
+   "buzz": 14.9,
+   "price": 545.18,
+   "change_5d": 7.51,
+   "prices": [
+    [
+     "2026-08-17",
+     480.35
+    ],
+    [
+     "2026-08-18",
+     481.63
+    ],
+    [
+     "2026-08-19",
+     484.31
+    ],
+    [
+     "2026-08-20",
+     481.15
+    ],
+    [
+     "2026-08-21",
+     483.24
+    ],
+    [
+     "2026-08-24",
+     487.31
+    ],
+    [
+     "2026-08-25",
+     491.71
+    ],
+    [
+     "2026-08-26",
+     496.37
+    ],
+    [
+     "2026-08-27",
+     505.06
+    ],
+    [
+     "2026-08-28",
+     513.53
+    ],
+    [
+     "2026-08-31",
+     507.29
+    ],
+    [
+     "2026-09-01",
+     501.02
+    ],
+    [
+     "2026-09-02",
+     496.82
+    ],
+    [
+     "2026-09-03",
+     510.12
+    ],
+    [
+     "2026-09-04",
+     499.7
+    ],
+    [
+     "2026-09-08",
+     493.95
+    ],
+    [
+     "2026-09-09",
+     491.65
+    ],
+    [
+     "2026-09-10",
+     492.44
+    ],
+    [
+     "2026-09-11",
+     495.63
+    ],
+    [
+     "2026-09-14",
+     505.41
+    ],
+    [
+     "2026-09-15",
+     497.12
+    ],
+    [
+     "2026-09-16",
+     490.3
+    ],
+    [
+     "2026-09-17",
+     497.75
+    ],
+    [
+     "2026-09-18",
+     493.78
+    ],
+    [
+     "2026-09-21",
+     501.61
+    ],
+    [
+     "2026-09-22",
+     498.0
+    ],
+    [
+     "2026-09-23",
+     500.59
+    ],
+    [
+     "2026-09-24",
+     497.93
+    ],
+    [
+     "2026-09-25",
+     516.17
+    ],
+    [
+     "2026-09-28",
+     509.22
+    ],
+    [
+     "2026-09-29",
+     508.96
+    ],
+    [
+     "2026-09-30",
+     512.9
+    ],
+    [
+     "2026-10-01",
+     512.8
+    ],
+    [
+     "2026-10-02",
+     517.53
+    ],
+    [
+     "2026-10-05",
+     525.18
+    ],
+    [
+     "2026-10-06",
+     529.3
+    ],
+    [
+     "2026-10-07",
+     529.76
+    ],
+    [
+     "2026-10-08",
+     522.61
+    ],
+    [
+     "2026-10-09",
+     535.07
+    ],
+    [
+     "2026-10-12",
+     541.15
+    ],
+    [
+     "2026-10-13",
+     543.45
+    ],
+    [
+     "2026-10-14",
+     533.69
+    ],
+    [
+     "2026-10-15",
+     539.44
+    ],
+    [
+     "2026-10-16",
+     529.05
+    ],
+    [
+     "2026-10-19",
+     533.52
+    ],
+    [
+     "2026-10-20",
+     531.87
+    ],
+    [
+     "2026-10-21",
+     532.95
+    ],
+    [
+     "2026-10-22",
+     521.08
+    ],
+    [
+     "2026-10-23",
+     524.51
+    ],
+    [
+     "2026-10-26",
+     532.6
+    ],
+    [
+     "2026-10-27",
+     531.33
+    ],
+    [
+     "2026-10-28",
+     531.01
+    ],
+    [
+     "2026-10-29",
+     530.14
+    ],
+    [
+     "2026-10-30",
+     521.91
+    ],
+    [
+     "2026-11-02",
+     507.12
+    ],
+    [
+     "2026-11-03",
+     520.99
+    ],
+    [
+     "2026-11-04",
+     555.8
+    ],
+    [
+     "2026-11-05",
+     535.93
+    ],
+    [
+     "2026-11-06",
+     530.61
+    ],
+    [
+     "2026-11-09",
+     545.18
+    ]
+   ],
+   "events": {
+    "product": {
+     "count": 2,
+     "impact": 1.58
+    },
+    "legal_regulatory": {
+     "count": 3,
+     "impact": -1.61
+    },
+    "deal_mna": {
+     "count": 2,
+     "impact": 0.34
+    },
+    "management": {
+     "count": 1,
+     "impact": 0.0
+    },
+    "filing_routine": {
+     "count": 2,
+     "impact": 0.0
+    },
+    "earnings": {
+     "count": 1,
+     "impact": 0.07
+    }
+   },
+   "articles": [
+    {
+     "title": "IBM and Microsoft Announce a New AI Agent Platform Designed for Industry-Specific Transformation",
+     "url": "https://finance.yahoo.com/technology/ai/articles/ibm-microsoft-announce-ai-agent-130000185.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T13:00:00+00:00",
+     "sentiment": 0.4,
+     "materiality": 2,
+     "event": "product",
+     "reason": "New AI agent platform with IBM",
+     "impact": 0.79,
+     "driver": true
+    },
+    {
+     "title": "Microsoft, IBM team up on AI agent platform",
+     "url": "https://www.ciodive.com/news/microsoft-ibm-team-up-ai-agent-platform/874152/?.tsrc=rss",
+     "source": "ciodive.com",
+     "source_type": "news",
+     "date": "2026-11-10T13:00:00+00:00",
+     "sentiment": 0.4,
+     "materiality": 2,
+     "event": "product",
+     "reason": "IBM partnership on AI agents",
+     "impact": 0.79,
+     "driver": false
+    },
+    {
+     "title": "Microsoft Reportedly Pushes Back Against Trump\u2019s Plan To Ban Chinese Optical Transceivers \u2013 Flags Challenges To Data Center Rollout",
+     "url": "https://stocktwits.com/news-articles/markets/equity/microsoft-against-trumps-plan-to-ban-chinese-optical-transceivers/cNGu0CWR97y?.tsrc=rss",
+     "source": "stocktwits.com",
+     "source_type": "news",
+     "date": "2026-11-10T12:32:24+00:00",
+     "sentiment": -0.3,
+     "materiality": 3,
+     "event": "legal_regulatory",
+     "reason": "Chinese optics ban could slow data center rollout",
+     "impact": -0.88,
+     "driver": true
+    },
+    {
+     "title": "Microsoft is Already Winning the Regulatory Shift Rewarding Incumbents",
+     "url": "https://247wallst.com/investing/2026/11/10/microsoft-is-already-winning-the-regulatory-shift-rewarding-incumbents/?.tsrc=rss",
+     "source": "247wallst.com",
+     "source_type": "opinion",
+     "date": "2026-11-10T12:15:59+00:00",
+     "sentiment": 0.3,
+     "materiality": 1,
+     "event": "legal_regulatory",
+     "reason": "Opinion: winning regulatory shift",
+     "impact": 0.15,
+     "driver": false
+    },
+    {
+     "title": "Google, Nvidia, AMD And Others To Invest $26B In Anthropic Alongside IPO",
+     "url": "https://stocktwits.com/news-articles/markets/equity/google-nvidia-amd-to-invest-26-b-in-anthropic-alongside-ipo/cNGu0BtR97U?.tsrc=rss",
+     "source": "stocktwits.com",
+     "source_type": "news",
+     "date": "2026-11-10T12:05:21+00:00",
+     "sentiment": 0.2,
+     "materiality": 2,
+     "event": "deal_mna",
+     "reason": "Big-tech investment in Anthropic IPO",
+     "impact": 0.39,
+     "driver": false
+    },
+    {
+     "title": "Microsoft pushes Trump to halt Chinese data center component ban: Reuters",
+     "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-pushes-trump-halt-chinese-120408623.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T12:04:08+00:00",
+     "sentiment": -0.3,
+     "materiality": 3,
+     "event": "legal_regulatory",
+     "reason": "Lobbying against Chinese component ban (supply risk)",
+     "impact": -0.88,
+     "driver": true
+    },
+    {
+     "title": "Anthropic Cuts IPO 7% After Pricing Mix-Up, Jim Cramer\u2019s \u2018Most Consequential Deal\u2019 Wobbles",
+     "url": "https://beincrypto.com/anthropic-cuts-ipo-cramer-deal-wobbles/?.tsrc=rss",
+     "source": "beincrypto.com",
+     "source_type": "opinion",
+     "date": "2026-11-10T11:23:19+00:00",
+     "sentiment": -0.1,
+     "materiality": 1,
+     "event": "deal_mna",
+     "reason": "Anthropic IPO cut after pricing mix-up",
+     "impact": -0.05,
+     "driver": false
+    },
+    {
+     "title": "8-K: Executive / board change",
+     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526448357/d177209d8k.htm",
+     "source": "SEC EDGAR",
+     "source_type": "sec_filing",
+     "date": "2026-11-05T21:00:00+00:00",
+     "sentiment": 0.0,
+     "materiality": 2,
+     "event": "management",
+     "reason": "8-K executive / board change",
+     "impact": 0.0,
+     "driver": false
+    },
+    {
+     "title": "8-K: Other material event",
+     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526447173/d178557d8k.htm",
+     "source": "SEC EDGAR",
+     "source_type": "sec_filing",
+     "date": "2026-11-04T21:00:00+00:00",
+     "sentiment": 0.0,
+     "materiality": 2,
+     "event": "filing_routine",
+     "reason": "8-K other material event filed",
+     "impact": 0.0,
+     "driver": false
+    },
+    {
+     "title": "8-K: Other material event",
+     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436149/msft-20261028.htm",
+     "source": "SEC EDGAR",
+     "source_type": "sec_filing",
+     "date": "2026-10-28T21:00:00+00:00",
+     "sentiment": 0.0,
+     "materiality": 2,
+     "event": "filing_routine",
+     "reason": "8-K other material event filed",
+     "impact": 0.0,
+     "driver": false
+    },
+    {
+     "title": "8-K: Earnings results",
+     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-20261028.htm",
+     "source": "SEC EDGAR",
+     "source_type": "sec_filing",
+     "date": "2026-10-28T21:00:00+00:00",
+     "sentiment": 0.3,
+     "materiality": 3,
+     "event": "earnings",
+     "reason": "Quarterly earnings 8-K filed",
+     "impact": 0.07,
+     "driver": false
+    }
+   ]
+  },
+  {
+   "ticker": "XOM",
+   "name": "ExxonMobil",
+   "sector": "Energy",
+   "score": 51.5,
+   "prev_score": 60.3,
+   "n_articles": 11,
+   "n_scanned": 17,
+   "buzz": 12.5,
+   "price": 164.73,
+   "change_5d": -8.32,
+   "prices": [
+    [
+     "2026-08-17",
+     161.46
+    ],
+    [
+     "2026-08-18",
+     165.56
+    ],
+    [
+     "2026-08-19",
+     164.77
+    ],
+    [
+     "2026-08-20",
+     166.15
+    ],
+    [
+     "2026-08-21",
+     165.11
+    ],
+    [
+     "2026-08-24",
+     164.05
+    ],
+    [
+     "2026-08-25",
+     160.64
+    ],
+    [
+     "2026-08-26",
+     158.19
+    ],
+    [
+     "2026-08-27",
+     156.44
+    ],
+    [
+     "2026-08-28",
+     156.71
+    ],
+    [
+     "2026-08-31",
+     160.95
+    ],
+    [
+     "2026-09-01",
+     164.55
+    ],
+    [
+     "2026-09-02",
+     164.15
+    ],
+    [
+     "2026-09-03",
+     162.21
+    ],
+    [
+     "2026-09-04",
+     159.47
+    ],
+    [
+     "2026-09-08",
+     160.66
+    ],
+    [
+     "2026-09-09",
+     164.23
+    ],
+    [
+     "2026-09-10",
+     165.23
+    ],
+    [
+     "2026-09-11",
+     165.99
+    ],
+    [
+     "2026-09-14",
+     165.08
+    ],
+    [
+     "2026-09-15",
+     169.32
+    ],
+    [
+     "2026-09-16",
+     163.32
+    ],
+    [
+     "2026-09-17",
+     163.27
+    ],
+    [
+     "2026-09-18",
+     163.54
+    ],
+    [
+     "2026-09-21",
+     158.3
+    ],
+    [
+     "2026-09-22",
+     158.71
+    ],
+    [
+     "2026-09-23",
+     161.23
+    ],
+    [
+     "2026-09-24",
+     162.14
+    ],
+    [
+     "2026-09-25",
+     160.59
+    ],
+    [
+     "2026-09-28",
+     162.52
+    ],
+    [
+     "2026-09-29",
+     161.35
+    ],
+    [
+     "2026-09-30",
+     162.75
+    ],
+    [
+     "2026-10-01",
+     163.82
+    ],
+    [
+     "2026-10-02",
+     164.01
+    ],
+    [
+     "2026-10-05",
+     164.0
+    ],
+    [
+     "2026-10-06",
+     164.48
+    ],
+    [
+     "2026-10-07",
+     164.05
+    ],
+    [
+     "2026-10-08",
+     168.5
+    ],
+    [
+     "2026-10-09",
+     168.94
+    ],
+    [
+     "2026-10-12",
+     172.15
+    ],
+    [
+     "2026-10-13",
+     174.08
+    ],
+    [
+     "2026-10-14",
+     177.01
+    ],
+    [
+     "2026-10-15",
+     174.68
+    ],
+    [
+     "2026-10-16",
+     178.98
+    ],
+    [
+     "2026-10-19",
+     178.28
+    ],
+    [
+     "2026-10-20",
+     177.86
+    ],
+    [
+     "2026-10-21",
+     178.09
+    ],
+    [
+     "2026-10-22",
+     178.23
+    ],
+    [
+     "2026-10-23",
+     183.21
+    ],
+    [
+     "2026-10-26",
+     184.54
+    ],
+    [
+     "2026-10-27",
+     179.91
+    ],
+    [
+     "2026-10-28",
+     182.02
+    ],
+    [
+     "2026-10-29",
+     183.29
+    ],
+    [
+     "2026-10-30",
+     187.25
+    ],
+    [
+     "2026-11-02",
+     179.67
+    ],
+    [
+     "2026-11-03",
+     177.46
+    ],
+    [
+     "2026-11-04",
+     169.27
+    ],
+    [
+     "2026-11-05",
+     165.3
+    ],
+    [
+     "2026-11-06",
+     165.87
+    ],
+    [
+     "2026-11-09",
+     164.73
+    ]
+   ],
+   "events": {
+    "capital_return": {
+     "count": 1,
+     "impact": 0.1
+    },
+    "deal_mna": {
+     "count": 1,
+     "impact": 0.58
+    },
+    "other": {
+     "count": 4,
+     "impact": 0.21
+    },
+    "macro_sector": {
+     "count": 2,
+     "impact": -0.49
+    },
+    "product": {
+     "count": 1,
+     "impact": -0.49
+    },
+    "earnings": {
+     "count": 2,
+     "impact": 0.33
+    }
+   },
+   "articles": [
+    {
+     "title": "Should You Buy Exxon Mobil Stock For Its Cash?",
+     "url": "https://www.trefis.com/stock/xom/articles/623935/should-you-buy-exxon-mobil-stock-for-its-cash/2026-11-10?.tsrc=rss",
+     "source": "trefis.com",
+     "source_type": "opinion",
+     "date": "2026-11-10T13:05:26+00:00",
+     "sentiment": 0.2,
+     "materiality": 1,
+     "event": "capital_return",
+     "reason": "Cash return analysis",
+     "impact": 0.1,
+     "driver": false
+    },
+    {
+     "title": "Market Chatter: Exxon Mobil Signs MoU With Venezuela to Evaluate Oil Investment Opportunities",
+     "url": "https://finance.yahoo.com/energy/articles/market-chatter-exxon-mobil-signs-105240626.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T10:52:40+00:00",
+     "sentiment": 0.2,
+     "materiality": 3,
+     "event": "deal_mna",
+     "reason": "MoU with Venezuela on oil investment",
+     "impact": 0.58,
+     "driver": true
+    },
+    {
+     "title": "Exxon and Chevron Are Near Record Highs. Here's What History Says Happens Next.",
+     "url": "https://www.fool.com/investing/2026/11/09/exxon-and-chevron-are-near-record-highs-heres-what/?.tsrc=rss",
+     "source": "fool.com",
+     "source_type": "opinion",
+     "date": "2026-11-09T23:35:00+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Near record highs; historical view",
+     "impact": 0.04,
+     "driver": false
+    },
+    {
+     "title": "Exxon Mobil Stocks Move Lower 0.31% as Crude Slides Toward $87",
+     "url": "https://finance.yahoo.com/energy/articles/exxon-mobil-stocks-move-lower-190037292.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T19:00:37+00:00",
+     "sentiment": -0.2,
+     "materiality": 2,
+     "event": "macro_sector",
+     "reason": "Crude slides toward $87",
+     "impact": -0.33,
+     "driver": true
+    },
+    {
+     "title": "ExxonMobil (XOM) Pauses Work On Its Texas Hydrogen Facility",
+     "url": "https://finance.yahoo.com/energy/articles/exxonmobil-xom-pauses-texas-hydrogen-180912852.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T18:09:12+00:00",
+     "sentiment": -0.3,
+     "materiality": 2,
+     "event": "product",
+     "reason": "Pauses Texas hydrogen facility",
+     "impact": -0.49,
+     "driver": true
+    },
+    {
+     "title": "Seven OPEC+ Producers Keep December Output Unchanged While Crude Opens Lower",
+     "url": "https://finance.yahoo.com/energy/articles/seven-opec-producers-keep-december-161500934.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T16:15:00+00:00",
+     "sentiment": -0.1,
+     "materiality": 2,
+     "event": "macro_sector",
+     "reason": "OPEC+ holds output; crude lower",
+     "impact": -0.16,
+     "driver": false
+    },
+    {
+     "title": "Which USA Oil Major Produced the Most in Q3 2026?",
+     "url": "https://finance.yahoo.com/energy/articles/usa-oil-major-produced-most-160500254.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T16:05:00+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Q3 production comparison",
+     "impact": 0.08,
+     "driver": false
+    },
+    {
+     "title": "What iShares Global Energy ETF (IXC) Sold: Exxon Mobil Leads on Nov. 5",
+     "url": "https://finance.yahoo.com/energy/articles/ishares-global-energy-etf-ixc-110643860.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T11:06:43+00:00",
+     "sentiment": -0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "ETF flow: IXC selling",
+     "impact": -0.08,
+     "driver": false
+    },
+    {
+     "title": "ExxonMobil Is Up 38% in 2026 and Chevron Is Up 39%: Take Profits, or Hold On?",
+     "url": "https://www.tikr.com/blog/exxonmobil-is-up-38-in-2026-and-chevron-is-up-39-take-profits-or-hold-on?ref=yahoofinance&tlnk=yf-261108-4f8f2hpw&.tsrc=rss",
+     "source": "tikr.com",
+     "source_type": "news",
+     "date": "2026-11-07T23:45:59+00:00",
+     "sentiment": 0.3,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Up 38% in 2026",
+     "impact": 0.16,
+     "driver": false
+    },
+    {
+     "title": "Exxon (XOM) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/exxon-xom-reports-q3-earnings-220002638.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-06T22:00:02+00:00",
+     "sentiment": 0.2,
+     "materiality": 3,
+     "event": "earnings",
+     "reason": "Q3 earnings key metrics",
+     "impact": 0.26,
+     "driver": false
+    },
+    {
+     "title": "8-K: Earnings results; Reg FD disclosure",
+     "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000018/xom-20261030.htm",
+     "source": "SEC EDGAR",
+     "source_type": "sec_filing",
+     "date": "2026-10-30T21:00:00+00:00",
+     "sentiment": 0.2,
+     "materiality": 3,
+     "event": "earnings",
+     "reason": "Quarterly earnings 8-K filed",
+     "impact": 0.08,
+     "driver": false
+    }
+   ]
+  },
+  {
+   "ticker": "JPM",
+   "name": "JPMorgan Chase",
+   "sector": "Financials",
+   "score": 51.3,
+   "prev_score": 50.0,
+   "n_articles": 5,
+   "n_scanned": 19,
+   "buzz": 7.2,
+   "price": 342.08,
+   "change_5d": 0.44,
+   "prices": [
+    [
+     "2026-08-17",
+     360.96
+    ],
+    [
+     "2026-08-18",
+     363.25
+    ],
+    [
+     "2026-08-19",
+     357.26
+    ],
+    [
+     "2026-08-20",
+     351.55
+    ],
+    [
+     "2026-08-21",
+     351.58
+    ],
+    [
+     "2026-08-24",
+     356.39
+    ],
+    [
+     "2026-08-25",
+     356.69
+    ],
+    [
+     "2026-08-26",
+     356.5
+    ],
+    [
+     "2026-08-27",
+     354.22
+    ],
+    [
+     "2026-08-28",
+     357.62
+    ],
+    [
+     "2026-08-31",
+     356.02
+    ],
+    [
+     "2026-09-01",
+     354.95
+    ],
+    [
+     "2026-09-02",
+     356.22
+    ],
+    [
+     "2026-09-03",
+     362.06
+    ],
+    [
+     "2026-09-04",
+     358.64
+    ],
+    [
+     "2026-09-08",
+     353.51
+    ],
+    [
+     "2026-09-09",
+     354.71
+    ],
+    [
+     "2026-09-10",
+     353.56
+    ],
+    [
+     "2026-09-11",
+     356.23
+    ],
+    [
+     "2026-09-14",
+     350.13
+    ],
+    [
+     "2026-09-15",
+     352.49
+    ],
+    [
+     "2026-09-16",
+     348.92
+    ],
+    [
+     "2026-09-17",
+     349.31
+    ],
+    [
+     "2026-09-18",
+     349.67
+    ],
+    [
+     "2026-09-21",
+     352.04
+    ],
+    [
+     "2026-09-22",
+     340.0
+    ],
+    [
+     "2026-09-23",
+     337.53
+    ],
+    [
+     "2026-09-24",
+     338.56
+    ],
+    [
+     "2026-09-25",
+     343.06
+    ],
+    [
+     "2026-09-28",
+     336.59
+    ],
+    [
+     "2026-09-29",
+     334.98
+    ],
+    [
+     "2026-09-30",
+     330.83
+    ],
+    [
+     "2026-10-01",
+     333.18
+    ],
+    [
+     "2026-10-02",
+     332.38
+    ],
+    [
+     "2026-10-05",
+     332.38
+    ],
+    [
+     "2026-10-06",
+     331.28
+    ],
+    [
+     "2026-10-07",
+     329.58
+    ],
+    [
+     "2026-10-08",
+     331.42
+    ],
+    [
+     "2026-10-09",
+     332.99
+    ],
+    [
+     "2026-10-12",
+     334.3
+    ],
+    [
+     "2026-10-13",
+     331.43
+    ],
+    [
+     "2026-10-14",
+     335.28
+    ],
+    [
+     "2026-10-15",
+     335.53
+    ],
+    [
+     "2026-10-16",
+     339.72
+    ],
+    [
+     "2026-10-19",
+     333.53
+    ],
+    [
+     "2026-10-20",
+     335.26
+    ],
+    [
+     "2026-10-21",
+     335.19
+    ],
+    [
+     "2026-10-22",
+     336.54
+    ],
+    [
+     "2026-10-23",
+     331.58
+    ],
+    [
+     "2026-10-26",
+     334.04
+    ],
+    [
+     "2026-10-27",
+     335.79
+    ],
+    [
+     "2026-10-28",
+     339.3
+    ],
+    [
+     "2026-10-29",
+     343.58
+    ],
+    [
+     "2026-10-30",
+     337.04
+    ],
+    [
+     "2026-11-02",
+     340.58
+    ],
+    [
+     "2026-11-03",
+     337.98
+    ],
+    [
+     "2026-11-04",
+     352.11
+    ],
+    [
+     "2026-11-05",
+     337.34
+    ],
+    [
+     "2026-11-06",
+     334.49
+    ],
+    [
+     "2026-11-09",
+     342.08
+    ]
+   ],
+   "events": {
+    "capital_return": {
+     "count": 1,
+     "impact": 0.0
+    },
+    "legal_regulatory": {
+     "count": 1,
+     "impact": -0.56
+    },
+    "deal_mna": {
+     "count": 1,
+     "impact": 0.36
+    },
+    "macro_sector": {
+     "count": 1,
+     "impact": 0.33
+    },
+    "other": {
+     "count": 1,
+     "impact": 0.0
+    }
+   },
+   "articles": [
+    {
+     "title": "JPMorgan Announces Cash Distributions for the JPMorgan ETFs",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-announces-cash-distributions-jpmorgan-120000557.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T12:00:00+00:00",
+     "sentiment": 0.0,
+     "materiality": 1,
+     "event": "capital_return",
+     "reason": "Routine ETF distributions",
+     "impact": 0.0,
+     "driver": false
+    },
+    {
+     "title": "JPMorgan (JPM) Stock May Be 31% Undervalued On Senate Probe News",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-jpm-stock-may-31-071018836.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T07:10:18+00:00",
+     "sentiment": -0.2,
+     "materiality": 3,
+     "event": "legal_regulatory",
+     "reason": "Senate probe news; valuation called 31% undervalued",
+     "impact": -0.56,
+     "driver": true
+    },
+    {
+     "title": "Anthropic Plans IPO Live Stream With Amodei, JPMorgan CEO Dimon",
+     "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-plans-ipo-live-stream-031454541.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T03:14:54+00:00",
+     "sentiment": 0.2,
+     "materiality": 2,
+     "event": "deal_mna",
+     "reason": "Dimon on Anthropic IPO live stream (likely deal role)",
+     "impact": 0.36,
+     "driver": true
+    },
+    {
+     "title": "Morgan Stanley Climbs 4% on Vinyl Equity Deal to Capture IPO Wealth; Goldman Sachs Rises 5%, JPMorgan Gains 2%",
+     "url": "https://247wallst.com/investing/2026/11/09/morgan-stanley-climbs-4-on-vinyl-equity-deal-to-capture-ipo-wealth-goldman-sachs-rises-5-jpmorgan-gains-2/?.tsrc=rss",
+     "source": "247wallst.com",
+     "source_type": "opinion",
+     "date": "2026-11-09T19:02:18+00:00",
+     "sentiment": 0.4,
+     "materiality": 2,
+     "event": "macro_sector",
+     "reason": "Bank stocks rally, JPM +2%",
+     "impact": 0.33,
+     "driver": true
+    },
+    {
+     "title": "Typeface Inducted into JPMorganChase's 2026 Hall of Innovation",
+     "url": "https://finance.yahoo.com/technology/ai/articles/typeface-inducted-jpmorganchases-2026-hall-152000272.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T15:20:00+00:00",
+     "sentiment": 0.0,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Hall of Innovation award",
+     "impact": 0.0,
+     "driver": false
+    }
+   ]
+  },
+  {
+   "ticker": "NFLX",
+   "name": "Netflix",
+   "sector": "Communication",
+   "score": 48.1,
+   "prev_score": 64.9,
+   "n_articles": 8,
+   "n_scanned": 17,
+   "buzz": 6.4,
+   "price": 63.95,
+   "change_5d": 2.58,
+   "prices": [
+    [
+     "2026-08-17",
+     76.02
+    ],
+    [
+     "2026-08-18",
+     77.77
+    ],
+    [
+     "2026-08-19",
+     80.22
+    ],
+    [
+     "2026-08-20",
+     80.14
+    ],
+    [
+     "2026-08-21",
+     79.59
+    ],
+    [
+     "2026-08-24",
+     80.01
+    ],
+    [
+     "2026-08-25",
+     82.23
+    ],
+    [
+     "2026-08-26",
+     81.46
+    ],
+    [
+     "2026-08-27",
+     79.84
+    ],
+    [
+     "2026-08-28",
+     81.72
+    ],
+    [
+     "2026-08-31",
+     81.05
+    ],
+    [
+     "2026-09-01",
+     80.81
+    ],
+    [
+     "2026-09-02",
+     82.73
+    ],
+    [
+     "2026-09-03",
+     82.67
+    ],
+    [
+     "2026-09-04",
+     78.25
+    ],
+    [
+     "2026-09-08",
+     76.77
+    ],
+    [
+     "2026-09-09",
+     76.03
+    ],
+    [
+     "2026-09-10",
+     76.01
+    ],
+    [
+     "2026-09-11",
+     77.4
+    ],
+    [
+     "2026-09-14",
+     80.32
+    ],
+    [
+     "2026-09-15",
+     77.9
+    ],
+    [
+     "2026-09-16",
+     76.41
+    ],
+    [
+     "2026-09-17",
+     75.31
+    ],
+    [
+     "2026-09-18",
+     71.79
+    ],
+    [
+     "2026-09-21",
+     73.36
+    ],
+    [
+     "2026-09-22",
+     72.16
+    ],
+    [
+     "2026-09-23",
+     71.36
+    ],
+    [
+     "2026-09-24",
+     71.72
+    ],
+    [
+     "2026-09-25",
+     71.15
+    ],
+    [
+     "2026-09-28",
+     69.23
+    ],
+    [
+     "2026-09-29",
+     70.3
+    ],
+    [
+     "2026-09-30",
+     69.58
+    ],
+    [
+     "2026-10-01",
+     67.85
+    ],
+    [
+     "2026-10-02",
+     67.06
+    ],
+    [
+     "2026-10-05",
+     67.5
+    ],
+    [
+     "2026-10-06",
+     68.69
+    ],
+    [
+     "2026-10-07",
+     69.7
+    ],
+    [
+     "2026-10-08",
+     71.57
+    ],
+    [
+     "2026-10-09",
+     70.3
+    ],
+    [
+     "2026-10-12",
+     70.61
+    ],
+    [
+     "2026-10-13",
+     70.46
+    ],
+    [
+     "2026-10-14",
+     70.57
+    ],
+    [
+     "2026-10-15",
+     72.61
+    ],
+    [
+     "2026-10-16",
+     70.53
+    ],
+    [
+     "2026-10-19",
+     69.85
+    ],
+    [
+     "2026-10-20",
+     68.69
+    ],
+    [
+     "2026-10-21",
+     65.04
+    ],
+    [
+     "2026-10-22",
+     67.05
+    ],
+    [
+     "2026-10-23",
+     65.85
+    ],
+    [
+     "2026-10-26",
+     63.9
+    ],
+    [
+     "2026-10-27",
+     62.52
+    ],
+    [
+     "2026-10-28",
+     61.99
+    ],
+    [
+     "2026-10-29",
+     62.05
+    ],
+    [
+     "2026-10-30",
+     62.08
+    ],
+    [
+     "2026-11-02",
+     62.34
+    ],
+    [
+     "2026-11-03",
+     63.42
+    ],
+    [
+     "2026-11-04",
+     66.39
+    ],
+    [
+     "2026-11-05",
+     65.56
+    ],
+    [
+     "2026-11-06",
+     63.41
+    ],
+    [
+     "2026-11-09",
+     63.95
+    ]
+   ],
+   "events": {
+    "deal_mna": {
+     "count": 1,
+     "impact": 0.19
+    },
+    "other": {
+     "count": 5,
+     "impact": -0.12
+    },
+    "legal_regulatory": {
+     "count": 1,
+     "impact": -0.29
+    },
+    "product": {
+     "count": 1,
+     "impact": 0.04
+    }
+   },
+   "articles": [
+    {
+     "title": "AMC Global Media Inc (AMCX) Q3 2026 Earnings Call Highlights: Streaming Growth and Netflix Deal ...",
+     "url": "https://finance.yahoo.com/media-advertising/articles/amc-global-media-inc-amcx-090705704.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T09:07:05+00:00",
+     "sentiment": 0.2,
+     "materiality": 1,
+     "event": "deal_mna",
+     "reason": "AMC Networks content deal with Netflix",
+     "impact": 0.19,
+     "driver": false
+    },
+    {
+     "title": "Why Netflix Stock Plunged 11% in October",
+     "url": "https://www.fool.com/investing/2026/11/10/why-netflix-stock-plunged-11-in-october/?.tsrc=rss",
+     "source": "fool.com",
+     "source_type": "opinion",
+     "date": "2026-11-10T08:25:02+00:00",
+     "sentiment": -0.5,
+     "materiality": 3,
+     "event": "other",
+     "reason": "Stock plunged 11% in October",
+     "impact": -0.71,
+     "driver": true
+    },
+    {
+     "title": "Netflix boss says creativity and regulation 'are not happy bedfellows' in Europe",
+     "url": "https://www.euronews.com/2026/11/09/netflix-boss-says-creativity-and-regulation-are-not-happy-bedfellows-when-in-europe?.tsrc=rss",
+     "source": "euronews.com",
+     "source_type": "news",
+     "date": "2026-11-09T05:35:16+00:00",
+     "sentiment": -0.2,
+     "materiality": 2,
+     "event": "legal_regulatory",
+     "reason": "CEO warns on European regulation",
+     "impact": -0.29,
+     "driver": true
+    },
+    {
+     "title": "3 Internet Giants to Hold for the Next 10 Years",
+     "url": "https://www.fool.com/investing/2026/11/07/3-internet-giants-to-hold-for-the-next-10-years/?.tsrc=rss",
+     "source": "fool.com",
+     "source_type": "opinion",
+     "date": "2026-11-07T11:35:00+00:00",
+     "sentiment": 0.2,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Opinion: 10-year hold",
+     "impact": 0.05,
+     "driver": false
+    },
+    {
+     "title": "IMAX (IMAX) CEO Defends Offering Premium Screens To A High Profile Streaming Release",
+     "url": "https://finance.yahoo.com/media-advertising/articles/imax-imax-ceo-defends-offering-131241627.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-06T13:12:41+00:00",
+     "sentiment": 0.1,
+     "materiality": 1,
+     "event": "product",
+     "reason": "IMAX premium screens for Netflix release",
+     "impact": 0.04,
+     "driver": false
+    },
+    {
+     "title": "Investors Heavily Search Netflix, Inc. (NFLX): Here is What You Need to Know",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-netflix-inc-130002848.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-06T13:00:02+00:00",
+     "sentiment": 0.0,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Search-trend explainer",
+     "impact": 0.0,
+     "driver": false
+    },
+    {
+     "title": "Netflix (NFLX) Stock Looks Cheap With 23% Upside To Fair Value",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-nflx-stock-looks-cheap-122022918.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-06T12:20:22+00:00",
+     "sentiment": 0.3,
+     "materiality": 2,
+     "event": "other",
+     "reason": "Valuation: 23% upside to fair value",
+     "impact": 0.23,
+     "driver": false
+    },
+    {
+     "title": "Disney struggles as Netflix pulls away: Time to buy the dip?",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/disney-struggles-netflix-pulls-away-103406881.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-06T10:34:06+00:00",
+     "sentiment": 0.4,
+     "materiality": 2,
+     "event": "other",
+     "reason": "Pulling away from Disney",
+     "impact": 0.31,
+     "driver": true
+    }
+   ]
+  },
+  {
+   "ticker": "INTC",
+   "name": "Intel",
+   "sector": "Semiconductors",
+   "score": 45.2,
+   "prev_score": 50.0,
+   "n_articles": 6,
+   "n_scanned": 18,
+   "buzz": 7.6,
+   "price": 59.37,
+   "change_5d": -1.0,
+   "prices": [
+    [
+     "2026-08-17",
+     103.49
+    ],
+    [
+     "2026-08-18",
+     96.69
+    ],
+    [
+     "2026-08-19",
+     92.8
+    ],
+    [
+     "2026-08-20",
+     92.13
+    ],
+    [
+     "2026-08-21",
+     90.07
+    ],
+    [
+     "2026-08-24",
+     87.26
+    ],
+    [
+     "2026-08-25",
+     87.48
+    ],
+    [
+     "2026-08-26",
+     88.24
+    ],
+    [
+     "2026-08-27",
+     92.09
+    ],
+    [
+     "2026-08-28",
+     89.47
+    ],
+    [
+     "2026-08-31",
+     89.51
+    ],
+    [
+     "2026-09-01",
+     88.97
+    ],
+    [
+     "2026-09-02",
+     90.05
+    ],
+    [
+     "2026-09-03",
+     91.67
+    ],
+    [
+     "2026-09-04",
+     95.8
+    ],
+    [
+     "2026-09-08",
+     104.47
+    ],
+    [
+     "2026-09-09",
+     106.24
+    ],
+    [
+     "2026-09-10",
+     100.32
+    ],
+    [
+     "2026-09-11",
+     102.94
+    ],
+    [
+     "2026-09-14",
+     97.19
+    ],
+    [
+     "2026-09-15",
+     97.14
+    ],
+    [
+     "2026-09-16",
+     101.05
+    ],
+    [
+     "2026-09-17",
+     108.8
+    ],
+    [
+     "2026-09-18",
+     108.6
+    ],
+    [
+     "2026-09-21",
+     121.78
+    ],
+    [
+     "2026-09-22",
+     123.86
+    ],
+    [
+     "2026-09-23",
+     122.6
+    ],
+    [
+     "2026-09-24",
+     127.39
+    ],
+    [
+     "2026-09-25",
+     123.0
+    ],
+    [
+     "2026-09-28",
+     116.03
+    ],
+    [
+     "2026-09-29",
+     115.93
+    ],
+    [
+     "2026-09-30",
+     120.23
+    ],
+    [
+     "2026-10-01",
+     120.0
+    ],
+    [
+     "2026-10-02",
+     119.33
+    ],
+    [
+     "2026-10-05",
+     116.19
+    ],
+    [
+     "2026-10-06",
+     112.5
+    ],
+    [
+     "2026-10-07",
+     113.12
+    ],
+    [
+     "2026-10-08",
+     107.08
+    ],
+    [
+     "2026-10-09",
+     104.7
+    ],
+    [
+     "2026-10-12",
+     101.35
+    ],
+    [
+     "2026-10-13",
+     102.81
+    ],
+    [
+     "2026-10-14",
+     98.12
+    ],
+    [
+     "2026-10-15",
+     95.37
+    ],
+    [
+     "2026-10-16",
+     89.85
+    ],
+    [
+     "2026-10-19",
+     92.03
+    ],
+    [
+     "2026-10-20",
+     91.69
+    ],
+    [
+     "2026-10-21",
+     92.96
+    ],
+    [
+     "2026-10-22",
+     85.49
+    ],
+    [
+     "2026-10-23",
+     86.96
+    ],
+    [
+     "2026-10-26",
+     90.47
+    ],
+    [
+     "2026-10-27",
+     93.74
+    ],
+    [
+     "2026-10-28",
+     95.53
+    ],
+    [
+     "2026-10-29",
+     92.07
+    ],
+    [
+     "2026-10-30",
+     65.76
+    ],
+    [
+     "2026-11-02",
+     59.97
+    ],
+    [
+     "2026-11-03",
+     60.55
+    ],
+    [
+     "2026-11-04",
+     58.27
+    ],
+    [
+     "2026-11-05",
+     52.25
+    ],
+    [
+     "2026-11-06",
+     56.28
+    ],
+    [
+     "2026-11-09",
+     59.37
+    ]
+   ],
+   "events": {
+    "other": {
+     "count": 4,
+     "impact": -1.22
+    },
+    "macro_sector": {
+     "count": 1,
+     "impact": 0.71
+    },
+    "earnings": {
+     "count": 1,
+     "impact": 0.0
+    }
+   },
+   "articles": [
+    {
+     "title": "What Sent Intel Stock Higher?",
+     "url": "https://www.trefis.com/stock/intc/articles/624109/what-sent-intel-stock-higher/2026-11-10?.tsrc=rss",
+     "source": "trefis.com",
+     "source_type": "opinion",
+     "date": "2026-11-10T13:11:27+00:00",
+     "sentiment": 0.3,
+     "materiality": 2,
+     "event": "other",
+     "reason": "Explainer on Intel's share price rise",
+     "impact": 0.3,
+     "driver": false
+    },
+    {
+     "title": "AMD Just Guided to More Revenue Than Intel. A Decade Ago Intel Was 12x Its Size",
+     "url": "https://www.tikr.com/blog/amd-just-guided-to-more-revenue-than-intel-a-decade-ago-intel-was-12x-its-size?ref=yahoofinance&tlnk=yf-261110-xq8qqc84&.tsrc=rss",
+     "source": "tikr.com",
+     "source_type": "news",
+     "date": "2026-11-10T12:28:22+00:00",
+     "sentiment": -0.4,
+     "materiality": 2,
+     "event": "other",
+     "reason": "AMD now guides more revenue than Intel",
+     "impact": -0.78,
+     "driver": true
+    },
+    {
+     "title": "ETFs Are Net Sellers of Intel (INTC) on Friday",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-intel-intc-110239849.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T11:02:39+00:00",
+     "sentiment": -0.1,
+     "materiality": 1,
+     "event": "other",
+     "reason": "ETF flow: net selling of Intel",
+     "impact": -0.1,
+     "driver": false
+    },
+    {
+     "title": "Amtech, Intel, Applied Materials, AMD, and KLA Corporation shares are soaring, what you need to know",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/amtech-intel-applied-materials-amd-023736161.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T02:37:36+00:00",
+     "sentiment": 0.4,
+     "materiality": 2,
+     "event": "macro_sector",
+     "reason": "Chip shares including Intel soaring",
+     "impact": 0.71,
+     "driver": true
+    },
+    {
+     "title": "Intel took 25 years to get back to its dot-com peak \u2014 and lost it in 6 months: Chart of the Day",
+     "url": "https://finance.yahoo.com/markets/article/intel-took-25-years-to-get-back-to-its-dot-com-peak--and-lost-it-in-6-months-chart-of-the-day-144715722.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T14:47:15+00:00",
+     "sentiment": -0.4,
+     "materiality": 2,
+     "event": "other",
+     "reason": "Gave back dot-com-peak recovery within 6 months",
+     "impact": -0.64,
+     "driver": true
+    },
+    {
+     "title": "8-K: Earnings results",
+     "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000188/intc-20261029.htm",
+     "source": "SEC EDGAR",
+     "source_type": "sec_filing",
+     "date": "2026-10-29T21:00:00+00:00",
+     "sentiment": 0.0,
+     "materiality": 3,
+     "event": "earnings",
+     "reason": "Quarterly earnings 8-K filed",
+     "impact": 0.0,
+     "driver": false
+    }
+   ]
+  },
+  {
+   "ticker": "BA",
+   "name": "Boeing",
+   "sector": "Industrials",
+   "score": 38.9,
+   "prev_score": 50.0,
+   "n_articles": 10,
+   "n_scanned": 14,
+   "buzz": 16.9,
+   "price": 172.38,
+   "change_5d": -1.72,
+   "prices": [
+    [
+     "2026-08-17",
+     225.95
+    ],
+    [
+     "2026-08-18",
+     223.06
+    ],
+    [
+     "2026-08-19",
+     222.2
+    ],
+    [
+     "2026-08-20",
+     215.1
+    ],
+    [
+     "2026-08-21",
+     214.2
+    ],
+    [
+     "2026-08-24",
+     210.46
+    ],
+    [
+     "2026-08-25",
+     211.08
+    ],
+    [
+     "2026-08-26",
+     212.09
+    ],
+    [
+     "2026-08-27",
+     209.89
+    ],
+    [
+     "2026-08-28",
+     209.82
+    ],
+    [
+     "2026-08-31",
+     207.78
+    ],
+    [
+     "2026-09-01",
+     205.66
+    ],
+    [
+     "2026-09-02",
+     208.87
+    ],
+    [
+     "2026-09-03",
+     210.51
+    ],
+    [
+     "2026-09-04",
+     212.25
+    ],
+    [
+     "2026-09-08",
+     210.73
+    ],
+    [
+     "2026-09-09",
+     206.42
+    ],
+    [
+     "2026-09-10",
+     204.8
+    ],
+    [
+     "2026-09-11",
+     210.45
+    ],
+    [
+     "2026-09-14",
+     210.27
+    ],
+    [
+     "2026-09-15",
+     209.69
+    ],
+    [
+     "2026-09-16",
+     201.96
+    ],
+    [
+     "2026-09-17",
+     197.0
+    ],
+    [
+     "2026-09-18",
+     198.2
+    ],
+    [
+     "2026-09-21",
+     201.15
+    ],
+    [
+     "2026-09-22",
+     197.72
+    ],
+    [
+     "2026-09-23",
+     199.93
+    ],
+    [
+     "2026-09-24",
+     196.8
+    ],
+    [
+     "2026-09-25",
+     198.07
+    ],
+    [
+     "2026-09-28",
+     184.39
+    ],
+    [
+     "2026-09-29",
+     187.68
+    ],
+    [
+     "2026-09-30",
+     186.05
+    ],
+    [
+     "2026-10-01",
+     192.28
+    ],
+    [
+     "2026-10-02",
+     193.56
+    ],
+    [
+     "2026-10-05",
+     192.72
+    ],
+    [
+     "2026-10-06",
+     189.82
+    ],
+    [
+     "2026-10-07",
+     188.32
+    ],
+    [
+     "2026-10-08",
+     187.75
+    ],
+    [
+     "2026-10-09",
+     190.37
+    ],
+    [
+     "2026-10-12",
+     189.5
+    ],
+    [
+     "2026-10-13",
+     186.49
+    ],
+    [
+     "2026-10-14",
+     184.66
+    ],
+    [
+     "2026-10-15",
+     188.73
+    ],
+    [
+     "2026-10-16",
+     190.21
+    ],
+    [
+     "2026-10-19",
+     191.42
+    ],
+    [
+     "2026-10-20",
+     190.47
+    ],
+    [
+     "2026-10-21",
+     192.28
+    ],
+    [
+     "2026-10-22",
+     187.55
+    ],
+    [
+     "2026-10-23",
+     188.35
+    ],
+    [
+     "2026-10-26",
+     188.31
+    ],
+    [
+     "2026-10-27",
+     168.18
+    ],
+    [
+     "2026-10-28",
+     167.14
+    ],
+    [
+     "2026-10-29",
+     172.65
+    ],
+    [
+     "2026-10-30",
+     171.55
+    ],
+    [
+     "2026-11-02",
+     175.4
+    ],
+    [
+     "2026-11-03",
+     173.31
+    ],
+    [
+     "2026-11-04",
+     177.0
+    ],
+    [
+     "2026-11-05",
+     172.5
+    ],
+    [
+     "2026-11-06",
+     173.4
+    ],
+    [
+     "2026-11-09",
+     172.38
+    ]
+   ],
+   "events": {
+    "earnings": {
+     "count": 2,
+     "impact": -0.17
+    },
+    "management": {
+     "count": 5,
+     "impact": -3.5
+    },
+    "deal_mna": {
+     "count": 1,
+     "impact": 0.34
+    },
+    "product": {
+     "count": 1,
+     "impact": 1.26
+    },
+    "other": {
+     "count": 1,
+     "impact": -0.17
+    }
+   },
+   "articles": [
+    {
+     "title": "SoFi\u2019s Earnings Shine While PayPal & Boeing\u2019s Earnings Look \u201cMeh\u201d",
+     "url": "https://www.fool.com/investing/2026/11/09/sofis-earnings-shine-while-paypal-boeings-earnings-look-meh/?.tsrc=rss",
+     "source": "fool.com",
+     "source_type": "opinion",
+     "date": "2026-11-09T22:15:58+00:00",
+     "sentiment": -0.2,
+     "materiality": 2,
+     "event": "earnings",
+     "reason": "Earnings described as underwhelming",
+     "impact": -0.17,
+     "driver": false
+    },
+    {
+     "title": "What Does Boeing (BA) Cutting 5% Of Its Commercial Workforce Mean?",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/does-boeing-ba-cutting-5-210910779.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T21:09:10+00:00",
+     "sentiment": -0.3,
+     "materiality": 3,
+     "event": "management",
+     "reason": "Cutting 5% of commercial workforce",
+     "impact": -0.76,
+     "driver": true
+    },
+    {
+     "title": "Archer Announces Q3 2026 Results; Receives FAA Market Survey Certificate Unlocking LA Operations and Boeing Deal Close Imminent",
+     "url": "https://finance.yahoo.com/technology/articles/archer-announces-q3-2026-results-210500926.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T21:05:00+00:00",
+     "sentiment": 0.2,
+     "materiality": 2,
+     "event": "deal_mna",
+     "reason": "Archer deal with Boeing close imminent",
+     "impact": 0.34,
+     "driver": false
+    },
+    {
+     "title": "Boeing (BA) Stock May Sit Below Fair Value As Record Jet Order Lands",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-ba-stock-may-sit-200801154.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T20:08:01+00:00",
+     "sentiment": 0.5,
+     "materiality": 3,
+     "event": "product",
+     "reason": "Record jet order lands",
+     "impact": 1.26,
+     "driver": true
+    },
+    {
+     "title": "Boeing to Lay Off Workers, Report Says, Even as It Struggles to Build More Planes",
+     "url": "https://finance.yahoo.com/m/7117059b-ba15-3255-bff5-ce0875e31041/boeing-to-lay-off-workers%2C.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T19:59:00+00:00",
+     "sentiment": -0.4,
+     "materiality": 3,
+     "event": "management",
+     "reason": "Layoffs while struggling to raise production",
+     "impact": -1.0,
+     "driver": true
+    },
+    {
+     "title": "BA Stock Edges Lower As Boeing Reportedly Trims 5% Of Commercial Airplanes Workforce",
+     "url": "https://stocktwits.com/news-articles/markets/equity/ba-stock-edges-lower-as-boeing-reportedly-trims-5-of-commercial-airplanes-workforce/cNGrlwzR977?.tsrc=rss",
+     "source": "stocktwits.com",
+     "source_type": "news",
+     "date": "2026-11-09T19:26:39+00:00",
+     "sentiment": -0.3,
+     "materiality": 2,
+     "event": "management",
+     "reason": "Stock lower on 5% workforce cut report",
+     "impact": -0.5,
+     "driver": false
+    },
+    {
+     "title": "Boeing Makes Major Workforce Decision as Production Slows",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-makes-major-workforce-decision-190003005.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T19:00:03+00:00",
+     "sentiment": -0.3,
+     "materiality": 2,
+     "event": "management",
+     "reason": "Workforce decision as production slows",
+     "impact": -0.5,
+     "driver": false
+    },
+    {
+     "title": "Boeing retirees face shocking 400% health insurance hike",
+     "url": "https://finance.yahoo.com/healthcare/articles/boeing-retirees-face-shocking-400-185113096.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T18:51:13+00:00",
+     "sentiment": -0.2,
+     "materiality": 1,
+     "event": "other",
+     "reason": "Retiree health insurance cost hike",
+     "impact": -0.17,
+     "driver": false
+    },
+    {
+     "title": "Boeing to cut 5% of commercial airplane workforce",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-cut-5-commercial-airplane-183755650.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T18:37:55+00:00",
+     "sentiment": -0.3,
+     "materiality": 3,
+     "event": "management",
+     "reason": "Cutting 5% of commercial airplane workforce",
+     "impact": -0.74,
+     "driver": false
+    },
+    {
+     "title": "8-K: Earnings results",
+     "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026067411/ba-20261027.htm",
+     "source": "SEC EDGAR",
+     "source_type": "sec_filing",
+     "date": "2026-10-27T21:00:00+00:00",
+     "sentiment": 0.0,
+     "materiality": 3,
+     "event": "earnings",
+     "reason": "Quarterly earnings 8-K filed",
+     "impact": 0.0,
+     "driver": false
+    }
+   ]
+  },
+  {
+   "ticker": "NVDA",
+   "name": "NVIDIA",
+   "sector": "Semiconductors",
+   "score": 19.8,
+   "prev_score": 50.0,
+   "n_articles": 13,
+   "n_scanned": 26,
+   "buzz": 33.0,
+   "price": 178.67,
+   "change_5d": -11.58,
+   "prices": [
+    [
+     "2026-08-17",
+     225.01
+    ],
+    [
+     "2026-08-18",
+     219.74
+    ],
+    [
+     "2026-08-19",
+     217.56
+    ],
+    [
+     "2026-08-20",
+     216.85
+    ],
+    [
+     "2026-08-21",
+     214.72
+    ],
+    [
+     "2026-08-24",
+     208.48
+    ],
+    [
+     "2026-08-25",
+     213.05
+    ],
+    [
+     "2026-08-26",
+     209.66
+    ],
+    [
+     "2026-08-27",
+     227.98
+    ],
+    [
+     "2026-08-28",
+     217.55
+    ],
+    [
+     "2026-08-31",
+     220.78
+    ],
+    [
+     "2026-09-01",
+     217.44
+    ],
+    [
+     "2026-09-02",
+     224.41
+    ],
+    [
+     "2026-09-03",
+     228.45
+    ],
+    [
+     "2026-09-04",
+     230.36
+    ],
+    [
+     "2026-09-08",
+     225.73
+    ],
+    [
+     "2026-09-09",
+     223.67
+    ],
+    [
+     "2026-09-10",
+     218.36
+    ],
+    [
+     "2026-09-11",
+     218.29
+    ],
+    [
+     "2026-09-14",
+     210.96
+    ],
+    [
+     "2026-09-15",
+     212.17
+    ],
+    [
+     "2026-09-16",
+     213.9
+    ],
+    [
+     "2026-09-17",
+     219.34
+    ],
+    [
+     "2026-09-18",
+     222.27
+    ],
+    [
+     "2026-09-21",
+     227.38
+    ],
+    [
+     "2026-09-22",
+     228.87
+    ],
+    [
+     "2026-09-23",
+     225.51
+    ],
+    [
+     "2026-09-24",
+     224.58
+    ],
+    [
+     "2026-09-25",
+     225.07
+    ],
+    [
+     "2026-09-28",
+     228.86
+    ],
+    [
+     "2026-09-29",
+     227.21
+    ],
+    [
+     "2026-09-30",
+     228.38
+    ],
+    [
+     "2026-10-01",
+     230.86
+    ],
+    [
+     "2026-10-02",
+     233.95
+    ],
+    [
+     "2026-10-05",
+     238.9
+    ],
+    [
+     "2026-10-06",
+     239.24
+    ],
+    [
+     "2026-10-07",
+     237.47
+    ],
+    [
+     "2026-10-08",
+     230.48
+    ],
+    [
+     "2026-10-09",
+     229.28
+    ],
+    [
+     "2026-10-12",
+     226.32
+    ],
+    [
+     "2026-10-13",
+     228.52
+    ],
+    [
+     "2026-10-14",
+     221.3
+    ],
+    [
+     "2026-10-15",
+     217.23
+    ],
+    [
+     "2026-10-16",
+     214.13
+    ],
+    [
+     "2026-10-19",
+     217.09
+    ],
+    [
+     "2026-10-20",
+     216.47
+    ],
+    [
+     "2026-10-21",
+     221.97
+    ],
+    [
+     "2026-10-22",
+     212.21
+    ],
+    [
+     "2026-10-23",
+     210.96
+    ],
+    [
+     "2026-10-26",
+     216.0
+    ],
+    [
+     "2026-10-27",
+     217.94
+    ],
+    [
+     "2026-10-28",
+     215.38
+    ],
+    [
+     "2026-10-29",
+     213.66
+    ],
+    [
+     "2026-10-30",
+     204.64
+    ],
+    [
+     "2026-11-02",
+     202.06
+    ],
+    [
+     "2026-11-03",
+     206.69
+    ],
+    [
+     "2026-11-04",
+     200.13
+    ],
+    [
+     "2026-11-05",
+     181.6
+    ],
+    [
+     "2026-11-06",
+     186.64
+    ],
+    [
+     "2026-11-09",
+     178.67
+    ]
+   ],
+   "events": {
+    "governance_scandal": {
+     "count": 7,
+     "impact": -10.83
+    },
+    "analyst_rating": {
+     "count": 1,
+     "impact": -1.18
+    },
+    "other": {
+     "count": 2,
+     "impact": -1.53
+    },
+    "deal_mna": {
+     "count": 1,
+     "impact": 0.59
+    },
+    "macro_sector": {
+     "count": 2,
+     "impact": 0.38
+    }
+   },
+   "articles": [
+    {
+     "title": "This Short Seller Flagged Jensen Huang\u2019s Ties to Alice Huang 6 Months Before Nvidia\u2019s Scandal",
+     "url": "https://247wallst.com/investing/2026/11/10/this-short-seller-flagged-jensen-huangs-ties-to-alice-huang-6-months-before-nvidias-scandal/?.tsrc=rss",
+     "source": "247wallst.com",
+     "source_type": "opinion",
+     "date": "2026-11-10T13:27:37+00:00",
+     "sentiment": -0.6,
+     "materiality": 4,
+     "event": "governance_scandal",
+     "reason": "Short seller flagged CEO ties before scandal",
+     "impact": -1.19,
+     "driver": false
+    },
+    {
+     "title": "Could Jensen Huang's Affair Be the Most Expensive in Human History?",
+     "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63086371/jensen-huang-affair?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+     "source": "benzinga.com",
+     "source_type": "opinion",
+     "date": "2026-11-10T13:15:12+00:00",
+     "sentiment": -0.6,
+     "materiality": 4,
+     "event": "governance_scandal",
+     "reason": "CEO personal scandal may prove costly",
+     "impact": -1.18,
+     "driver": false
+    },
+    {
+     "title": "Bank of America Drops Nvidia From Elite Stock List. Coincidence or Jensen Huang Fallout?",
+     "url": "https://beincrypto.com/bank-of-america-drops-nvidia-list/?.tsrc=rss",
+     "source": "beincrypto.com",
+     "source_type": "opinion",
+     "date": "2026-11-10T12:56:37+00:00",
+     "sentiment": -0.6,
+     "materiality": 4,
+     "event": "analyst_rating",
+     "reason": "BofA drops Nvidia from top-picks list",
+     "impact": -1.18,
+     "driver": false
+    },
+    {
+     "title": "What could NVIDIA\u2019s latest risks mean for the AI chip ecosystem?",
+     "url": "https://finance.yahoo.com/technology/ai/articles/could-nvidia-latest-risks-mean-124641710.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T12:46:41+00:00",
+     "sentiment": -0.4,
+     "materiality": 3,
+     "event": "governance_scandal",
+     "reason": "New risks for Nvidia and chip ecosystem",
+     "impact": -1.18,
+     "driver": false
+    },
+    {
+     "title": "Anthropic IPO Meets Nvidia Scandal. Hold On to Your Hats.",
+     "url": "https://finance.yahoo.com/m/34351a04-efec-3db3-a27d-cf4a9788b729/anthropic-ipo-meets-nvidia.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T12:42:00+00:00",
+     "sentiment": -0.4,
+     "materiality": 3,
+     "event": "governance_scandal",
+     "reason": "Scandal collides with Anthropic IPO",
+     "impact": -1.18,
+     "driver": false
+    },
+    {
+     "title": "The Nasdaq-100 Just Had Its Best Day Since March Without Nvidia\u2019s Help",
+     "url": "https://247wallst.com/investing/2026/11/10/the-nasdaq-100-just-had-its-best-day-since-march-without-nvidias-help/?.tsrc=rss",
+     "source": "247wallst.com",
+     "source_type": "opinion",
+     "date": "2026-11-10T12:16:34+00:00",
+     "sentiment": -0.2,
+     "materiality": 2,
+     "event": "other",
+     "reason": "Nasdaq-100 best day since March without Nvidia",
+     "impact": -0.2,
+     "driver": false
+    },
+    {
+     "title": "Google, Nvidia, AMD And Others To Invest $26B In Anthropic Alongside IPO",
+     "url": "https://stocktwits.com/news-articles/markets/equity/google-nvidia-amd-to-invest-26-b-in-anthropic-alongside-ipo/cNGu0BtR97U?.tsrc=rss",
+     "source": "stocktwits.com",
+     "source_type": "news",
+     "date": "2026-11-10T12:05:21+00:00",
+     "sentiment": 0.2,
+     "materiality": 3,
+     "event": "deal_mna",
+     "reason": "Investing in Anthropic alongside IPO",
+     "impact": 0.59,
+     "driver": false
+    },
+    {
+     "title": "Chip Stocks and Nvidia Trade Places as Normal Service Resumes",
+     "url": "https://finance.yahoo.com/m/923499dc-8e00-3f3b-bf12-512d15457c26/chip-stocks-and-nvidia-trade.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T11:50:00+00:00",
+     "sentiment": -0.2,
+     "materiality": 2,
+     "event": "macro_sector",
+     "reason": "Chip stocks rally while Nvidia lags",
+     "impact": -0.39,
+     "driver": false
+    },
+    {
+     "title": "TSMC Sales Jump Again -- Nvidia and Apple Orders Keep the AI Chip Boom Going",
+     "url": "https://finance.yahoo.com/technology/ai/articles/tsmc-sales-jump-again-nvidia-111006983.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T11:10:06+00:00",
+     "sentiment": 0.4,
+     "materiality": 2,
+     "event": "macro_sector",
+     "reason": "TSMC sales jump on Apple and Nvidia orders",
+     "impact": 0.77,
+     "driver": false
+    },
+    {
+     "title": "Nvidia CEO Huang Gets More Bad News but Cathie Wood Keeps the Faith",
+     "url": "https://finance.yahoo.com/m/d32c660e-a8a9-3cc3-a1a6-236490f6ad15/nvidia-ceo-huang-gets-more.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T10:55:00+00:00",
+     "sentiment": -0.3,
+     "materiality": 3,
+     "event": "governance_scandal",
+     "reason": "More bad news for CEO; Cathie Wood still bullish",
+     "impact": -0.87,
+     "driver": false
+    },
+    {
+     "title": "Dow Jones Soars 1,132 Points As Amazon, Tesla Rally, But Nvidia Dives; CPI Inflation Report Next",
+     "url": "https://finance.yahoo.com/m/db2f6d95-b7a5-3274-8193-c767d2b681c1/dow-jones-soars-1%2C132-points.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-10T02:31:48+00:00",
+     "sentiment": -0.5,
+     "materiality": 3,
+     "event": "other",
+     "reason": "Nvidia dives while Dow soars 1,132 points",
+     "impact": -1.34,
+     "driver": true
+    },
+    {
+     "title": "Nvidia CEO admits affair as company launches probe into spy claims",
+     "url": "https://www.cnn.com/2026/11/09/business/video/ac360-nvidia-ceo-admits-affair-as-company-launches-probe-into-spy-claims?cid=external-feeds_iluminar_yahoo&.tsrc=rss",
+     "source": "cnn.com",
+     "source_type": "news",
+     "date": "2026-11-10T02:22:27+00:00",
+     "sentiment": -0.8,
+     "materiality": 5,
+     "event": "governance_scandal",
+     "reason": "CEO admits affair; company opens probe into spy claims",
+     "impact": -3.56,
+     "driver": true
+    },
+    {
+     "title": "Why Ousting Nvidia\u2019s CEO May Be Worse Than the Scandal Itself",
+     "url": "https://finance.yahoo.com/m/cd92ecdf-5dd5-33c2-8165-ebf9bfa1317f/why-ousting-nvidia%E2%80%99s-ceo-may.html?.tsrc=rss",
+     "source": "finance.yahoo.com",
+     "source_type": "news",
+     "date": "2026-11-09T20:20:00+00:00",
+     "sentiment": -0.5,
+     "materiality": 4,
+     "event": "governance_scandal",
+     "reason": "Debate on ousting CEO after scandal",
+     "impact": -1.68,
+     "driver": true
+    }
+   ]
+  }
+ ]
+}
